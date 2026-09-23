@@ -1,0 +1,102 @@
+{
+  "layout": "TB",
+  "nodes": [
+    {
+      "id": "govt",
+      "type": "processNode",
+      "data": {
+        "label": "Government decisions\nneed institutions"
+      }
+    },
+    {
+      "id": "policy",
+      "type": "processNode",
+      "data": {
+        "label": "Major policy decision\n(example: reservation O.M.)"
+      }
+    },
+    {
+      "id": "cabinet",
+      "type": "processNode",
+      "data": {
+        "label": "Political Executive\nPM + Council of Ministers"
+      }
+    },
+    {
+      "id": "parl",
+      "type": "processNode",
+      "data": {
+        "label": "Parliament\n(Lok Sabha + Rajya Sabha)"
+      }
+    },
+    {
+      "id": "bureau",
+      "type": "processNode",
+      "data": {
+        "label": "Civil servants\nimplement decisions"
+      }
+    },
+    {
+      "id": "laws",
+      "type": "processNode",
+      "data": {
+        "label": "Laws, budget, debates,\ncommittee scrutiny"
+      }
+    },
+    {
+      "id": "courts",
+      "type": "processNode",
+      "data": {
+        "label": "Judiciary\n(SC/HC)"
+      }
+    },
+    {
+      "id": "review",
+      "type": "processNode",
+      "data": {
+        "label": "Judicial review\nprotects Constitution/rights"
+      }
+    },
+    {
+      "id": "resolve",
+      "type": "processNode",
+      "data": {
+        "label": "Resolves disputes\nGovt vs citizens"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "govt",
+      "target": "policy"
+    },
+    {
+      "source": "policy",
+      "target": "cabinet"
+    },
+    {
+      "source": "cabinet",
+      "target": "bureau"
+    },
+    {
+      "source": "govt",
+      "target": "parl"
+    },
+    {
+      "source": "parl",
+      "target": "laws"
+    },
+    {
+      "source": "govt",
+      "target": "courts"
+    },
+    {
+      "source": "courts",
+      "target": "review"
+    },
+    {
+      "source": "courts",
+      "target": "resolve"
+    }
+  ]
+}

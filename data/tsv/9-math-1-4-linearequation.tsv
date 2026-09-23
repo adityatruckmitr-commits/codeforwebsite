@@ -1,0 +1,28 @@
+General form: ax + by + c = 0
+	a, b & c: are coefficients of variable x, y & constant respectively.
+Each linear equation with 2 variables represents a line on Cartesian graph.
+	Each linear equation has infinite solutions.
+	Each solution is represented as a point on cartesian graph.
+	All these solution combined for a straight line.
+Finding solution to linear equation
+	Condition
+		for 1 linear equation with 2 variables
+			Infinite equation
+			Example: 2x + 3y = 9
+				$x = \dfrac{9 - 3y}{2}$
+				Now keep putting values of y and calculate value of x
+		For 2 linear linear equations having same variables
+			Unique solution: if lines intersect.
+			No Solution: if lines are parallel.
+	Using Cartesian method
+		Use example given in Condition above and find 2 or 3 value pairs of x, y
+		Mark these points on quadrants and draw line on them
+		When you draw lines for both equation then
+			If lines intersect: coordinates of intersection is your unique solution.
+			If lines are parallel: No Solution possible
+	Using Substitution method
+		Let equations be ax + by + c = 0 and mx + ny + t = 0
+		By $1^{nd}$ equation $x = \dfrac{-by - c}{a}$
+		Put the value of x found above in $2^{nd}$ equation $m\times\dfrac{-by - c}{a}+ny + t = 0$
+		Now you have only 1 variable. Solve it to get value of y.
+		Put this value of y in equation in step 2 to find value of x.

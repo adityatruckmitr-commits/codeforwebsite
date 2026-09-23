@@ -1,0 +1,23 @@
+All Formulae
+	$ax^{2}+bx+c$ and it has factors $(ax+m)$ and $(x+n)$
+		$mn = ac$
+		$m+n = b$
+		Finding Roots
+			$x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+			So x can be $\alpha$ or $\beta$
+			where $\alpha = \dfrac{-b + \sqrt{b^2 - 4ac}}{2a}$
+			and $\alpha = \dfrac{-b - \sqrt{b^2 - 4ac}}{2a}$
+			$\alpha + \beta = \dfrac{-b}{a}$
+			$\alpha \beta = \dfrac{c}{a}$
+	$(a+b)^{2}= a^{2}+b^{2}+2ab$
+	$(a-b)^{2}= a^{2}+b^{2}-2ab$
+	$(a-b)(a+b)= a^{2}-b^{2}$
+	$(a+b+c)^{2}= a^{2}+b^{2}+c^{2}+2ab+2bc+2ac$
+	$(a+b-c)^{2}= a^{2}+b^{2}+c^{2}+2ab-2bc-2ac$
+	$(a-b+c)^{2}= a^{2}+b^{2}+c^{2}-2ab-2bc+2ac$
+	$(a-b-c)^{2}= a^{2}+b^{2}+c^{2}-2ab+2bc-2ac$
+	$(a+b)^{3}= a^{3}+b^{3}+3ab(a+b)$
+	$(a-b)^{3}= a^{3}-b^{3}-3ab(a-b)$
+	$a^{3}+b^{3}= (a+b)^{3}-3ab(a+b)=(a+b)(a^{2}+b^{2}-ab)=(a+b)\{(a-b)^{2}+ab\}=(a+b)\{(a+b)^{2}-3ab\}$
+	$a^{3}-b^{3}= (a-b)^{3}+3ab(a-b)=(a-b)(a^{2}+b^{2}+ab)=(a-b)\{(a+b)^{2}-ab\}=(a-b)\{(a-b)^{2}+3ab\}$
+	$a^{3}+b^{3}+c^{3}-3abc=(a+b+c)(a^{2}+b^{2}+c^{2}-ab-bc-ca)$

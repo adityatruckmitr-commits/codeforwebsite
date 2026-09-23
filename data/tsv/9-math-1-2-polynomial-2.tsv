@@ -1,0 +1,59 @@
+Polynomial
+	Polynomial is an expression that is composed of variable, constant & exponents & their values whole number.
+	\img"polynomial.png"
+	Degree of polynomial: Highest exponent is called degree of polynomial
+	Types of Polynomial
+		Categorization based on terms: Number of terms separate by + or -
+			Monomial: has one term i.e. $6x,\ 9a^{2},\ 20,\ a^{3}$  etc.
+			Binomial: has 2 terms i.e. $2x-3,\ 3x^{2}+7y,\ 97x^{2}+8y^{3}$  etc.
+			Trinomial: has 3 terms i.e. $x+9y-3,\ 78x^{3}-y^{2}+31x,\ 33y^{3}-x^{2}+3$ etc.
+			Multinomial: has multiple terms.
+		Categorization based on degree of polynomial: Highest power in all terms
+			Constant: Degree 0, i.e. no variable, only constants.
+			Linear: Degree 1.
+			Quadratic: Degree 2.
+			Cubic: Degree 3.
+			Biquadratic: Degree 4.
+	Value of polynomial
+		Represented by $\mathcal{f}(x)$.
+		Represented as a function: $\mathcal{f}(x) = 2x+1$
+		Value calculation and testing:
+			Let $x = 1$: $\mathcal{f}(x) = 2x+1 = (2\times1)+1 = 2+1 = 3$
+			Let $x = 2$: $\mathcal{f}(x) = 2x+1 = (2\times2)+1 = 4+1 = 5$
+			Let $x = 4$: $\mathcal{f}(x) = 2x+1 = (2\times4)+1 = 8+1 = 9$
+	Roots of Polynomials
+		The value of $x$, which make polynomial 0.
+		Such possible values are equal to degree of polynomial.
+	Reminder Theorem
+		Polynomial: $\mathcal{p}(x)$
+		Quotient: $\mathcal{q}(x)$
+		Remainder: $\mathcal{r}(x)$
+		Divisor: $(x-a)$
+		Theorem
+			$\mathcal{p}(x)=(x-a)\times \mathcal{q}(x)+\mathcal{r}(x)$
+			When $x = a$
+				$\mathcal{p}(x) = \mathcal{r}(x)$
+		Finding Roots of Quadratic Equation $ax^{2}+bx+c$
+			$x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+			So value of $x$ can be $\alpha$ or $\beta$ (these are roots of equation)
+			where $\alpha = \dfrac{-b + \sqrt{b^2 - 4ac}}{2a}$
+			and $\alpha = \dfrac{-b - \sqrt{b^2 - 4ac}}{2a}$
+			$\alpha + \beta = \dfrac{-b}{a}$
+			$\alpha \beta = \dfrac{c}{a}$
+	Factorization
+		$\mathcal{p}(x) = ax^{2}+bx+c$ and it has factors $(ax+m)$ and $(x+n)$
+		Then $mn = ac$
+		And $m+n = b$
+	Algebraic Identities
+		$(a+b)^{2}= a^{2}+b^{2}+2ab$
+		$(a-b)^{2}= a^{2}+b^{2}-2ab$
+		$(a-b)(a+b)= a^{2}-b^{2}$
+		$(a+b+c)^{2}= a^{2}+b^{2}+c^{2}+2ab+2bc+2ac$
+		$(a+b-c)^{2}= a^{2}+b^{2}+c^{2}+2ab-2bc-2ac$
+		$(a-b+c)^{2}= a^{2}+b^{2}+c^{2}-2ab-2bc+2ac$
+		$(a-b-c)^{2}= a^{2}+b^{2}+c^{2}-2ab+2bc-2ac$
+		$(a+b)^{3}= a^{3}+b^{3}+3ab(a+b)$
+		$(a-b)^{3}= a^{3}-b^{3}-3ab(a-b)$
+		$a^{3}+b^{3}= (a+b)^{3}-3ab(a+b)=(a+b)(a^{2}+b^{2}-ab)=(a+b)\{(a-b)^{2}+ab\}=(a+b)\{(a+b)^{2}-3ab\}$
+		$a^{3}-b^{3}= (a-b)^{3}+3ab(a-b)=(a-b)(a^{2}+b^{2}+ab)=(a-b)\{(a+b)^{2}-ab\}=(a-b)\{(a-b)^{2}+3ab\}$
+		$a^{3}+b^{3}+c^{3}-3abc=(a+b+c)(a^{2}+b^{2}+c^{2}-ab-bc-ca)$

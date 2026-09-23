@@ -1,0 +1,49 @@
+Let 2 Linear equation with 2 variables be below:
+	${a_1}x + {b_1}y + c_1 = 0$
+	${a_2}x + {b_2}y + c_2 = 0$
+Relation of coefficients and possible Solutions:
+	Unique Solution (2 lines intersect): ${\dfrac{a_1}{a_2}} \ne {\dfrac{b_1}{b_2}}$
+	Unlimited Solutions (Coincident Lines): ${\dfrac{a_1}{a_2}} = {\dfrac{b_1}{b_2}} = {\dfrac{c_1}{c_2}}$
+	No Solution (Lines are parallel): ${\dfrac{a_1}{a_2}} = {\dfrac{b_1}{b_2}} \ne {\dfrac{c_1}{c_2}}$
+Methods to Solve
+	Graphical Method:
+		Draw first Line
+			Find x from first equation: $x = \dfrac{{-b_1}y-c_1}{a_1}$
+			Create value table: (Trick: try finding values where x and Y are whole numbers)
+			Table
+				Columns
+					Col	$y$
+					Col	1
+					Col	2
+				Row
+					Col	$x = \dfrac{{-b_1}y-c_1}{a_1}$
+					Col	A
+					Col	B
+			Draw first line on Graph
+		Draw second Line
+			Find x from 2nd equation: $x = \dfrac{{-b_2}y-c_2}{a_2}$
+			Create value table: (Trick: try finding values where x and Y are whole numbers)
+			Table
+				Columns
+					Col	$y$
+					Col	1
+					Col	2
+				Row
+					Col	$x = \dfrac{{-b_2}y-c_2}{a_2}$
+					Col	C
+					Col	D
+			Draw first line on Graph
+		Intersection point is the common Solution
+	Replacement method:
+		Find x from first equation: $x = \dfrac{{-b_1}y-c_1}{a_1}$
+		Replace value of x in 2nd equation: ${a_2}\dfrac{{-b_1}y-c_1}{a_1} + {b_2}y + c_2 = 0$
+		Find value of y from above
+		Use the value of y from above and put in first equation to find x.
+	Reduction method
+		Make coefficient of x or y (any one) same by multiplying $\dfrac{LCM}{Coefficient}  to the coefficient of variable.
+			${a_1}{b_2}x + {b_1}{b_2}y + {c_1}{b_2} = 0$
+			${a_2}{b_2}x + {b_1}{b_2}y + {c_2}{b_2} = 0$
+			Subtract second equation from first.
+			$x({a_1}{b_2} - {a_2}{b_1}) + {c_1}{b_2} - {c_2}{b_1} = 0$
+			Find value of x above.
+			Put value of x in any one of original equation and find value of y

@@ -1,0 +1,153 @@
+/* Theme — Valentine Rosé (Love Day)
+   Romantic rosé + soft champagne highlights over deep plum glass.
+   Compatible with the same token variable schema as your other themes.
+*/
+:root{
+  /* Fonts */
+  --font-cursive: "Tangerine", sans-serif;
+  --font-style: "Rubik Glitch", sans-serif;
+  --font-regular: "DM Serif Text", sans-serif;
+  --font-hindi: "Yatra One", sans-serif;
+
+  /* Base ink (deep plum) */
+  --ink-rgb: 28, 10, 18;
+  --border-rgb: 255, 182, 193;     /* light rose */
+
+  /* Neutrals */
+  --neutral-700-rgb: 106, 62, 76;
+  --neutral-800-rgb: 10, 4, 6;
+
+  /* Text */
+  --text-0: #fff4f7;
+  --text-0-rgb: 255, 244, 247;
+  --text-1: #ffe1ea;
+  --text-2: #ffc9da;
+  --text-3: #ffadc8;
+  --text-contrast: #0b0608;
+  --text-caption: #ffffff;
+  --text-muted: var(--text-2);
+  --caption-text: #ffffff;
+
+  /* Accents (valentine palette) */
+  --accent-rose-rgb: 244, 63, 94;     /* rose red */
+  --accent-pink-rgb: 236, 72, 153;    /* fuchsia */
+  --accent-red-rgb: 220, 38, 38;      /* classic red */
+  --accent-purple-rgb: 168, 85, 247;  /* sweet violet */
+  --accent-amber-rgb: 252, 211, 77;   /* champagne */
+  --accent-cyan-rgb: 34, 211, 238;    /* tiny contrast (links/active) */
+
+  /* Hover / Scroll */
+  --hover-95: rgba(236,72,153,0.18);
+  --scroll-90: rgba(244,63,94,0.32);
+
+  /* Misc */
+  --blackboard: rgba(28,10,18,0.96);
+  --true-black: rgba(0,0,0,1);
+  --caption-bg: rgba(0,0,0,0.55);
+  --accent-complement-rgb: 255, 255, 255;
+
+  /* Accent aliases */
+  --accent-rose: rgb(var(--accent-rose-rgb));
+  --accent-pink: rgb(var(--accent-pink-rgb));
+  --accent-red: rgb(var(--accent-red-rgb));
+  --accent-purple: rgb(var(--accent-purple-rgb));
+  --accent-amber: rgb(var(--accent-amber-rgb));
+  --accent-cyan: rgb(var(--accent-cyan-rgb));
+  --accent-complement: rgb(var(--accent-complement-rgb));
+
+  /* Links */
+  --link: var(--text-1);
+  --link-hover: rgb(var(--accent-cyan-rgb));
+
+  /* Indicators */
+  --indicator: rgb(var(--accent-rose-rgb));
+  --indicator-hover: rgb(var(--accent-pink-rgb));
+  --indicator-active: rgb(var(--accent-amber-rgb));
+
+  /* Overlays */
+  --overlay-a1: rgba(var(--accent-pink-rgb), 0.18);
+  --overlay-a2: rgba(var(--accent-amber-rgb), 0.10);
+
+  /* Surfaces */
+  --surface-35: rgba(var(--ink-rgb), 0.35);
+  --surface-40: rgba(var(--ink-rgb), 0.40);
+  --surface-45: rgba(var(--ink-rgb), 0.45);
+  --surface-50: rgba(var(--ink-rgb), 0.50);
+  --surface-55: rgba(var(--ink-rgb), 0.55);
+  --surface-60: rgba(var(--ink-rgb), 0.60);
+  --surface-65: rgba(var(--ink-rgb), 0.65);
+  --surface-70: rgba(var(--ink-rgb), 0.70);
+  --surface-75: rgba(var(--ink-rgb), 0.75);
+  --surface-80: rgba(var(--ink-rgb), 0.80);
+  --surface-85: rgba(var(--ink-rgb), 0.85);
+  --surface-90: rgba(var(--ink-rgb), 0.90);
+  --surface-95: rgba(var(--ink-rgb), 0.95);
+
+  /* Borders */
+  --border-40: rgba(var(--border-rgb), 0.32);
+  --border-45: rgba(var(--border-rgb), 0.36);
+  --border-50: rgba(var(--border-rgb), 0.42);
+  --border-70: rgba(var(--border-rgb), 0.60);
+  --border-75: rgba(var(--border-rgb), 0.66);
+  --border-80: rgba(var(--border-rgb), 0.72);
+
+  /* Shadows (soft glow, romantic) */
+  --shadow-tint-rgb: var(--accent-complement-rgb);
+  --shadow-color-1: rgba(var(--ink-rgb), 0.50);
+  --shadow-color-2: rgba(var(--accent-pink-rgb), 0.20);
+
+  --shadow-xs: 0 1px 2px var(--shadow-color-1);
+  --shadow-sm: 0 2px 6px var(--shadow-color-1),
+               0 0 12px rgba(var(--accent-rose-rgb), 0.14);
+  --shadow-md: 0 7px 20px var(--shadow-color-1),
+               0 0 18px rgba(var(--accent-pink-rgb), 0.16);
+  --shadow-lg: 0 18px 48px var(--shadow-color-1),
+               0 0 26px rgba(var(--accent-amber-rgb), 0.14);
+
+  --hover-soft: 0 0 0 2px rgba(var(--accent-amber-rgb), 0.16);
+  --hover:      0 0 0 3px rgba(var(--accent-pink-rgb), 0.30);
+  --hover-strong: 0 0 0 4px rgba(var(--accent-rose-rgb), 0.32);
+
+  /* Motion */
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 320ms;
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Atom / Bohr */
+  --shell-border: rgba(var(--accent-amber-rgb), 0.55);
+  --shell-bg: rgba(var(--accent-amber-rgb), 0.10);
+  --shell-color: rgba(var(--accent-amber-rgb), 0.78);
+
+  --electron-bg: rgba(var(--accent-rose-rgb), 0.92);
+  --electron-border: rgba(var(--accent-pink-rgb), 1);
+  --electron-color: rgba(var(--text-0-rgb), 0.92);
+
+  /* Assets */
+  --bg-image: url("../data/image/bg/love.jpg");
+  --site-icon: url("../data/image/icons/hat.png");
+
+  /* Interactive surfaces */
+  --surface-hover: linear-gradient(135deg,
+    rgba(var(--accent-rose-rgb), 0.28),
+    rgba(var(--accent-pink-rgb), 0.22),
+    rgba(var(--accent-amber-rgb), 0.14)
+  );
+
+  --surface-active: linear-gradient(135deg,
+    rgba(var(--accent-pink-rgb), 0.34),
+    rgba(var(--accent-rose-rgb), 0.26)
+  );
+
+  --shadow-hover:
+    0 0 0 1px rgba(var(--accent-pink-rgb), 0.30),
+    0 8px 26px rgba(var(--accent-rose-rgb), 0.30),
+    inset 0 1px 1px rgba(255,255,255,0.30);
+
+  --shadow-press: inset 0 2px 8px rgba(var(--ink-rgb), 0.65);
+
+  --scroll-track: rgba(var(--ink-rgb), 0.25);
+  --scroll-thumb: rgba(var(--accent-rose-rgb), 0.45);
+  --scroll-thumb-hover: rgba(var(--accent-pink-rgb), 0.75);
+}

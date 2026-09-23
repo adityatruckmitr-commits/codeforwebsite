@@ -1,0 +1,59 @@
+{
+  "layout": "TB",
+  "nodes": [
+    { "id": "indian_constitution", "type": "processNode", "data": { "label": "Constitution of India" } },
+    { "id": "legislature", "type": "processNode", "data": { "label": "Legislature" } },
+    { "id": "executive", "type": "processNode", "data": { "label": "Executive" } },
+    { "id": "judiciary", "type": "processNode", "data": { "label": "Judiciary" } },
+
+    { "id": "election_commission", "type": "processNode", "data": { "label": "Election Commission" } },
+
+    { "id": "president", "type": "processNode", "data": { "label": "President" } },
+    { "id": "lok_sabha", "type": "processNode", "data": { "label": "Lok Sabha" } },
+    { "id": "rajya_sabha", "type": "processNode", "data": { "label": "Rajya Sabha" } },
+
+    { "id": "prime_minister", "type": "processNode", "data": { "label": "Prime Minister" } },
+    { "id": "governor_state", "type": "processNode", "data": { "label": "Governor of State" } },
+    { "id": "cabinet_ministers", "type": "processNode", "data": { "label": "Cabinet of Ministers" } },
+
+    { "id": "political_executive", "type": "processNode", "data": { "label": "Political Executive" } },
+    { "id": "permanent_executive", "type": "processNode", "data": { "label": "Permanent Executive" } },
+
+    { "id": "supreme_court", "type": "processNode", "data": { "label": "Supreme Court" } },
+    { "id": "high_courts", "type": "processNode", "data": { "label": "High Courts" } },
+    { "id": "subordinate_courts", "type": "processNode", "data": { "label": "Subordinate Courts" } },
+
+    { "id": "chief_of_defence_staff", "type": "processNode", "data": { "label": "Chief of Defence Staff" } },
+    { "id": "army", "type": "processNode", "data": { "label": "Army" } },
+    { "id": "navy", "type": "processNode", "data": { "label": "Navy" } },
+    { "id": "air_force", "type": "processNode", "data": { "label": "Air Force" } }
+  ],
+  "edges": [
+    { "source": "indian_constitution", "target": "legislature" },
+    { "source": "indian_constitution", "target": "executive" },
+    { "source": "indian_constitution", "target": "judiciary" },
+    { "source": "indian_constitution", "target": "election_commission" },
+
+    { "source": "legislature", "target": "lok_sabha" },
+    { "source": "legislature", "target": "rajya_sabha" },
+
+    { "source": "executive", "target": "president" },
+
+    { "source": "president", "target": "prime_minister" },
+    { "source": "president", "target": "governor_state" },
+    { "source": "president", "target": "chief_of_defence_staff" },
+
+    { "source": "chief_of_defence_staff", "target": "army" },
+    { "source": "chief_of_defence_staff", "target": "navy" },
+    { "source": "chief_of_defence_staff", "target": "air_force" },
+
+    { "source": "prime_minister", "target": "cabinet_ministers" },
+
+    { "source": "executive", "target": "political_executive" },
+    { "source": "executive", "target": "permanent_executive" },
+
+    { "source": "judiciary", "target": "supreme_court" },
+    { "source": "judiciary", "target": "high_courts" },
+    { "source": "judiciary", "target": "subordinate_courts" }
+  ]
+}

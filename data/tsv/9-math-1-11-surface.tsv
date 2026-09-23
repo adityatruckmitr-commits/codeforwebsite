@@ -1,0 +1,20 @@
+SURFACE AREA
+	Cube	Lateral surface area $=4a^2$
+	Cube	Total surface area $=6a^2$
+	Cuboid	Lateral surface area $=2h(l+b)$
+	Cuboid	Total surface area $=2(lb+bh+lh)$
+	Cylinder	Curved surface area $=2\pi rh$
+	Cylinder	Total surface area $=2\pi r(r+h)$
+	Cone	Curved surface area $=\pi rl$
+	Cone	Total surface area $=\pi r(r+l)$
+	Hemisphere	Curved surface area $=2\pi r^2$
+	Hemisphere	Total surface area $=3\pi r^2$
+	Sphere	Surface area $=4\pi r^2$
+
+VOLUME
+	Cube	Volume $=a^3$
+	Cuboid	Volume $=lbh$
+	Cylinder	Volume $=\pi r^2h$
+	Cone	Volume $=\frac13\pi r^2h$
+	Hemisphere	Volume $=\frac23\pi r^3$
+	Sphere	Volume $=\frac43\pi r^3$

@@ -1,0 +1,69 @@
+{
+  "layout": "TB",
+  "nodes": [
+    { "id": "constitutional_powers", "type": "processNode", "data": { "label": "Constitutional Powers" } },
+
+    { "id": "president", "type": "processNode", "data": { "label": "President" } },
+    { "id": "prime_minister", "type": "processNode", "data": { "label": "Prime Minister" } },
+    { "id": "chief_election_commissioner", "type": "processNode", "data": { "label": "Chief Election Commissioner" } },
+    { "id": "chief_justice", "type": "processNode", "data": { "label": "Chief Justice of India" } },
+
+    { "id": "president_ceremonial", "type": "processNode", "data": { "label": "Ceremonial / Nominal Powers" } },
+    { "id": "president_real", "type": "processNode", "data": { "label": "Real / Emergency Powers" } },
+
+    { "id": "president_power_1", "type": "processNode", "data": { "label": "Head of the State" } },
+    { "id": "president_power_2", "type": "processNode", "data": { "label": "Appoints Prime Minister (as per majority)" } },
+    { "id": "president_power_3", "type": "processNode", "data": { "label": "Summons Parliament" } },
+
+    { "id": "president_power_4", "type": "processNode", "data": { "label": "Supreme Commander of Armed Forces" } },
+    { "id": "president_power_war", "type": "processNode", "data": { "label": "Declares War and Peace (on advice of Cabinet)" } },
+    { "id": "president_power_emergency", "type": "processNode", "data": { "label": "Proclaims National, State & Financial Emergency" } },
+
+    { "id": "pm_powers", "type": "processNode", "data": { "label": "Powers of Prime Minister" } },
+    { "id": "pm_power_1", "type": "processNode", "data": { "label": "Real Executive Head" } },
+    { "id": "pm_power_2", "type": "processNode", "data": { "label": "Chairs Cabinet Meetings" } },
+    { "id": "pm_power_3", "type": "processNode", "data": { "label": "Coordinates Ministries" } },
+
+    { "id": "cec_powers", "type": "processNode", "data": { "label": "Powers of Election Commission" } },
+    { "id": "cec_power_1", "type": "processNode", "data": { "label": "Conducts Elections" } },
+    { "id": "cec_power_2", "type": "processNode", "data": { "label": "Ensures Free and Fair Polls" } },
+    { "id": "cec_power_3", "type": "processNode", "data": { "label": "Implements Model Code of Conduct" } },
+
+    { "id": "cji_powers", "type": "processNode", "data": { "label": "Powers of Judiciary" } },
+    { "id": "cji_power_1", "type": "processNode", "data": { "label": "Head of Judiciary" } },
+    { "id": "cji_power_2", "type": "processNode", "data": { "label": "Interprets the Constitution" } },
+    { "id": "cji_power_3", "type": "processNode", "data": { "label": "Protects Fundamental Rights" } }
+  ],
+  "edges": [
+    { "source": "constitutional_powers", "target": "president" },
+    { "source": "constitutional_powers", "target": "prime_minister" },
+    { "source": "constitutional_powers", "target": "chief_election_commissioner" },
+    { "source": "constitutional_powers", "target": "chief_justice" },
+
+    { "source": "president", "target": "president_ceremonial" },
+    { "source": "president", "target": "president_real" },
+
+    { "source": "president_ceremonial", "target": "president_power_1" },
+    { "source": "president_ceremonial", "target": "president_power_2" },
+    { "source": "president_ceremonial", "target": "president_power_3" },
+
+    { "source": "president_real", "target": "president_power_4" },
+    { "source": "president_real", "target": "president_power_war" },
+    { "source": "president_real", "target": "president_power_emergency" },
+
+    { "source": "prime_minister", "target": "pm_powers" },
+    { "source": "pm_powers", "target": "pm_power_1" },
+    { "source": "pm_powers", "target": "pm_power_2" },
+    { "source": "pm_powers", "target": "pm_power_3" },
+
+    { "source": "chief_election_commissioner", "target": "cec_powers" },
+    { "source": "cec_powers", "target": "cec_power_1" },
+    { "source": "cec_powers", "target": "cec_power_2" },
+    { "source": "cec_powers", "target": "cec_power_3" },
+
+    { "source": "chief_justice", "target": "cji_powers" },
+    { "source": "cji_powers", "target": "cji_power_1" },
+    { "source": "cji_powers", "target": "cji_power_2" },
+    { "source": "cji_powers", "target": "cji_power_3" }
+  ]
+}

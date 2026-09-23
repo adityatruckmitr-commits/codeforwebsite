@@ -1,0 +1,23 @@
+# enclosure is only to show text contents. it is not part of tag.
+heading: starting with #\heading#
+slight indent: starting with #\tab#
+Align right: starting with #\right#
+emphasize: enclosed in <"  ">
+image tag: #\img"image.png"#
+table: below text for tab indented table
+Table
+	Columns
+		Col	Homogeneous Mixture
+		Col	Heterogeneous Mixture
+	Row
+		Col	Particles uniformly distributed
+		Col	Particles unevenly distributed
+	Row
+		Col	Size about 10^-9 mm
+		Col	Size more than 1 nm, visible to naked eye
+	Row
+		Col	No Tyndall effect
+		Col	Shows Tyndall effect
+	Row
+		Col	Salt / sugar / alcohol in water
+		Col	Colloidal solution and suspension

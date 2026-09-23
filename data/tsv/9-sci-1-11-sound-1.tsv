@@ -1,0 +1,17 @@
+Formulae Variable:
+	Speed of sound: v
+	Distance: d
+	Time: t
+	Frequency: f
+	Time period: T
+	Wavelength: λ
+	Amplitude: A
+	Angular frequency: ω
+Formulae Equation:
+	$v=\frac{d}{t}$
+	$v=f\lambda$
+	$f=\frac{1}{T}$
+	$T=\frac{1}{f}$
+	$\omega=2\pi f$
+	$2d=vt$
+	$d=\frac{vt}{2}$

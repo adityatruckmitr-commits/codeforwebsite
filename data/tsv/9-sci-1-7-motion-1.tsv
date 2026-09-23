@@ -1,0 +1,17 @@
+Formulae Variable:
+	Velocity: V
+		Initial: $V_{i}$
+		Final: $V_{f}$
+		Average: $V_{avg}$
+		Angular Velocity: $V_{θ}$
+			Initial: $V_{θi}$
+			Final: $V_{θf}$
+			Average: $V_{θavg}$
+	Time: T
+	Displacement: S
+	Acceleration: a
+Formulae Equation:
+	S = VT = 2πr
+	$V_{avg} = (V_{f} −V_{i}i)/2$
+	$aT = V_{f} - V_{i}$
+	$2aS =V_{f2} - V_{i2}$

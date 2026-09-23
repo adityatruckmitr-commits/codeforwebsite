@@ -1,0 +1,69 @@
+# Accessibility Audit Report — Educational Portal (Easy Learning)
+
+**Standard Evaluated:** GIGW 3.0 & WCAG 2.1 Level AA  
+**Date of Audit:** September 2026  
+**Auditor:** Senior Accessibility Engineer & Frontend Architect  
+
+---
+
+## 1. Executive Summary & Architecture Overview
+
+The codebase was comprehensively inspected to evaluate its accessibility posture against **WCAG 2.1 Level AA** and **GIGW 3.0** (Guidelines for Indian Government Websites).
+
+### Technology Stack & Architecture Identified:
+- **Framework:** Plain HTML5 shell with modular ES6 JavaScript (`js/*.js`). React 18, React Flow, and MathJax are loaded via CDN for specialized components (flowcharts, LaTeX formulas, diagrams).
+- **State & Routing:** Single-page in-memory architecture driven by `appState` (`js/app_state.js`) and dynamic DOM construction (`js/app_common.js`, `js/app_script.js`, `js/content_load.js`).
+- **PDF Viewer:** Mozilla PDF.js v4+ embedded via `<iframe>` (`package/pdfjs/web/viewer.html` + `custom-viewer.css`).
+- **Video Player:** Embedded responsive YouTube iframes with custom playlist navigation.
+- **CSS Architecture:** Vanilla CSS design token system (`css/tokens.css`, `css/base.css`, `css/base-1550x900.css`, `css/base-1366x768.css`, and 17 theme token files including `01-forest-amber.css` and `13-holi-rang.css`).
+- **Test Framework:** No pre-existing automated accessibility or unit test suites.
+
+---
+
+## 2. Identified Accessibility Issues & WCAG Breakdown
+
+| ID | Component / Area | Affected Files | WCAG 2.1 Criterion & GIGW Clause | Severity | Problem Description | Proposed Fix |
+|---|---|---|---|---|---|---|
+| **A11Y-001** | Global Page Shell | `index.html`, `js/app_common.js` | **WCAG 2.4.1** (Bypass Blocks), **GIGW 3.0 5.2.1** | **CRITICAL** | Missing "Skip to main content" link. Keyboard users must tab through entire branding and navigation on every page interaction. | Add an accessible `<a href="#main-content" class="skip-link">Skip to main content</a>` as the first focusable element, pointing to `<main id="main-content">`. |
+| **A11Y-002** | Page Structure & Landmarks | `index.html`, `js/app_common.js`, `js/app_script.js` | **WCAG 1.3.1** (Info and Relationships), **WCAG 2.4.6** (Headings and Labels), **GIGW 3.0 5.1.1** | **CRITICAL** | The page lacks semantic HTML5 landmark tags (`<header>`, `<nav>`, `<main>`, `<aside>`, `<footer>`). Containers rely on generic `<div>` with `data-ui`. No `<h1>` exists on the page. | Refactor layout factories in `app_common.js` to render `<header>`, `<nav aria-label="Subjects">`, `<main id="main-content">`, `<aside aria-label="Chapters">`, and `<footer>`. Add a single dynamic `<h1>` reflecting current chapter/subject. |
+| **A11Y-003** | Document Language & Meta | `index.html`, `package/pdfjs/web/viewer.html`, `js/app_script.js` | **WCAG 3.1.1** (Language of Page), **WCAG 3.1.2** (Language of Parts), **WCAG 2.4.2** (Page Titled) | **HIGH** | `index.html` has static `<title>` that does not reflect selected subject/chapter. When Hindi/Sanskrit subjects are selected, `lang` remains `"en"`. PDF.js `viewer.html` lacks `lang` attribute entirely. | Dynamically update `<title>` on route/chapter change (`Matter in Our Surroundings \| Class 9 Science \| Easy Learning`). Toggle `<html lang="hi">` and `data-lang="hindi"` on Hindi/Sanskrit content. Set `lang="en"` in `viewer.html`. |
+| **A11Y-004** | Keyboard Focus Styles | `css/tokens.css`, `css/base.css`, `package/pdfjs/web/custom-viewer.css` | **WCAG 2.4.7** (Focus Visible), **WCAG 1.4.11** (Non-text Contrast) | **CRITICAL** | Several interactive controls remove outlines or use low-contrast box-shadows. On darker background themes, focus indicator contrast is below 3:1. | Implement a global `:focus-visible` ring (`outline: 3px solid var(--accent-amber); outline-offset: 3px;`) across all buttons, tabs, links, select inputs, and PDF viewer elements with high contrast. |
+| **A11Y-005** | Top Subject Navigation | `js/app_tabs.js`, `css/base.css` | **WCAG 4.1.2** (Name, Role, Value), **WCAG 2.1.1** (Keyboard), **WCAG 1.4.1** (Use of Color) | **HIGH** | Subjects in top row use `role="tablist"` / `role="tab"` without keyboard arrow navigation (Left/Right/Home/End) or accessible `<nav aria-label="Subjects">`. Active state is communicated primarily through color. | Wrap subject navigation in `<nav aria-label="Subjects">`, implement standard tab keyboard pattern (Left/Right/Home/End arrow keys, `aria-selected`, `tabindex`), and add multi-modal active indicators (border, underline, `aria-current="page"`). |
+| **A11Y-006** | Class & Stream Dropdowns | `js/app_dropdown.js`, `css/base.css` | **WCAG 2.1.1** (Keyboard), **WCAG 4.1.2** (Name, Role, Value), **WCAG 1.3.1** (Info & Relationships) | **CRITICAL** | Custom dropdown does not support standard keyboard controls (ArrowUp/Down to navigate options, Space/Enter to select, Escape to close, Home/End). Lacks accessible `<label>` association. | Enhance `app_dropdown.js` with full WAI-ARIA Listbox/Combobox keyboard patterns (Arrow navigation, Home/End, Escape, Enter/Space, typeahead, focus management) and provide explicit `<label for="...">`. |
+| **A11Y-007** | Content-Type Tabs (Chapter / Video Book / Pointers) | `js/content_load.js`, `css/base.css` | **WCAG 4.1.2** (Name, Role, Value), **WCAG 2.1.1** (Keyboard), **WCAG 1.3.1** (Info & Relationships) | **HIGH** | Content-type switcher uses `role="tablist"` but lacks roving `tabindex`, arrow key navigation (Left/Right/Home/End), `aria-controls`, and `role="tabpanel"` on the corresponding content body. | Implement complete ARIA tablist/tab/tabpanel specification with arrow key switching, roving `tabindex="0"`/`-1`, `aria-selected`, and `aria-controls` referencing `id="content-panel-body"`. |
+| **A11Y-008** | Books & Chapters Sidebar Navigation | `js/app_sidebar.js`, `css/base.css` | **WCAG 1.3.1** (Info and Relationships), **WCAG 2.1.1** (Keyboard), **WCAG 4.1.2** (Name, Role, Value) | **HIGH** | Sidebar uses `role="tree"` / `role="treeitem"` partially without complete tree keyboard interaction (Up/Down arrows, Left arrow collapse, Right arrow expand, Enter/Space activate). Active chapter communicates state mainly via background color. | Refactor sidebar with semantic `<nav aria-label="[Subject] Chapters">` and accessible nested disclosure lists (`<ul>`/`<li>`), or full ARIA tree keyboard handlers. Add visible active indicator (border-left, icon indicator, `aria-current="true"`). |
+| **A11Y-009** | PDF / Textbook Viewer Controls | `package/pdfjs/web/viewer.html`, `package/pdfjs/web/custom-viewer.css`, `js/content_load.js` | **WCAG 4.1.2** (Name, Role, Value), **WCAG 1.4.11** (Non-text Contrast), **GIGW 3.0 5.4.1** | **CRITICAL** | PDF.js toolbar buttons lack static fallback accessible names (`aria-label`) if l10n strings fail. Icon-only buttons announce "button". Page number input lacks programmatic label. Status changes (Page X of Y) are not announced to screen readers. | Add explicit `aria-label` attributes to all toolbar buttons (Previous, Next, Zoom In, Zoom Out, Page Number, Print, Download, Fullscreen, Annotation, Draw, Text). Add `aria-live="polite"` status region for page navigation. Ensure high-contrast focus rings on all PDF controls. |
+| **A11Y-010** | Accessible Book Content Alternative | `js/content_load.js`, `js/content_parser.js` | **WCAG 1.1.1** (Non-text Content), **WCAG 1.3.1** (Info & Relationships), **GIGW 3.0 5.4.2** | **HIGH** | If PDFs contain scanned images or complex layout inaccessible to screen readers, there is no direct "Read Accessible HTML Version" alternative. | Add a "Read Accessible HTML Version" toggle button that loads parsed structured semantic HTML text notes, formulas (MathJax with speech-rule engine/aria), and diagram explanations. |
+| **A11Y-011** | Color Contrast (Green/Gold/Amber Themes) | `css/tokens.css`, `css/01-forest-amber.css` ... `17-*.css`, `css/base.css` | **WCAG 1.4.3** (Contrast - Minimum), **WCAG 1.4.11** (Non-text Contrast) | **HIGH** | Gold/amber text (`--text-3: #fdba74;`, `--accent-amber: #f59e0b`) against translucent dark green/amber backgrounds has contrast ratios of 2.8:1 - 3.4:1 (fails 4.5:1 AA for normal text). Muted caption text (`#b3b3b3` on translucent panels) fails. | Calibrate color token values in `tokens.css` and theme files to guarantee minimum 4.5:1 contrast for regular text, 3:1 for large text and UI borders/focus indicators. |
+| **A11Y-012** | Color Independence | `css/base.css`, `js/app_tabs.js`, `js/app_sidebar.js` | **WCAG 1.4.1** (Use of Color) | **MEDIUM** | Active tab/chapter, selected items, and interactive states rely primarily on green/amber/cyan color differences. | Introduce secondary non-color visual cues (underlines, left accent borders, active indicator icons, checkmark/bullet marks, distinct weight). |
+| **A11Y-013** | Text Resizing (200% Zoom) & Mobile Reflow (320px) | `css/base.css`, `css/base-1550x900.css`, `css/base-1366x768.css` | **WCAG 1.4.4** (Resize Text), **WCAG 1.4.10** (Reflow) | **HIGH** | Fixed grid layouts (`grid-template-columns: 1fr 280px;`, fixed header heights, absolute positioning) cause text clipping and horizontal scrollbars at 200% text zoom and 320px viewport width. | Implement fluid flex/grid layouts with responsive `@media (max-width: 768px)` reflow stacking: Header -> Subject Navigation -> Class Selector -> Content Headings -> Tabs -> Body -> Sidebar -> Footer. Eliminate fixed pixel height constraints. |
+| **A11Y-014** | Image Alternatives & QR Codes | `js/content_parser.js`, `js/content_load.js` | **WCAG 1.1.1** (Non-text Content), **GIGW 3.0 5.3.1** | **MEDIUM** | `buildImgEl` sets `alt: filename` (e.g., `alt="diagram1.png"`). Educational figures and diagrams lack descriptive explanations. QR codes in textbook views do not have adjacent accessible text links. | Sanitize image alt text generation: decorative images receive `alt=""`, educational diagrams receive descriptive labels and detailed captions. Ensure all QR codes are accompanied by descriptive direct text links (`Watch Activity 1.1 Video`). |
+| **A11Y-015** | Video Player & Playlist Accessibility | `js/content_load.js`, `css/base.css` | **WCAG 1.2.2** (Captions), **WCAG 2.1.1** (Keyboard), **WCAG 4.1.2** (Name, Role, Value) | **HIGH** | Video iframes lack caption track facility/notice. Playlist item buttons have generic accessible names ("Video 1", "Video 2") without chapter/topic titles. Playlist thumbnails lack descriptive alt text. | Provide caption track support / indicator notice, descriptive button names including video title (`aria-label="Play video: [Title]"`), transcript toggle container, and keyboard navigation across playlist items. |
+| **A11Y-016** | Accessibility Toolbar & GIGW Features | `index.html`, `js/app_accessibility.js`, `css/base.css` | **GIGW 3.0 5.2.2**, **GIGW 3.0 5.2.3** | **HIGH** | Missing accessibility utility toolbar (Skip Link, Text Resizer A-/A/A+, High Contrast / Dark / Light theme toggle). | Build a lightweight, accessible utility toolbar at the top of the page with persistent preferences stored in `localStorage`. |
+| **A11Y-017** | GIGW Mandatory Informational & Policy Pages | `js/app_gigw_pages.js`, `index.html`, `css/base.css` | **GIGW 3.0 Compliance Section 6** | **HIGH** | Missing required GIGW informational links: Accessibility Statement, Help, Contact Us, Feedback, Sitemap, Privacy Policy, Copyright Policy, Terms & Conditions, Hyperlinking Policy, Website Policies. | Add an accessible footer and modal/page routing for all mandatory GIGW compliance policies and the official Accessibility Statement with review date, contact details, and compliance target declarations. |
+| **A11Y-018** | Automated Testing & Quality Gate | `package.json`, `tests/a11y.test.js` | **WCAG 2.1 Conformance** | **MEDIUM** | Lack of automated testing infrastructure to catch accessibility regressions. | Add a lightweight Node.js test script utilizing `axe-core` and JSDOM / Playwright to test Home, Subject pages, Book viewer, Video player, and Chapter navigation. |
+
+---
+
+## 3. Severity Distribution
+
+- **CRITICAL (4 issues):** A11Y-001 (Skip Link), A11Y-002 (Landmark & Heading Hierarchy), A11Y-004 (Visible Keyboard Focus), A11Y-006 (Dropdown Keyboard Traps/Labels), A11Y-009 (PDF Viewer Toolbar & Controls).
+- **HIGH (10 issues):** A11Y-003 (Document Title & Language), A11Y-005 (Subject Navigation & Tabs), A11Y-007 (Content-Type Tabs & Tabpanels), A11Y-008 (Sidebar Tree/Disclosure), A11Y-010 (Accessible HTML Book Version), A11Y-011 (Color Contrast), A11Y-013 (200% Zoom & 320px Reflow), A11Y-015 (Video Captions & Accessible Playlist), A11Y-016 (Accessibility Toolbar), A11Y-017 (GIGW Policy Pages & Accessibility Statement).
+- **MEDIUM (4 issues):** A11Y-012 (Color Independence), A11Y-014 (Image Alt & QR Links), A11Y-018 (Automated Accessibility Testing Suite), Form Label Associations.
+
+---
+
+## 4. Implementation Phasing Plan
+
+- **Phase 1:** Global Foundations (Semantic HTML5 landmarks, Skip Link, `<title>`, `lang` attributes, Single H1).
+- **Phase 2 & 3:** Keyboard Accessibility & Global Focus Rings (`:focus-visible`).
+- **Phase 4 & 5:** Top Subject Navigation & Accessible Class/Stream Dropdowns.
+- **Phase 6 & 7:** Content Tabs (`role="tablist"`/`role="tabpanel"`) & Books/Chapters Sidebar.
+- **Phase 8 & 9:** PDF Viewer Accessible Controls & HTML Book Alternative.
+- **Phase 10 & 15:** QR Code Text Fallbacks & Image Alt Text.
+- **Phase 11 & 12:** Color Contrast & Color Independence.
+- **Phase 13 & 14:** 200% Text Resizing & 320px Responsive Reflow.
+- **Phase 16 & 17:** Forms & Video Player / Playlist Accessibility.
+- **Phase 18 & 19:** Screen Reader Verification & Focus-Managed Modals.
+- **Phase 20, 21, 22, 23:** Accessibility Toolbar, Statement, GIGW Policies, Download Metadata.
+- **Phase 24, 25, 26, 28, 29:** Automated Testing, Checklist, Reports & Verification.

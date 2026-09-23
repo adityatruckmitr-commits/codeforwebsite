@@ -1,0 +1,160 @@
+/* Theme 07 — Moss Mint */
+:root{
+    /* Fonts */
+    --font-cursive: "Imperial Script", sans-serif;
+    --font-style: "Ribeye Marrow", sans-serif;
+    --font-regular: "Source Serif 4", sans-serif;
+    --font-hindi: "Martel", sans-serif;
+
+    /* Base surface */
+    --ink-rgb: 22, 44, 30;
+    --border-rgb: 110, 231, 183;
+
+    /* Natural color */
+    --neutral-700-rgb: 74, 93, 80;
+    --neutral-800-rgb: 18, 29, 24;
+
+    /* Shadow colors */
+    --shadow-color-1: rgba(22,44,30,0.44);
+    --shadow-color-2: rgba(110,231,183,0.26);
+
+    /* Text  */
+    --text-0: #ecfdf5;
+    --text-0-rgb: 236, 253, 245;
+    --text-1: #d1fae5;
+    --text-2: #a7f3d0;
+    --text-3: #6ee7b7;
+    --text-contrast: #162c1e;
+    --text-caption: #ffffff;
+    --text-muted: #baf6d9;
+    --caption-text: #ffffff;
+
+    /* Accents (cool, restrained) */
+    --accent-blue-rgb: 59, 130, 246;
+    --accent-cyan-rgb: 34, 211, 238;
+    --accent-pink-rgb: 236, 72, 153;
+    --accent-green-rgb: 74, 222, 128;
+    --accent-teal-rgb: 16, 185, 129;
+    --accent-purple-rgb: 168, 85, 247;
+    --accent-amber-rgb: 234, 179, 8;
+    --accent-violet-rgb: 129, 140, 248;
+    --accent-mint-rgb: 110, 231, 183;
+    --accent-rose-rgb: 244, 63, 94;
+
+    --accent-cyan: rgb(var(--accent-cyan-rgb));
+    --accent-green: rgb(var(--accent-green-rgb));
+    --accent-amber: rgb(var(--accent-amber-rgb));
+
+    /* Links */
+    --link: #a7f3d0;
+    --link-hover: #34d399;
+
+    /* Indicators */
+    --indicator: #34d399;
+    --indicator-hover: #6ee7b7;
+    --indicator-active: #065f46;
+
+    /* Hover / Scroll */
+    --hover-95: rgba(110,231,183,0.14);
+    --scroll-90: rgba(110,231,183,0.30);
+
+    /* Misc */
+    --blackboard: rgba(22,44,30,0.96);
+    --true-black: rgba(0,0,0,1);
+    --caption-bg: rgba(0,0,0,0.62);
+    /* Accent color aliases */
+    --accent-aqua: rgb(var(--accent-aqua-rgb));
+    --accent-blue: rgb(var(--accent-blue-rgb));
+    --accent-cyan: rgb(var(--accent-cyan-rgb));
+    --accent-pink: rgb(var(--accent-pink-rgb));
+    --accent-green: rgb(var(--accent-green-rgb));
+    --accent-teal: rgb(var(--accent-teal-rgb));
+    --accent-purple: rgb(var(--accent-purple-rgb));
+    --accent-amber: rgb(var(--accent-amber-rgb));
+    --accent-violet: rgb(var(--accent-violet-rgb));
+    --accent-mint: rgb(var(--accent-mint-rgb));
+    --accent-rose: rgb(var(--accent-rose-rgb));
+    /* Overlays */
+    --overlay-a1: rgba(var(--accent-purple-rgb), 0.22);
+    --overlay-a2: rgba(var(--accent-blue-rgb), 0.18);
+
+    /* Surfaces */
+    --surface-35: rgba(var(--ink-rgb), 0.35);
+    --surface-40: rgba(var(--ink-rgb), 0.40);
+    --surface-45: rgba(var(--ink-rgb), 0.45);
+    --surface-50: rgba(var(--ink-rgb), 0.50);
+    --surface-55: rgba(var(--ink-rgb), 0.55);
+    --surface-60: rgba(var(--ink-rgb), 0.60);
+    --surface-65: rgba(var(--ink-rgb), 0.65);
+    --surface-70: rgba(var(--ink-rgb), 0.70);
+    --surface-74: rgba(var(--ink-rgb), 0.74);
+    --surface-75: rgba(var(--ink-rgb), 0.75);
+    --surface-78: rgba(var(--ink-rgb), 0.78);
+    --surface-80: rgba(var(--ink-rgb), 0.80);
+    --surface-82: rgba(var(--ink-rgb), 0.82);
+    --surface-84: rgba(var(--ink-rgb), 0.84);
+    --surface-85: rgba(var(--ink-rgb), 0.85);
+    --surface-86: rgba(var(--ink-rgb), 0.86);
+    --surface-88: rgba(var(--ink-rgb), 0.88);
+    --surface-90: rgba(var(--ink-rgb), 0.90);
+    --surface-92: rgba(var(--ink-rgb), 0.92);
+    --surface-94: rgba(var(--ink-rgb), 0.94);
+    --surface-95: rgba(var(--ink-rgb), 0.95);
+    --surface-96: rgba(var(--ink-rgb), 0.96);
+    --shadow-focus: transparent;
+    --shadow-interactive: transparent;
+
+    /* Borders */
+    --border-40: rgba(var(--border-rgb), 0.3);
+    --border-45: rgba(var(--border-rgb), 0.35);
+    --border-50: rgba(var(--border-rgb), 0.4);
+    --border-70: rgba(var(--border-rgb), 0.55);
+    --border-75: rgba(var(--border-rgb), 0.6);
+    --border-80: rgba(var(--border-rgb), 0.65);
+    /* Shadows */
+    --shadow-none: none;
+    --shadow-xs: 2px 2px 2px var(--shadow-color-1);
+    --shadow-sm: 0 2px 4px var(--shadow-color-1), 0 1px 2px var(--shadow-color-2);
+    --shadow-md: 0 4px 10px var(--shadow-color-1), 0 2px 6px var(--shadow-color-2);
+    --shadow-lg: 0 10px 25px var(--shadow-color-1), 0 4px 12px var(--shadow-color-2);
+    --shadow-xl: 0 20px 40px var(--shadow-color-1), 0 8px 20px var(--shadow-color-2);
+    --shadow-interactive: inset 0 1px 2px var(--shadow-color-2);
+    /* Atom / Bohr tokens (used by periodic table renderer) */
+    --shell-border: rgba(var(--accent-cyan-rgb), 0.55);
+    --shell-bg: rgba(var(--accent-cyan-rgb), 0.10);
+    --shell-color: rgba(var(--accent-cyan-rgb), 0.75);
+    --electron-bg: rgba(var(--accent-cyan-rgb), 0.92);
+    --electron-border: rgba(var(--accent-cyan-rgb), 1);
+    --electron-color: rgba(var(--text-0-rgb), 0.9);
+    /* Complementary accent (auto-selected) */
+    --accent-complement-rgb: 145, 24, 72;
+    --accent-complement: rgb(var(--accent-complement-rgb));
+    /* Hover rings */
+    --hover-soft: 0 0 0 3px rgba(var(--accent-complement-rgb), 0.18);
+    --hover-strong: 0 0 0 4px rgba(var(--accent-complement-rgb), 0.32);
+    --hover-inset-soft: inset 0 0 0 2px rgba(var(--accent-complement-rgb), 0.14);
+    --hover-inset-strong: inset 0 0 0 3px rgba(var(--accent-complement-rgb), 0.26);
+
+    /* Motion tokens */
+    --motion-fast: 120ms;
+    --motion-base: 200ms;
+    --motion-slow: 320ms;
+    --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+    --ease-emphasized: cubic-bezier(0.2, 0, 0, 1.2);
+    /* Added (synced with theme-12 tokens) */
+    --bg-image: url("../data/image/bg/moss.jpg");
+    --site-icon: url("../data/image/icons/hat.png");
+    --tab-press-overlay: linear-gradient(180deg,rgba(0,0,0,0.18),rgba(0,0,0,0.34));
+    --tab-press-shadow: inset 0 2px 6px rgba(0,0,0,0.55);
+    --surface-hover: linear-gradient(135deg,rgba(var(--accent-cyan-rgb), 0.22),rgba(var(--accent-blue-rgb), 0.18),rgba(var(--accent-purple-rgb), 0.22));
+    --surface-active: linear-gradient(135deg,rgba(var(--accent-blue-rgb), 0.32),rgba(var(--accent-purple-rgb), 0.30));
+    --surface-active-after: linear-gradient(120deg,rgba(255,255,255,0.00) 30%,rgba(255,255,255,0.38) 50%,rgba(255,255,255,0.00) 70%);
+    --surface-press: linear-gradient(180deg,rgba(var(--ink-rgb), 0.25),rgba(var(--ink-rgb), 0.45));
+    --shadow-tint-rgb: var(--accent-complement-rgb);
+    --shadow-hover: 0 0 0 1px rgba(var(--accent-cyan-rgb), 0.35),0 4px 12px rgba(var(--accent-cyan-rgb), 0.35),inset 0 1px 1px rgba(255,255,255,0.35),inset 0 -1px 1px rgba(0,0,0,0.35);
+    --shadow-press: inset 0 2px 6px rgba(var(--ink-rgb), 0.65);
+    --hover: 0 0 0 3px rgba(var(--accent-complement-rgb), 0.25);
+    --scroll-track: rgba(var(--ink-rgb), 0.25);
+    --scroll-thumb: rgba(var(--accent-cyan-rgb), 0.45);
+    --scroll-thumb-hover: rgba(var(--accent-cyan-rgb), 0.65);
+}

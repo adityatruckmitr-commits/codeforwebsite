@@ -1,0 +1,75 @@
+{
+  "layout": "LR",
+  "nodes": [
+    { "id": "start", "type": "startNode", "data": { "label": "Start" } },
+
+    { "id": "cpu1", "type": "decisionNode", "data": { "label": "CPU Intensive?" } },
+
+    { "id": "mem1", "type": "decisionNode", "data": { "label": "Memory Intensive?" } },
+    { "id": "io1", "type": "decisionNode", "data": { "label": "IOPS Intensive?" } },
+    { "id": "io2", "type": "decisionNode", "data": { "label": "IOPS Intensive?" } },
+
+    { "id": "vm1", "type": "processNode", "data": { "label": "E, M, L, D" } },
+    { "id": "vm2", "type": "processNode", "data": { "label": "E, M, D" } },
+    { "id": "vm3", "type": "processNode", "data": { "label": "F, FX, E, L" } },
+    { "id": "vm4", "type": "processNode", "data": { "label": "F, FX" } },
+
+    { "id": "mem2", "type": "decisionNode", "data": { "label": "Memory Intensive?" } },
+    { "id": "mem3", "type": "decisionNode", "data": { "label": "Memory in TB?" } },
+    { "id": "mem4", "type": "decisionNode", "data": { "label": "Memory > 4TB?" } },
+
+    { "id": "vm6", "type": "processNode", "data": { "label": "M" } },
+    { "id": "vm5", "type": "processNode", "data": { "label": "E, M, L" } },
+
+    { "id": "io3", "type": "decisionNode", "data": { "label": "IOPS Intensive?" } },
+    { "id": "vm7", "type": "processNode", "data": { "label": "E, M, L" } },
+    { "id": "vm8", "type": "processNode", "data": { "label": "E, M" } },
+
+    { "id": "st1", "type": "decisionNode", "data": { "label": "Storage Intensive?" } },
+    { "id": "vm9", "type": "processNode", "data": { "label": "L Series" } },
+
+    { "id": "gpu1", "type": "decisionNode", "data": { "label": "GPU Intensive?" } },
+    { "id": "vm10", "type": "processNode", "data": { "label": "NC, ND, NG, NV Series" } },
+
+    { "id": "hpc1", "type": "decisionNode", "data": { "label": "HPC Optimized?" } },
+    { "id": "vm12", "type": "processNode", "data": { "label": "HB, HC, HX Series" } },
+    { "id": "vm11", "type": "processNode", "data": { "label": "NM, NP Series" } }
+  ],
+
+  "edges": [
+    { "source": "start", "target": "cpu1" },
+
+    { "source": "cpu1", "target": "mem1", "label": "Yes" },
+    { "source": "cpu1", "target": "mem2", "label": "No" },
+
+    { "source": "mem1", "target": "io1", "label": "Yes" },
+    { "source": "mem1", "target": "io2", "label": "No" },
+
+    { "source": "io1", "target": "vm1", "label": "Yes" },
+    { "source": "io1", "target": "vm2", "label": "No" },
+
+    { "source": "io2", "target": "vm3", "label": "Yes" },
+    { "source": "io2", "target": "vm4", "label": "No" },
+
+    { "source": "mem2", "target": "mem3", "label": "Yes" },
+    { "source": "mem2", "target": "st1", "label": "No" },
+
+    { "source": "mem3", "target": "mem4", "label": "Yes" },
+    { "source": "mem3", "target": "io3", "label": "No" },
+
+    { "source": "mem4", "target": "vm6", "label": "Yes" },
+    { "source": "mem4", "target": "vm5", "label": "No" },
+
+    { "source": "io3", "target": "vm7", "label": "Yes" },
+    { "source": "io3", "target": "vm8", "label": "No" },
+
+    { "source": "st1", "target": "vm9", "label": "Yes" },
+    { "source": "st1", "target": "gpu1", "label": "No" },
+
+    { "source": "gpu1", "target": "vm10", "label": "Yes" },
+    { "source": "gpu1", "target": "hpc1", "label": "No" },
+
+    { "source": "hpc1", "target": "vm12", "label": "Yes" },
+    { "source": "hpc1", "target": "vm11", "label": "No" }
+  ]
+}

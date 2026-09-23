@@ -1,0 +1,28 @@
+In triangle ABC, AD is a median. If the area of ΔABD is 15 cm sq. then find the ar(ΔABC).
+ABCD is a parallelogram and BPC is a triangle with P falling on AD. If the area of parallelogram ABCD = 26 cm², find the area of triangle BPC.
+PQRS is a parallelogram and PQT is a triangle with T falling on RS. If area of triangle PQT = 18 cm², then find the area of parallelogram PQRS.
+ABCD is a parallelogram where E is a point on AD. Area of ΔBCE = 21 cm². If CD = 6 cm, then find the length of AF.
+The area of ΔABC = 32 cm². AD is a median and E is the mid-point of AD. Find the area of ΔBED.
+ABCD is a parallelogram and BC is produced to a point Q such that AD = CQ. If AQ intersects DC at P, show that area of ΔBPC = area of ΔDPQ.
+Area of triangle ABC = 24 cm². F, E and D are the midpoints of sides AB, AC, BC respectively. Find the area of triangle EFD and of parallelogram BDEF.
+Find the area of trapezium whose parallel sides are 9 cm and 5 cm respectively and the distance between these sides is 8 cm.
+AB and CD are parallel sides of trapezium ABCD. Diagonals AC and BD intersect at O. Prove that ar(ΔAOD) = ar(ΔBOC).
+If D is the mid-point of side BC of a ΔABC, P and Q are two points lying respectively on the sides AB and BC such that DP is parallel to QA. Prove that ar(ΔCQP) = 1/2 ar(ΔABC).
+A rectangle is formed by joining the mid-points of the sides of a rhombus. Show that the area of rectangle is half the area of rhombus.
+In a parallelogram ABCD, AE is perpendicular to DC and CF is perpendicular to AD. If AB = 10 cm, AE = 6 cm and CF = 8 cm, then find AD.
+The adjacent sides of a rectangle are 16 cm and 8 cm. Find the area of the rectangle.
+PQRS is a square. T and U are the mid-points of sides PS and QR respectively. Find the area of ΔOTS, if PQ = 8 cm, where O is the point of intersection of TU and OS.
+If two sides of one triangle are equal to two sides of another triangle and the contained angles are supplementary, show that the two triangles are equal in area.
+In a trapezium ABCD where AB is parallel to CD, E is the mid-point of BC, prove that ΔAED = 1/2 trapezium ABCD.
+The area of triangle ABC is 15 cm². If ΔABC and a parallelogram ABPD are on the same base and between the same parallel lines then what is the area of parallelogram ABPD.
+The area of parallelogram PQRS is 88 cm². A perpendicular from S is drawn to intersect PQ at M. If SM = 8 cm, then find the length of PQ.
+Find the area of trapezium PQRS given in the figure.
+	\img"z-mq-8.png"
+PQRS is a square. T and U are respectively, the mid points of PS and QR. Find the area of ΔOTS, if PQ = 8 cm, where O is the point of intersection of TU and OS.
+Find the area of ΔABC given in the adjoining figure.
+In the adjoining figure, the area of ΔBCE is 21 cm². If CD = 6 cm, then find the length of AF.
+In the adjoining figure, the area of a parallelogram ABCD is 40 cm². If PQ is a median of ΔCDP then, find the area of ΔPDQ.
+In the adjoining figure, find the area of the trapezium ABCD.
+In the figure BD ∥ CA, E is mid-point of CA and BD = 1/2 CA. Prove that ar(ΔABC) = 2 ar(ΔDBC).
+Find the area of the following quadrilateral.
+	\img"z-mq-9.png"

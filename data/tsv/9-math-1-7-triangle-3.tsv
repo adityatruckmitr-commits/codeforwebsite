@@ -1,0 +1,25 @@
+Basic Trigonometric Ratios
+	\img"tri14.png"
+	$\sin\theta=\frac{l}{h}$
+	$\cos\theta=\frac{b}{h}$
+	$\tan\theta=\frac{l}{b}$
+	$\csc\theta=\frac{h}{l}$
+	$\sec\theta=\frac{h}{b}$
+	$\cot\theta=\frac{b}{l}$
+Trigonometric Identities
+	$\sin^2\theta+\cos^2\theta=1$
+	$1+\tan^2\theta=\sec^2\theta$
+	$\csc^2\theta=1+\cot^2\theta$
+	$\sin(90^\circ-a)=\cos a$
+	$\cos(180^\circ-a)=-\cos a$
+	$\sin(a+b)=\sin a\cos b+\cos a\sin b$
+	$\cos(a-b)=\cos a\cos b+\sin a\sin b$
+	$\tan2a=\frac{2\tan a}{1-\tan^2 a}$
+Law of Trigonometric Functions
+	\img"tri15.png"
+	Law of Sines
+		$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}$
+	Law of Cosines
+		$c^2=a^2+b^2-2ab\cos C$
+	Law of Tangent
+		$\frac{a-b}{a+b}=\frac{\tan\frac{A-B}{2}}{\tan\frac{A+B}{2}}$

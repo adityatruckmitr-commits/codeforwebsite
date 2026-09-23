@@ -1,0 +1,135 @@
+{
+  "layout": "TB",
+  "nodes": [
+    {
+      "id": "rights",
+      "type": "processNode",
+      "data": {
+        "label": "Democratic Rights"
+      }
+    },
+    {
+      "id": "need",
+      "type": "processNode",
+      "data": {
+        "label": "Why rights?\nDignity + limits on government"
+      }
+    },
+    {
+      "id": "meaning",
+      "type": "processNode",
+      "data": {
+        "label": "Rights = claims\nrecognised by law"
+      }
+    },
+    {
+      "id": "fr",
+      "type": "processNode",
+      "data": {
+        "label": "Fundamental Rights\n(India)"
+      }
+    },
+    {
+      "id": "eq",
+      "type": "processNode",
+      "data": {
+        "label": "Right to Equality"
+      }
+    },
+    {
+      "id": "fre",
+      "type": "processNode",
+      "data": {
+        "label": "Right to Freedom"
+      }
+    },
+    {
+      "id": "exp",
+      "type": "processNode",
+      "data": {
+        "label": "Right against\nExploitation"
+      }
+    },
+    {
+      "id": "rel",
+      "type": "processNode",
+      "data": {
+        "label": "Freedom of Religion"
+      }
+    },
+    {
+      "id": "cult",
+      "type": "processNode",
+      "data": {
+        "label": "Cultural &\nEducational Rights"
+      }
+    },
+    {
+      "id": "rem",
+      "type": "processNode",
+      "data": {
+        "label": "Constitutional Remedies\n(approach courts)"
+      }
+    },
+    {
+      "id": "protect",
+      "type": "processNode",
+      "data": {
+        "label": "Protection & enforcement\nJudiciary + citizens"
+      }
+    },
+    {
+      "id": "expand",
+      "type": "processNode",
+      "data": {
+        "label": "Expanding scope\n(via interpretation/PIL)"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "rights",
+      "target": "need"
+    },
+    {
+      "source": "rights",
+      "target": "meaning"
+    },
+    {
+      "source": "rights",
+      "target": "fr"
+    },
+    {
+      "source": "fr",
+      "target": "eq"
+    },
+    {
+      "source": "fr",
+      "target": "fre"
+    },
+    {
+      "source": "fr",
+      "target": "exp"
+    },
+    {
+      "source": "fr",
+      "target": "rel"
+    },
+    {
+      "source": "fr",
+      "target": "cult"
+    },
+    {
+      "source": "fr",
+      "target": "rem"
+    },
+    {
+      "source": "rem",
+      "target": "protect"
+    },
+    {
+      "source": "rights",
+      "target": "expand"
+    }
+  ]
+}

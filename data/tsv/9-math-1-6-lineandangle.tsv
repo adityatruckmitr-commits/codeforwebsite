@@ -1,0 +1,24 @@
+Lines and Angles
+	Line: has length but no width.
+	Ray: line which originate from point and keep extending.
+	Collinear Points: points that lie on same line.
+	Angles: Two rays with common endpoint.
+	Angle Addition Axiom
+	Angle types:
+		Acute angle
+		Obtuse angle
+		Right angle
+		Straight angle
+		Reflex angle
+		Complementary angle
+		Supplementary angle
+		Adjacent angle
+		Angle bisector
+	Angles made by a transversal with 2 $\parallel$ lines
+		\img"lineangle.png"
+		Corresponding angles: $\angle1$ & $\angle5,\ \angle2$ & $\angle6,\ \angle3$ & $\angle7,\ \angle4$ & $\angle8$
+		Alternate interior angles: $\angle3$ & $\angle5,\ \angle2$ & $\angle8$
+		Consecutive interior angles: $\angle2$ & $\angle5,\ \angle3$ & $\angle8$
+		Corresponding angle axiom
+			If 2 lines are parallel, then corresponding angles of transversal line are equal.
+			If corresponding angles of transversal line are equal, then both lines are parallel.

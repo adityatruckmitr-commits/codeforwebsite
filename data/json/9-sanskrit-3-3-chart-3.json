@@ -1,0 +1,19 @@
+{
+    "layout": "LR",
+    "nodes": [
+        {"id": "sndi",     "type": "processNode","data": {"label": "व्यंजन सन्धि"}},
+
+    ],
+    "edges": [
+        {"source": "sndi",      "target": "1c_end"},
+        {"source": "sndi",      "target": "1v_end"},
+        {"source": "1c_end",    "target": "c_sndi1"},
+        {"source": "1v_end",    "target": "2v_start"},
+        {"source": "1v_end",    "target": "2c_start"},
+        {"source": "2c_start",  "target": "c_sndi2"},
+        {"source": "2v_start",  "target": "pgh"},
+        {"source": "2v_start",  "target": "v_sndi"},
+        {"source": "pgh",  "target": "no_sndi"}
+
+    ]
+}

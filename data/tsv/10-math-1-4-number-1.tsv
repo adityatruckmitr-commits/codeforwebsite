@@ -1,0 +1,11 @@
+A quadratic equation in variable x is of the form $ax^2+bx+c=0$, where a, b, c are real numbers and $a\ne 0$
+A real number $s$ is said to be root of quadratic equation $ax^2+bx+c$, if $as^2+bs+c$ evaluate to 0. the zero and root of quadratic polynomial are the same.
+If on factorizing $ax^2+bx+c$, into product of 2 linear factors $(x-p)(x-q)$, then roots of quadratic equation $ax^2+bx+c=0$ can be found by equating factors to 0:
+	$x-p=0$, i.e. $x=p$ 
+	$x-q=0$, i.e. $x=q$ 
+Relation of Quadratic equation and its Roots
+	Root = ${\dfrac{-b ± \sqrt{b^2 - 4ac}}{2a}}$
+	If $b^2 - 4ac$  has value:
+		>0: Equation has 2 distinct real roots
+		=0: Equation has equal and real roots
+		<0: Equation has no real roots

@@ -1,0 +1,250 @@
+/* ============================================================
+   PDF.js Custom Skin (uses your tokens.css)
+   Load AFTER viewer.css
+   ============================================================ */
+
+/* ---------- Base / Typography ---------- */
+:root {
+  /* Use your site tokens */
+  --pdfx-font: var(--font-regular);
+  --pdfx-radius: var(--radius-3);
+  --pdfx-gap: var(--sp-2);
+
+  /* Map PDF.js focus ring to your system */
+  --focus-ring-color: rgba(var(--accent-cyan-rgb), 0.85);
+  --focus-ring-outline: 2px solid var(--focus-ring-color);
+}
+
+html,
+body {
+  font-family: var(--pdfx-font) !important;
+  background: var(--surface-94) !important;
+  color: var(--text-1) !important;
+}
+
+/* ---------- Main Frame ---------- */
+#outerContainer {
+  background: var(--surface-94) !important;
+}
+
+#mainContainer {
+  background: transparent !important;
+}
+
+/* ---------- Toolbar ---------- */
+#toolbarContainer,
+.toolbar {
+  background: var(--surface-88) !important;
+  border-bottom: 1px solid var(--border-50) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+#toolbarViewer {
+  gap: var(--pdfx-gap) !important;
+}
+
+.toolbarButton,
+.viewsManagerButton {
+  border-radius: var(--pdfx-radius) !important;
+  box-shadow: var(--shadow-interactive) !important;
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+
+/* Hover/active feel using your token shadows */
+.toolbarButton:hover,
+.viewsManagerButton:hover {
+  box-shadow: var(--shadow-hover) !important;
+}
+
+.toolbarButton:active,
+.viewsManagerButton:active {
+  box-shadow: var(--shadow-press) !important;
+  transform: translateY(0.5px);
+}
+
+/* Inputs (page number, find input, etc.) */
+.toolbarField,
+#pageNumber,
+#findInput,
+select#scaleSelect {
+  border-radius: var(--pdfx-radius) !important;
+  border: 1px solid var(--border-50) !important;
+  background: var(--surface-82) !important;
+  color: var(--text-1) !important;
+  box-shadow: var(--shadow-xs) !important;
+  font-family: var(--pdfx-font) !important;
+  font-size: var(--fs-sm) !important;
+}
+
+/* Focus */
+.toolbarField:focus,
+#pageNumber:focus,
+#findInput:focus,
+select#scaleSelect:focus,
+.toolbarButton:focus-visible {
+  outline: var(--focus-ring-outline) !important;
+  box-shadow: var(--hover) !important;
+}
+
+/* ---------- Sidebar / Views Manager ---------- */
+.sidebar {
+  background: var(--surface-90) !important;
+  border: 1px solid var(--border-50) !important;
+  border-radius: var(--radius-4) !important;
+  box-shadow: var(--shadow-md) !important;
+  backdrop-filter: none !important;
+}
+
+.sidebar .sidebarResizer:hover,
+.sidebar .sidebarResizer:focus-visible {
+  background-color: rgba(var(--accent-cyan-rgb), 0.55) !important;
+}
+
+/* ---------- Viewer Canvas Area ---------- */
+#viewerContainer {
+  background: var(--surface-94) !important;
+}
+.pdf
+
+/* Page surfaces: keep PDF page white-ish but soften frame */
+.pdfViewer .page {
+  box-shadow: var(--shadow-md) !important;
+  border-radius: var(--radius-2) !important;
+  overflow: hidden;
+}
+
+/* If you want a subtle “card” frame around pages */
+.pdfViewer .page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-2);
+  box-shadow: inset 0 0 0 1px rgba(var(--shadow-lg), 0.18);
+  pointer-events: none;
+}
+
+/* ---------- Dialogs / Menus ---------- */
+dialog,
+.doorHanger,
+.menuContainer,
+.popupMenu {
+  background: var(--surface-90) !important;
+  color: var(--text-1) !important;
+  border: 1px solid var(--border-50) !important;
+  border-radius: var(--radius-4) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* Buttons inside dialogs */
+.primaryButton,
+.secondaryButton,
+.dialogButton {
+  border-radius: var(--radius-3) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.primaryButton:hover,
+.secondaryButton:hover,
+.dialogButton:hover {
+  box-shadow: var(--shadow-hover) !important;
+}
+
+.primaryButton:active,
+.secondaryButton:active,
+.dialogButton:active {
+  box-shadow: var(--shadow-press) !important;
+}
+
+/* ---------- Scrollbars (viewer + sidebar) ---------- */
+* {
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 999px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
+/* ===== PDF.js Viewer: Toolbar color theme ===== */
+
+/* Toolbar background + border */
+#toolbarContainer {
+  background: var(--surface-90) !important;
+  border-bottom: 1px solid var(--border-50) !important;
+}
+
+/* Button text (some buttons have text spans) */
+.toolbarButton {
+  color: var(--text-1) !important;
+}
+
+/* ✅ Icon color (PDF.js uses masked icons, so change background-color) */
+.toolbarButton::before {
+  background-color: var(--text-1) !important;
+}
+
+/* Hover */
+.toolbarButton:hover {
+  background: var(--surface-82) !important;
+}
+.toolbarButton:hover::before {
+  background-color: var(--accent-cyan) !important;
+}
+
+/* Active / toggled */
+.toolbarButton.toggled,
+.toolbarButton[aria-pressed="true"] {
+  background: rgba(var(--accent-cyan-rgb), 0.18) !important;
+}
+.toolbarButton.toggled::before,
+.toolbarButton[aria-pressed="true"]::before {
+  background-color: var(--accent-cyan) !important;
+}
+
+/* Disabled */
+.toolbarButton[disabled] {
+  opacity: 0.45 !important;
+}
+.toolbarButton[disabled]::before {
+  background-color: var(--text-muted) !important;
+}
+
+/* Inputs: page box + zoom dropdown */
+.toolbarField,
+#pageNumber,
+#scaleSelect {
+  background: var(--surface-82) !important;
+  color: var(--text-1) !important;
+  border: 1px solid var(--border-50) !important;
+  border-radius: var(--radius-3) !important;
+}
+
+
+/* ---------- Optional: Hide some controls (uncomment if needed) ---------- */
+/*
+#secondaryToolbarToggle,
+#downloadButton,
+#printButton,
+#secondaryDownload,
+#secondaryPrint {
+  display: none !important;
+}
+*/

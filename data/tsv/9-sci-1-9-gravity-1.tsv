@@ -1,0 +1,18 @@
+Formulae Variable:
+	Force: F
+	Big object Mass: M
+	Small Object Mass: m
+	Gravitational Constant: G
+	Distance between center of gravity of 2 objects: d
+	Radius of planet R
+	Thrust: T
+	Pressure: P
+	Area: A
+	Gravity: g
+Formulae Equation:
+	$Fd^{2} = GMm$
+	$G = 6.7 \times 10^{-11}$
+	$g = \frac{GM}{R^{2}}$
+	$g = 9.8 \, m/s^{2}$
+	$F = ma$
+	$T = pa$

@@ -1,0 +1,9 @@
+Formulae Variable:
+	Velocity: V
+	Momentum: p
+	Mass: m
+	Force: F
+	Acceleration: a
+Formulae Equation:
+	$p = mv$
+	$F = ma = m\left(\frac{V_{f} - V_{i}}{t}\right)$

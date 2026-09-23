@@ -1,0 +1,146 @@
+{
+  "layout": "TB",
+  "nodes": [
+    {
+      "id": "elections",
+      "type": "processNode",
+      "data": {
+        "label": "Elections"
+      }
+    },
+    {
+      "id": "why",
+      "type": "processNode",
+      "data": {
+        "label": "Why needed?\nChoose & change rulers"
+      }
+    },
+    {
+      "id": "conditions",
+      "type": "processNode",
+      "data": {
+        "label": "Democratic election\nconditions"
+      }
+    },
+    {
+      "id": "universal",
+      "type": "processNode",
+      "data": {
+        "label": "Universal adult franchise"
+      }
+    },
+    {
+      "id": "choice",
+      "type": "processNode",
+      "data": {
+        "label": "Real choice\n(multiple parties/candidates)"
+      }
+    },
+    {
+      "id": "regular",
+      "type": "processNode",
+      "data": {
+        "label": "Regular elections\n& level playing field"
+      }
+    },
+    {
+      "id": "secret",
+      "type": "processNode",
+      "data": {
+        "label": "Secret ballot\n& free campaign"
+      }
+    },
+    {
+      "id": "conduct",
+      "type": "processNode",
+      "data": {
+        "label": "Independent Election\nCommission"
+      }
+    },
+    {
+      "id": "fair",
+      "type": "processNode",
+      "data": {
+        "label": "Free & fair outcomes\naccepted as people's verdict"
+      }
+    },
+    {
+      "id": "challenges",
+      "type": "processNode",
+      "data": {
+        "label": "Challenges"
+      }
+    },
+    {
+      "id": "money",
+      "type": "processNode",
+      "data": {
+        "label": "Money power"
+      }
+    },
+    {
+      "id": "muscle",
+      "type": "processNode",
+      "data": {
+        "label": "Muscle power"
+      }
+    },
+    {
+      "id": "choice2",
+      "type": "processNode",
+      "data": {
+        "label": "Limited choice\n& unequal competition"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "elections",
+      "target": "why"
+    },
+    {
+      "source": "elections",
+      "target": "conditions"
+    },
+    {
+      "source": "conditions",
+      "target": "universal"
+    },
+    {
+      "source": "conditions",
+      "target": "choice"
+    },
+    {
+      "source": "conditions",
+      "target": "regular"
+    },
+    {
+      "source": "conditions",
+      "target": "secret"
+    },
+    {
+      "source": "conditions",
+      "target": "conduct"
+    },
+    {
+      "source": "conduct",
+      "target": "fair"
+    },
+    {
+      "source": "elections",
+      "target": "challenges"
+    },
+    {
+      "source": "challenges",
+      "target": "money"
+    },
+    {
+      "source": "challenges",
+      "target": "muscle"
+    },
+    {
+      "source": "challenges",
+      "target": "choice2"
+    }
+  ]
+}

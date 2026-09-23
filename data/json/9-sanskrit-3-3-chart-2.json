@@ -1,0 +1,164 @@
+{
+    "layout": "TB",
+    "nodes": [
+        {"id": "v_sndi",     "type": "processNode","data": {"label": "स्वर सन्धि"}},
+
+
+        {"id": "pgh_etc",      "type": "processNode","data": {"label": "प्रथमा पद प्रगृह्य संज्ञा या उपसर्ग होना"}},
+
+        {"id": "pgh",      "type": "processNode","data": {"label": "प्रथमा पद प्रगृह्य संज्ञा"}},
+        {"id": "no_sndi",   "type": "processNode","data": {"label": "प्रकृतिभाव: सन्धि का निषेध"}},
+
+        {"id": "pgh_a",      "type": "processNode","data": {"label": "प्रथमा पद उपसर्ग होना"}},
+        {"id": "miss_a",   "type": "processNode","data": {"label": "यहाँ वृद्धी संधि नहीं होती, बल्कि अ का लोप हो जाता है"}},
+
+
+        {"id": "npgh",     "type": "processNode","data": {"label": "प्रथमा पद प्रगृह्य संज्ञा या उपसर्ग नहीं होना"}},
+
+        {"id": "1e_aa",     "type": "processNode","data": {"label": "प्रथम पदान्त अ / आ"}},
+
+        {"id": "2s_aa1",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अ / आ"}},
+        {"id": "sndi_di1",     "type": "processNode","data": {"label": "आ - दीर्घ संधि"}},
+        
+        {"id": "2s_i1",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में इ / ई"}},
+        {"id": "sndi_gu1",     "type": "processNode","data": {"label": "ए - गुण संधि"}},
+
+        {"id": "2s_u1",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में उ / ऊ"}},
+        {"id": "sndi_gu2",     "type": "processNode","data": {"label": "ओ - गुण संधि"}},
+
+        {"id": "2s_ri1",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में ऋ / ऋृ"}},
+        {"id": "sndi_gu3",     "type": "processNode","data": {"label": "अर् - गुण संधि"}},
+
+        {"id": "2s_ai1",     "type": "processNode","data": {"label": "प्रथम पदान्त ए"}},
+        {"id": "sndi_vi1",     "type": "processNode","data": {"label": "ऐ - वृद्धि संधि"}},
+
+        {"id": "2s_au1",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में ओ"}},
+        {"id": "sndi_vi2",     "type": "processNode","data": {"label": "औ - वृद्धि संधि"}},
+
+        
+        {"id": "1e_i",     "type": "processNode","data": {"label": "प्रथम पदान्त इ / ई"}},
+
+        {"id": "2s_i2",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में इ / ई"}},
+        {"id": "sndi_di2",     "type": "processNode","data": {"label": "ई - दीर्घ संधि"}},
+
+        {"id": "2s_etc2",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_yn2",     "type": "processNode","data": {"label": "य् - यण् संधि"}},
+
+
+        {"id": "1e_u",     "type": "processNode","data": {"label": "प्रथम पदान्त उ / ऊ"}},
+
+        {"id": "2s_u3",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में उ / ऊ"}},
+        {"id": "sndi_di3",     "type": "processNode","data": {"label": "ऊ - दीर्घ संधि"}},
+
+        {"id": "2s_etc4",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_yn4",     "type": "processNode","data": {"label": "व् - यण् संधि"}},
+
+
+        {"id": "1e_ri",     "type": "processNode","data": {"label": "प्रथम पदान्त ऋ / ऋृ"}},
+
+        {"id": "2s_ri5",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में ऋ / ऋृ"}},
+        {"id": "sndi_di5",     "type": "processNode","data": {"label": "ऋृ - दीर्घ संधि"}},
+
+        {"id": "2s_etc5",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_yn5",     "type": "processNode","data": {"label": "र् - यण् संधि"}},
+
+
+        {"id": "1e_hri",     "type": "processNode","data": {"label": "प्रथम पदान्त ळ"}},
+        {"id": "2s_etc51",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_yn51",     "type": "processNode","data": {"label": "ल् - यण् संधि"}},
+
+
+        {"id": "1e_ai",     "type": "processNode","data": {"label": "प्रथम पदान्त ए"}},
+        {"id": "2s_etc6",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_ay61",     "type": "processNode","data": {"label": "अय् - अयादि संधि"}},
+
+
+        {"id": "1e_aai",     "type": "processNode","data": {"label": "प्रथम पदान्त ऐ"}},
+        {"id": "2s_etc7",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_ay71",     "type": "processNode","data": {"label": "आय् - अयादि संधि"}},
+
+
+        {"id": "1e_ao",     "type": "processNode","data": {"label": "प्रथम पदान्त ओ"}},
+        {"id": "2s_etc8",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_ay81",     "type": "processNode","data": {"label": "अव् - अयादि संधि"}},
+
+
+        {"id": "1e_aou",     "type": "processNode","data": {"label": "प्रथम पदान्त औ"}},
+        {"id": "2s_etc9",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अन्य स्वर"}},
+        {"id": "sndi_ay91",     "type": "processNode","data": {"label": "आव् - अयादि संधि"}},
+
+
+        {"id": "2s_a10",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अ"}},
+        {"id": "sndi_pr101",     "type": "processNode","data": {"label": "एऽ - पूर्वरूप संधि"}},
+
+
+        {"id": "2s_a11",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में अ"}},
+        {"id": "sndi_pr111",     "type": "processNode","data": {"label": "ओऽ -पूर्वरूप संधि"}}
+    ],
+    "edges": [
+        {"source": "v_sndi",      "target": "pgh_etc"},
+        {"source": "v_sndi",      "target": "npgh"},
+        {"source": "pgh_etc",      "target": "pgh"},
+        {"source": "pgh",      "target": "no_sndi"},
+        {"source": "pgh_etc",      "target": "pgh_a"},
+        {"source": "pgh_a",      "target": "miss_a"},
+        {"source": "npgh",    "target": "1e_aa"},
+        {"source": "1e_aa",      "target": "2s_aa1"},
+        {"source": "2s_aa1",      "target": "sndi_di1"},
+        {"source": "1e_aa",      "target": "2s_i1"},
+        {"source": "2s_i1",      "target": "sndi_gu1"},
+        {"source": "1e_aa",      "target": "2s_u1"},
+        {"source": "2s_u1",      "target": "sndi_gu2"},
+        {"source": "1e_aa",      "target": "2s_ri1"},
+        {"source": "2s_ri1",      "target": "sndi_gu3"},
+        {"source": "1e_aa",      "target": "2s_ai1"},
+        {"source": "2s_ai1",      "target": "sndi_vi1"},
+        {"source": "1e_aa",      "target": "2s_au1"},
+        {"source": "2s_au1",      "target": "sndi_vi2"},
+
+        {"source": "npgh",    "target": "1e_i"},
+        {"source": "1e_i",      "target": "2s_i2"},
+        {"source": "2s_i2",      "target": "sndi_di2"},
+        {"source": "1e_i",      "target": "2s_etc2"},
+        {"source": "2s_etc2",      "target": "sndi_yn2"},
+
+        {"source": "npgh",  "target": "1e_u"},
+        {"source": "1e_u",      "target": "2s_u3"},
+        {"source": "2s_u3",      "target": "sndi_di3"},
+        {"source": "1e_u",      "target": "2s_etc4"},
+        {"source": "2s_etc4",      "target": "sndi_yn4"},
+
+        {"source": "npgh",  "target": "1e_ri"},
+        {"source": "1e_ri",      "target": "2s_ri5"},
+        {"source": "2s_ri5",      "target": "sndi_di5"},
+        {"source": "1e_ri",      "target": "2s_etc5"},
+        {"source": "2s_etc5",      "target": "sndi_yn5"},
+
+        {"source": "npgh",  "target": "1e_hri"},
+        {"source": "1e_hri",      "target": "2s_etc51"},
+        {"source": "2s_etc51",      "target": "sndi_yn51"},
+
+        {"source": "npgh",  "target": "1e_ai"},
+        {"source": "1e_ai",      "target": "2s_a10"},
+        {"source": "2s_a10",      "target": "sndi_pr101"},
+        {"source": "1e_ai",      "target": "2s_etc6"},
+        {"source": "2s_etc6",      "target": "sndi_ay61"},
+
+        
+        {"source": "npgh",  "target": "1e_aai"},
+        {"source": "1e_aai",      "target": "2s_etc7"},
+        {"source": "2s_etc7",      "target": "sndi_ay71"},
+
+        
+        
+        {"source": "npgh",  "target": "1e_ao"},
+        {"source": "1e_ao",      "target": "2s_a11"},
+        {"source": "2s_a11",      "target": "sndi_pr111"},
+        {"source": "1e_ao",      "target": "2s_etc8"},
+        {"source": "2s_etc8",      "target": "sndi_ay81"},
+
+        {"source": "npgh",  "target": "1e_aou"},
+        {"source": "1e_aou",      "target": "2s_etc9"},
+        {"source": "2s_etc9",      "target": "sndi_ay91"}
+    ]
+}

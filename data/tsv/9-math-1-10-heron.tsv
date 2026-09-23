@@ -1,0 +1,41 @@
+Step 1:  Given triangle: sides $a,b,c$
+Step 2:  Perimeter: $s = a+b+c$
+Step 3:  Semi-perimeter: $s=\frac{a+b+c}{2}$
+\img"tri5.png"
+Step 4:  Drop perpendicular on side $c$ to get height $h$
+Step 5:  Let perpendiculur meet side c at Point M and let the distance AM be x
+Step 6:  So base be divided into $x$ and $c-x$
+Step 7:  Using Pythagoras: in $\triangle CBH: a^2=h^2+x^2$
+Step 8:  Using Pythagoras: in $\triangle CAH: b^2=h^2+(c-x)^2$
+Step 9:  Subtracting equations: $b^2-a^2=(c-x)^2-x^2$
+Step 10: Simplify: $b^2-a^2=c^2-2cx$
+Step 11: Find $x$: $x=\frac{c^2+a^2-b^2}{2c}$
+Step 12: By Step 7, Height squared: $h^2=a^2-x^2$
+Step 13: Substituting value of x found in Step 11, $x$: $h^2=a^2-\frac{(c^2+a^2-b^2)^2}{4c^2}$
+Step 14: Area squared: $\triangle ^2=\left(\frac12ch\right)^2=\frac{c^2h^2}{4}$
+Step 15: Area of triangle: $(Area\; of \triangle ABC)=\frac12ch$
+Step 16: Square both sides: ${(Area\; of \triangle ABC)}^2={\frac12ch}^2=\frac14ch^2$
+Step 17: Substitute $h^2$ in Step 13: $(Area\; of \triangle ABC)^2=\frac{4a^2c^2-(c^2+a^2-b^2)^2}{16}$
+Step 18: It is simplified to this ("check Explaination at bottom"): $(Area\; of \triangle ABC)^2=\frac{(a+b+c)(a+b-c)(a-b+c)(-a+b+c)}{16}$
+Step 19: Using $s=\frac{a+b+c}{2}$
+Step 20: $a+b+c=2s$
+Step 21: $\therefore\;a+b+c-2c=2s-2c,\;\therefore\;a+b-c=2(s-c)$
+Step 22: $\therefore\;a+b+c-2b=2s-2b,\;\therefore\;a+b-c=2(s-b)$
+Step 23: $\therefore\;a+b+c-2a=2s-2a,\;\therefore\;a+b-c=2(s-a)$
+Step 24: Substitute in area: $(Area\; of \triangle ABC)^2=\dfrac{2s\times2(s-c)\times2(s-b)\times2(s-a)}{16}$
+Step 25: Simplify: $(Area\; of \triangle ABC)^2=\dfrac{16 \times s(s-c)(s-b)(s-a)}{16}$
+Step 26: Simplify: $(Area\; of \triangle ABC)^2=s(s-c)(s-b)(s-a)$
+Step 27: Heron’s formula: $Area\; of \triangle ABC=\sqrt{s(s-a)(s-b)(s-c)}$
+Explaination:
+	Let's solve this identity: $4a^2c^2-(a^2+c^2-b^2)^2$
+	$=(2ac)^2-(a^2+c^2-b^2)^2$ (apply $X^2-Y^2=(X-Y)(X+Y)$)
+	$=(2ac-(a^2+c^2-b^2))(2ac+(a^2+c^2-b^2))$
+	First bracket: $2ac-a^2-c^2+b^2$
+		$=b^2-(a^2-2ac+c^2)$ (apply $(X-Y)^2=X^2+Y^2-2XY$ on $a^2-2ac+c^2$)
+		$=a^2-2ac+c^2=(a-c)^2$
+		$=b^2-(a-c)^2=(b-a+c)(b+a-c)$
+	Second bracket: $2ac+a^2+c^2-b^2$
+		$=(a^2+2ac+c^2)-b^2$ (apply $(X+Y)^2=X^2+Y^2+2XY$ on $a^2-2ac+c^2$)
+		$=a^2+2ac+c^2=(a+c)^2$
+		$=(a+c)^2-b^2=(a+c-b)(a+b+c)$
+	Combine all factors: $(a+b+c)(a+b-c)(a-b+c)(-a+b+c)$

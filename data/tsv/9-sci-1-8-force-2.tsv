@@ -1,0 +1,13 @@
+Balanced force: Equal force from opposite side.
+Unbalanced force: One of force is Greater than other and makes state change.
+Friction: The force due to rough surfaces rubbing against each other. It only arise when we try to move object. It is always equal to force applied, until the surface's max possible friction.
+Newton's Laws of Motion
+	Law1 (law of inertia): An object remains in a state of rest of uniform motion in a straight line unless compelled to change that state by and applied force. i.e. All objects resist change in their state of motion. This property is called Inertia.
+	Law2 (law of Momentum): if force is applied on a given mass, the acceleration gained is directly proportional to force applied.
+	Law3: To every action, there is an equal and opposite reaction and they act on two different bodies.
+Mass: Matter in object (measured in Kg)
+Weight: Force with which gravity pulls the object. It is measured in N (Newton). Weight (W) = Mass (m) * Gravitational acceleration (g)
+Momentum: p = mv
+Force: 
+	$F = ma = m\frac{V_{f} - V_{i}}{t}$
+	$FT = mV_{f} - mV_{i}$

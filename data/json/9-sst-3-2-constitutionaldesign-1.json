@@ -1,0 +1,102 @@
+{
+  "layout": "TB",
+  "nodes": [
+    {
+      "id": "need",
+      "type": "processNode",
+      "data": {
+        "label": "Why a Constitution?"
+      }
+    },
+    {
+      "id": "rules",
+      "type": "processNode",
+      "data": {
+        "label": "Rules of the game\n(supreme law)"
+      }
+    },
+    {
+      "id": "choose",
+      "type": "processNode",
+      "data": {
+        "label": "How rulers are chosen"
+      }
+    },
+    {
+      "id": "powers",
+      "type": "processNode",
+      "data": {
+        "label": "Powers of institutions\n(legislature/executive/judiciary)"
+      }
+    },
+    {
+      "id": "limits",
+      "type": "processNode",
+      "data": {
+        "label": "Limits on government\n(Fundamental Rights)"
+      }
+    },
+    {
+      "id": "trust",
+      "type": "processNode",
+      "data": {
+        "label": "Builds trust in\ndiverse society"
+      }
+    },
+    {
+      "id": "make",
+      "type": "processNode",
+      "data": {
+        "label": "Making Constitution"
+      }
+    },
+    {
+      "id": "ca",
+      "type": "processNode",
+      "data": {
+        "label": "Constituent Assembly\n(debates, committees)"
+      }
+    },
+    {
+      "id": "values",
+      "type": "processNode",
+      "data": {
+        "label": "Guiding values\n(Preamble)"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "need",
+      "target": "rules"
+    },
+    {
+      "source": "rules",
+      "target": "choose"
+    },
+    {
+      "source": "rules",
+      "target": "powers"
+    },
+    {
+      "source": "rules",
+      "target": "limits"
+    },
+    {
+      "source": "rules",
+      "target": "trust"
+    },
+    {
+      "source": "need",
+      "target": "make"
+    },
+    {
+      "source": "make",
+      "target": "ca"
+    },
+    {
+      "source": "ca",
+      "target": "values"
+    }
+  ]
+}

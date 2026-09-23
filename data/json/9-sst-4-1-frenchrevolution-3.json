@@ -1,0 +1,45 @@
+{
+  "layout": "TB",
+  "nodes": [
+    { "id": "old", "type": "processNode", "data": { "label": "Old Regime" } },
+
+    { "id": "king", "type": "processNode", "data": { "label": "King" } },
+    { "id": "estate", "type": "processNode", "data": { "label": "Estate General" } },
+
+    { "id": "first", "type": "processNode", "data": { "label": "First Estate" } },
+    { "id": "second", "type": "processNode", "data": { "label": "Second Estate\n(Owned 30% Land)" } },
+    { "id": "third", "type": "processNode", "data": { "label": "Third Estate" } },
+
+    { "id": "upper", "type": "processNode", "data": { "label": "Upper Clergy" } },
+    { "id": "lower", "type": "processNode", "data": { "label": "Lower Clergy" } },
+    { "id": "rich", "type": "processNode", "data": { "label": "Rich & corrupt\nOwned 10–15% land" } },
+    { "id": "poor", "type": "processNode", "data": { "label": "Humble, poorly paid\nand overworked" } },
+
+    { "id": "nobles", "type": "processNode", "data": { "label": "Nobles" } },
+
+    { "id": "bour", "type": "processNode", "data": { "label": "Big Businessmen\n(Bourgeoisie)" } },
+    { "id": "peas", "type": "processNode", "data": { "label": "Peasants" } },
+    { "id": "art", "type": "processNode", "data": { "label": "Artisans" } },
+    { "id": "land", "type": "processNode", "data": { "label": "Landless Peasants" } }
+  ],
+  "edges": [
+    { "source": "old", "target": "king" },
+    { "source": "old", "target": "estate" },
+
+    { "source": "estate", "target": "first" },
+    { "source": "estate", "target": "second" },
+    { "source": "estate", "target": "third" },
+
+    { "source": "first", "target": "upper" },
+    { "source": "first", "target": "lower" },
+    { "source": "upper", "target": "rich" },
+    { "source": "lower", "target": "poor" },
+
+    { "source": "second", "target": "nobles" },
+
+    { "source": "third", "target": "bour" },
+    { "source": "third", "target": "peas" },
+    { "source": "third", "target": "art" },
+    { "source": "third", "target": "land" }
+  ]
+}

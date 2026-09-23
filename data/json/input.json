@@ -1,0 +1,5512 @@
+{
+  "Classes": [
+    {
+      "classTitle": 1,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "EVS",
+          "items": []
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Joyful Mathematics",
+              "bookCode": "aejm",
+              "items": [
+                {
+                  "chapterID": 1,
+                  "chapterName": "Finding the Furry Cat",
+                  "items": [
+                    {
+                      "type": "playlist",
+                      "value": [
+                        "rZWiAuytZfE",
+                        "ODqkHRFfeuo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 2,
+                  "chapterName": "what is Long, What is Round",
+                  "items": [
+                    {
+                      "type": "playlist",
+                      "value": [
+                        "JAAwWncp47s",
+                        "nwUmtgi9538"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 3,
+                  "chapterName": "Mango Treat",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "_k_FOclZyNk"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 4,
+                  "chapterName": "Making 10",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "71RvSanbr1M"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 5,
+                  "chapterName": "How Many",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "MZuGMCwF5NY"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 6,
+                  "chapterName": "Vegetable",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "A-RF3nSwkgk"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 7,
+                  "chapterName": "Lina's Family",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "EIH3K4GJjjQ"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 8,
+                  "chapterName": "Fun with Numbers",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "iZrSKrlgADg"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 9,
+                  "chapterName": "Utsav",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "RIfM2eMUwBo"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 10,
+                  "chapterName": "How do I Spend my Day",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "flRL83PiQuw"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 11,
+                  "chapterName": "How Many Times",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "B1dx4U4Szao"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 12,
+                  "chapterName": "How Much Can We Spend",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "81Rj6kh1l0o"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 13,
+                  "chapterName": "So Many Toys",
+                  "items": [
+                    {
+                      "type": "playlist",
+                      "value": [
+                        "6ralCIj6aLE",
+                        "CPPnbNkHMqo"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Mridang",
+              "bookCode": "aemr",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "My Family and Me",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Two little hands",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "fpV9WXSTmcI",
+                            "KRqO5jpdksU"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Greetings",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "_nPnriK3Vuo",
+                            "STKp3Ce-EPE",
+                            "osS_kLIbMOE",
+                            "yQNv4zmVqs8",
+                            "dvDwY04eAek",
+                            "n2WZI1bDq-U"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "Life Around Us",
+                  "chapterCount": 3,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Picture Time",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "8Lxt6BWbN_g"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "The Cap-seller and the Monkeys",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "3XzyjenywQ0",
+                            "M-7ABH3ovUU"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "A Farm",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "M4qJlpuA5xY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "Food",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Fun with Pictures",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "w2XHydZ1AG0",
+                            "XwbMe4kms-A"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "The food we eat",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "5WrMaGetW4E"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "Seasons",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "The four seasons",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "20GHG2UC5_4",
+                            "UW2Ei71pUSg"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Anandi's rainbow",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "cu9Dr_aBU44"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookCode": "ahsr",
+              "bookTitle": "सारंगी",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "परिवार",
+                  "chapterCount": 4,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "मीना का परिवार",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "XYpX27zK6Bs"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "दादा-दादी",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "6qWRJgHGd8o"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "रीना का दिन",
+                      "items": [
+                        {
+                          "type": "playlist",
+                          "value": [
+                            "rf-S0x0TT98",
+                            "eEQ9SNapSPQ"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "रानी भी",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "1hlDbz5E8d4"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "जीव-जगत",
+                  "chapterCount": 4,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "मिठाई",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "0xee532-wWk"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "तीन साथी",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "D0ddv4odexg"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "वाह मेरे घोड़े",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "ADBs3przqww"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "खतरे में साँप",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "pwV_2tJPrq4"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "हमारा खान-पान",
+                  "chapterCount": 4,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "आलू की सड़क",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "YqYcTUllcdE"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "झूलम झूली",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "y35v_CAOQ2s"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "भुट्टे",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "OArMq1SX7JY"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "फुली रोटी",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "Sb2GYmQoq5Y"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "त्योहार और मेले",
+                  "chapterCount": 4,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "मेला",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "V8tJBFk07eE"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "बरखा और मेघा",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "wgYT6CJBCBg"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "होली",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "-j3ZGFfpi9M"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "जन्मदिवस  पर पेड़ लगाओ",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "c7_DkD3g610"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 5,
+                  "unitName": "हरी-भरी दुनिया",
+                  "chapterCount": 3,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "हवा",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "THdxyiq1-Sc"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "कितनी प्यारी है ये दुनिया",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "0lc4f-ezlIU"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "चांद का बच्चा",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "XRrrX31NbB8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "G.K.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "classTitle": 2,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "EVS",
+          "items": []
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Joyful Mathematics",
+              "bookCode": "bejm",
+              "items": [
+                {
+                  "chapterID": 1,
+                  "chapterName": "A Day at the Beach",
+                  "items": [
+                    {
+                      "value": [
+                        "jND3g-5nTI4",
+                        "RaqmOepQeSc",
+                        "E1NBv-c1U1o"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 2,
+                  "chapterName": "Shapes Around Us",
+                  "items": [
+                    {
+                      "value": "lOuyPxaCXH4",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 3,
+                  "chapterName": "Fun with Numbers",
+                  "items": [
+                    {
+                      "value": [
+                        "yd6ZBBS2s2Q",
+                        "0jgm0wOGhDA",
+                        "dDc-NlfMPbE"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 4,
+                  "chapterName": "Shadow Story (Togalu)",
+                  "items": [
+                    {
+                      "value": [
+                        "650uAj0DKmU",
+                        "4G9V7Y3x6ok"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 5,
+                  "chapterName": "Playing with Lines",
+                  "items": [
+                    {
+                      "value": "-Lj-CdbyRq0",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 6,
+                  "chapterName": "Decoration for Festival",
+                  "items": [
+                    {
+                      "value": [
+                        "9ahy7lhu0gY",
+                        "kwIDIEn_PzY",
+                        "wzWPp2IXgsg"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 7,
+                  "chapterName": "Rani’s Gift",
+                  "items": [
+                    {
+                      "value": "gliuvrgIV9M",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 8,
+                  "chapterName": "Grouping and Sharing",
+                  "items": [
+                    {
+                      "value": [
+                        "3TDSkid64eM",
+                        "mGHSvaQD_m8"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 9,
+                  "chapterName": "Which Season is It?",
+                  "items": [
+                    {
+                      "value": "IPdO0tKQO20",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 10,
+                  "chapterName": "Fun at the Fair",
+                  "items": [
+                    {
+                      "value": [
+                        "nagiFLdmsEg",
+                        "wQ8zEA-iKcQ",
+                        "dQ8i996dDgY"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 11,
+                  "chapterName": "Data Handling",
+                  "items": [
+                    {
+                      "value": [
+                        "adm-sM-SUnE",
+                        "3hqm6OAl59E"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Mridang",
+              "bookCode": "bemr",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "Fun with Friends",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "My Bicycle",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "DWRoNVFADz8"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Picture Reading",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "PRL5aXeUGOE"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "Welcome to My World",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "It is Fun",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "0DcF6VL73Fk"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Seeing without Seeing",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "jGPgQKQhe7E"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "Going Places",
+                  "chapterCount": 3,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Come Back Soon",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "VoU6yrkqBRQ"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Between Home and School",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "AaU-D6n_Ytc"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "This is My Town",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "OfpRtJh4jm0"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "Life Around Us",
+                  "chapterCount": 3,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "My Name",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "3nBNZxEIlnU"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "The Crow",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "yxjWgtNuAg4"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Smart Monkey",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "=lovmrXI5XQ"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 5,
+                  "unitName": "Harmony",
+                  "chapterCount": 2,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Little Drops of Water",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "-3mFc6RSNR4"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "We are all Indian",
+                      "items": [
+                        {
+                          "type": "video",
+                          "value": "fAsGPdaltQY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 6,
+                  "unitName": "Fun with Friends",
+                  "items": []
+                },
+                {
+                  "unitID": 7,
+                  "unitName": "Welcome to My World",
+                  "items": []
+                },
+                {
+                  "unitID": 8,
+                  "unitName": "Going Places",
+                  "items": []
+                },
+                {
+                  "unitID": 9,
+                  "unitName": "Life Around Us",
+                  "items": []
+                },
+                {
+                  "unitID": 10,
+                  "unitName": "Harmony",
+                  "items": []
+                },
+                {
+                  "unitID": 11,
+                  "unitName": "Fun with Friends",
+                  "items": []
+                },
+                {
+                  "unitID": 12,
+                  "unitName": "Welcome to My World",
+                  "items": []
+                },
+                {
+                  "unitID": 13,
+                  "unitName": "Going Places",
+                  "items": []
+                },
+                {
+                  "unitID": 14,
+                  "unitName": "Life Around Us",
+                  "items": []
+                },
+                {
+                  "unitID": 15,
+                  "unitName": "Harmony",
+                  "items": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "सारंगी",
+              "bookCode": "bhsr",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "परिवार",
+                  "chapterCount": 7,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "नीमा की दादी",
+                      "items": [
+                        {
+                          "value": [
+                            "47dqBkFxxfQ",
+                            "6AW1VGItkj4",
+                            "N0FcaSbFkIE"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "घर",
+                      "items": [
+                        {
+                          "value": [
+                            "Y1zaswVUclM",
+                            "EVXg_4sehhw"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "माला की चाँदी की पायल",
+                      "items": [
+                        {
+                          "value": [
+                            "0DorjvsbyPw",
+                            "_0xM1sC0Vlg",
+                            "mNKRPbTnLfI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "माँ",
+                      "items": [
+                        {
+                          "value": [
+                            "_5DBh5OtRLw",
+                            "XiFQ03ApCnQ"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "थाथू और मैं",
+                      "items": [
+                        {
+                          "value": [
+                            "6EvRh71Owp8",
+                            "LhQhogseemU"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 6,
+                      "chapterName": "चींटा",
+                      "items": [
+                        {
+                          "value": [
+                            "1E_FX8qvrM0",
+                            "JT6QhIqa_dc"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 7,
+                      "chapterName": "टिल्लू जी",
+                      "items": [
+                        {
+                          "value": [
+                            "Wo6tgQd4rkw",
+                            "ATnSuLLs-Rk"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "रंग ही रंग",
+                  "chapterCount": 5,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "तीन दोस्त",
+                      "items": [
+                        {
+                          "value": "s6FExft-Tmk",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "दुनिया रंग-बिरंगी",
+                      "items": [
+                        {
+                          "value": "wQG-e6SAA9M",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "कौन",
+                      "items": [
+                        {
+                          "value": [
+                            "nsZTMcgWZBM",
+                            "GsdpTjhb7yI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "बैंगनी जोजो",
+                      "items": [
+                        {
+                          "value": "DE2Gn-EGkks",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "तोसिया का सपना",
+                      "items": [
+                        {
+                          "value": "1Edmv0a2um0",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "हरी-भरी धरती",
+                  "chapterCount": 5,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "तालाब",
+                      "items": [
+                        {
+                          "value": "nT0Vzp5OugQ",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "बीज",
+                      "items": [
+                        {
+                          "value": "4V3zYtCqKKE",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "किसान",
+                      "items": [
+                        {
+                          "value": [
+                            "y_MIdvuDRKo",
+                            "EKy3194-NRI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "मूली",
+                      "items": [
+                        {
+                          "value": "TGMAu7NvD-g",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "बरसात और मेंढक",
+                      "items": [
+                        {
+                          "value": "BexI1HB2Dt0",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "मित्रता",
+                  "chapterCount": 4,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "शेर और चूहे की दोस्ती",
+                      "items": [
+                        {
+                          "value": "VYSCEVJS20s",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "आउट",
+                      "items": [
+                        {
+                          "value": "wode4AUyjhU",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "छुपन-छुपाई",
+                      "items": [
+                        {
+                          "value": "mNKRPbTnLfI",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "हाथी साइकिल चला रहा था",
+                      "items": [
+                        {
+                          "value": [
+                            "HRpSpJS2nVE",
+                            "KVeCJSRtY7Q"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 5,
+                  "unitName": "आकाश",
+                  "chapterCount": 5,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "चार दिशाएँ",
+                      "items": [
+                        {
+                          "value": "qaqr5o3xiO0",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "चंदा मामा",
+                      "items": [
+                        {
+                          "value": "ZJQEp3APJTM",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "गिरे ताल में चंदा मामा",
+                      "items": [
+                        {
+                          "value": [
+                            "P-vI70vVc_k",
+                            "BGlGVss_vTc"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "सबसे बड़ा छाता",
+                      "items": [
+                        {
+                          "value": "mrf3z8fF724",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "बादल",
+                      "items": [
+                        {
+                          "value": "fgkGbGrkvfU",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "G.K.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "classTitle": 3,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "EVS",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Our Wondrous World",
+              "bookCode": "ceev",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "Our Families and Communities",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Family and Friends",
+                      "items": [
+                        {
+                          "value": "VRCuCRK_r3Y",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Going to the Mela",
+                      "items": [
+                        {
+                          "value": "K3UDAPurErU",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Celebrating Festivals",
+                      "items": [
+                        {
+                          "value": "oaveenFsGOs",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 3
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "Life Around Us",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Getting to Know Plants",
+                      "items": [
+                        {
+                          "value": "UszFK8S7T94",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Plants and Animals Live Together",
+                      "items": [
+                        {
+                          "value": "htvFxqXfUK4",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Living in Harmony",
+                      "items": [
+                        {
+                          "value": "LkHCElihjrI",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 3
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "Gifts of Nature",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Water – A Precious Gift",
+                      "items": [
+                        {
+                          "value": "yHcIXojKIco",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Food We Eat",
+                      "items": [
+                        {
+                          "value": [
+                            "u-c0BtWI4Ic",
+                            "t7kY1pn0htA"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Staying Healthy and Happy",
+                      "items": [
+                        {
+                          "value": "9ITpJiVAPmU",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 3
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "Things Around Us",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "This World of Things",
+                      "items": [
+                        {
+                          "value": "xwoB8WHjJVE",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Making Things",
+                      "items": [
+                        {
+                          "value": [
+                            "shN2q5F3pe0",
+                            "9s6OpchE1j0"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Taking Charge of Waste",
+                      "items": [
+                        {
+                          "value": [
+                            "yHcIXojKIco",
+                            "UmUxoQgH1i8"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Composite Maths",
+              "bookCode": "cmcm",
+              "items": [
+                {
+                  "chapterID": 1,
+                  "chapterName": "Revision",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 2,
+                  "chapterName": "Numbers",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 3,
+                  "chapterName": "Roman Numerals",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 4,
+                  "chapterName": "Addition",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 5,
+                  "chapterName": "Substraction",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 6,
+                  "chapterName": "Problems on (+) & (-)",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 7,
+                  "chapterName": "Multiplication",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 8,
+                  "chapterName": "Division",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 9,
+                  "chapterName": "Money",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 10,
+                  "chapterName": "Fraction",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 11,
+                  "chapterName": "Measurement of Length",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 12,
+                  "chapterName": "Measurement of Weight",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 13,
+                  "chapterName": "Measurement of Capacity",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 14,
+                  "chapterName": "Time",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 15,
+                  "chapterName": "Calendar",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 16,
+                  "chapterName": "Geometry",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 17,
+                  "chapterName": "Symmetry: Basic Idea",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 18,
+                  "chapterName": "Pictograph",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 19,
+                  "chapterName": "Quiz Challenge",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 20,
+                  "chapterName": "",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 21,
+                  "chapterName": "",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 22,
+                  "chapterName": "",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 23,
+                  "chapterName": "",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 24,
+                  "chapterName": "",
+                  "items": [
+                    {
+                      "value": [
+                        "",
+                        ""
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Math Mela",
+              "bookCode": "cemm",
+              "items": [
+                {
+                  "chapterID": 1,
+                  "chapterName": "What's in a Name?",
+                  "items": [
+                    {
+                      "value": [
+                        "dMaDlUm005c",
+                        "onl2FeW-Qow"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 2,
+                  "chapterName": "Toy Joy",
+                  "items": [
+                    {
+                      "value": [
+                        "tqyEmOxX_0g",
+                        "WYtBt9PP0Hs"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 3,
+                  "chapterName": "Double Century",
+                  "items": [
+                    {
+                      "value": [
+                        "WTuF0E0ixnw",
+                        "u_RtcC1zoD4",
+                        "qFZBTFS53IA"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 4,
+                  "chapterName": "Vacation with My Nani Maa",
+                  "items": [
+                    {
+                      "value": [
+                        "LgYseBXCZOQ",
+                        "6T80ztb0q9Y",
+                        "kjEu9vjKloc"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 5,
+                  "chapterName": "Fun with Shapes",
+                  "items": [
+                    {
+                      "value": [
+                        "8Ed8qyRf1Kk",
+                        "k47eGXF92B4"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 6,
+                  "chapterName": "House of Hundreds – I",
+                  "items": [
+                    {
+                      "value": [
+                        "StTsXrANqDY",
+                        "AXBRkc0UVHI",
+                        "aM03subp60Y"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 7,
+                  "chapterName": "Raksha Bandhan",
+                  "items": [
+                    {
+                      "value": [
+                        "I_QpSFV2GRQ",
+                        "qOYkZnJAT_8",
+                        "r7UCeIfPPkU",
+                        "6K3s-nWHM58",
+                        "ExsaPM6A6ZA"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 8,
+                  "chapterName": "Fair Share",
+                  "items": [
+                    {
+                      "value": "4g6Ws_tDNiE",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 9,
+                  "chapterName": "House of Hundreds – II",
+                  "items": [
+                    {
+                      "value": [
+                        "hG4yr5UCln0",
+                        "VObjRfCYz2A"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 10,
+                  "chapterName": "Fun at Class Party!",
+                  "items": [
+                    {
+                      "value": "j_5fu5NTWsg",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 11,
+                  "chapterName": "Filling and Lifting",
+                  "items": [
+                    {
+                      "value": [
+                        "yJhElTPpDZ8",
+                        "f01Y9pctwpc"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 12,
+                  "chapterName": "Give and Take",
+                  "items": [
+                    {
+                      "value": [
+                        "PQIwcbrmGJ4",
+                        "PiGSmHxfLDU"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 13,
+                  "chapterName": "Time Goes On",
+                  "items": [
+                    {
+                      "value": "_9DXAcjOWAM",
+                      "type": "video"
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 14,
+                  "chapterName": "The Surajkund Fair",
+                  "items": [
+                    {
+                      "value": [
+                        "cBDlp3qzKns",
+                        "-ttvJrDApaQ"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Communicate with Cambbridge",
+              "bookCode": "cecp",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "Quarter 1",
+                  "chapterCount": 5,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "The Golden touch",
+                      "items": [
+                        {
+                          "value": [
+                            "UVNLDM3Q0yM",
+                            "UCTyLqbIJrA"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-01-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "The Fortunate Pedlar",
+                      "items": [
+                        {
+                          "value": [
+                            "OeOINSqILG4",
+                            "rPBU5u52dek"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-02-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "I Meant to Do My Work Today",
+                      "items": [
+                        {
+                          "value": [
+                            "1kXCpKZ7sgM",
+                            "FARs6lpdCek"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-03-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "How the Sun was Rescued",
+                      "items": [
+                        {
+                          "value": [
+                            "K3qazqdEfMI",
+                            "06WuaXkjrF4"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-04-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "Enrichment Activities - 1",
+                      "items": [
+                        {
+                          "value": "3-eng-1-05-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "Quarter 2",
+                  "chapterCount": 7,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Mowgli Joins the Wolf Pack",
+                      "items": [
+                        {
+                          "value": [
+                            "5afi3fleCRY",
+                            "gT5iLdLnU0U"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-06-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Homes",
+                      "items": [
+                        {
+                          "value": [
+                            "-dzHhF16ytY",
+                            "V_ebZvYu4e4"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-07-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Project Sunshine",
+                      "items": [
+                        {
+                          "value": [
+                            "cTM9cK7GfvY",
+                            "podehiwGDbA"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-08-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "The Song of the Engine",
+                      "items": [
+                        {
+                          "value": "_gKpbUPbvu0",
+                          "type": "video"
+                        },
+                        {
+                          "value": "3-eng-1-09-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "Think Feel Act Section A",
+                      "items": [
+                        {
+                          "value": "3-eng-1-10-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 6,
+                      "chapterName": "Enrichment Activities - 2",
+                      "items": [
+                        {
+                          "value": "3-eng-1-11-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 7,
+                      "chapterName": "Revision - 1",
+                      "items": [
+                        {
+                          "value": "3-eng-1-12-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "Quarter 3",
+                  "chapterCount": 5,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "The Girl Who Hated Books",
+                      "items": [
+                        {
+                          "value": [
+                            "GFoP_t3m83c",
+                            "hk0YnwfO_U",
+                            "-uDnTcnKSRo",
+                            "YmoVtsxtI3I"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-13-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Good Books",
+                      "items": [
+                        {
+                          "value": [
+                            "SsP8ok4R-2o",
+                            "1BS1Qd7gIhY"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-14-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Exploring an Underwater World",
+                      "items": [
+                        {
+                          "value": [
+                            "ZBpCDyqJ89A",
+                            "RV2EdLVraNg"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-15-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "The Sea's Treasures",
+                      "items": [
+                        {
+                          "value": [
+                            "Iozx_2wBObc",
+                            "7kQga9iSzRU"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-16-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "Enrichment Activities - 3",
+                      "items": [
+                        {
+                          "value": "3-eng-1-17-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "Quarter 4",
+                  "chapterCount": 7,
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "The Farmer Who Bought a Well",
+                      "items": [
+                        {
+                          "value": [
+                            "i2-LpWtEv0k",
+                            "DkREp4WpzQo"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-18-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Bless the Farmers",
+                      "items": [
+                        {
+                          "value": [
+                            "9eDd18xfCzI"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-19-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "The Boy Who Found Grain",
+                      "items": [
+                        {
+                          "value": [
+                            "Vg2bU8mVJbA",
+                            "QPlGfWwM0dk"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-20-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "Raja's Useful Collection",
+                      "items": [
+                        {
+                          "value": [
+                            "UeFQnokDBUI",
+                            "datFvT8Mcr0"
+                          ],
+                          "type": "playlist"
+                        },
+                        {
+                          "value": "3-eng-1-21-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "Think Feel Act Section B",
+                      "items": [
+                        {
+                          "value": "3-eng-1-22-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 6,
+                      "chapterName": "Enrichment Activities - 4",
+                      "items": [
+                        {
+                          "value": "3-eng-1-23-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 7,
+                      "chapterName": "Revision - 2",
+                      "items": [
+                        {
+                          "value": "3-eng-1-24-words.json",
+                          "type": "spell"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Santoor",
+              "bookCode": "cesa",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "Fun with Friends",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Picture Reading",
+                      "items": [
+                        {
+                          "value": "hY_WDsqiA-4",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Colours",
+                      "items": [
+                        {
+                          "value": [
+                            "djI4MfAA_FQ",
+                            "PARSCh-l_10"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Badal and Moti",
+                      "items": [
+                        {
+                          "value": [
+                            "AqZ3qHbYzmQ",
+                            "Xp9sjXxDCtQ"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "Best Friends",
+                      "items": [
+                        {
+                          "value": [
+                            "sn-vbxoF89A",
+                            "NReeQULC3bk"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "Toys and Games",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Picture Reading",
+                      "items": [
+                        {
+                          "value": "RHlv-2LIlUo",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Out in the Garden",
+                      "items": [
+                        {
+                          "value": [
+                            "RHlv-2LIlUo",
+                            "p1c3xQ619L0"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Talking Toys",
+                      "items": [
+                        {
+                          "value": [
+                            "VkxXw0utgiQ",
+                            "L090bTiJixo"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "Paper Boats",
+                      "items": [
+                        {
+                          "value": [
+                            "6J8ggNwd6Iw",
+                            "RCkC8T1gPMk"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "Good Food",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Picture Reading",
+                      "items": [
+                        {
+                          "value": [
+                            "cAF35ymzbXI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "The Big Laddoo",
+                      "items": [
+                        {
+                          "value": "AsTpOiyt6eI",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Thank God",
+                      "items": [
+                        {
+                          "value": [
+                            "ovSio2b9aH8",
+                            "R_DY1LJ3OsI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "Madhu’s Wish",
+                      "items": [
+                        {
+                          "value": [
+                            "XdnRDTvvE9w",
+                            "hR3NfcfJTKk"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "The Sky",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "Picture Reading",
+                      "items": [
+                        {
+                          "value": [
+                            "sz7qkNvnKh4"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "Night",
+                      "items": [
+                        {
+                          "value": "QrBQsncRETo",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "Chanda Mama Counts the Stars",
+                      "items": [
+                        {
+                          "value": [
+                            "URF-fsYWRRw",
+                            "AKoxcZNpppY"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "Chandrayaan",
+                      "items": [
+                        {
+                          "value": [
+                            "CFSDpjSomVc",
+                            "PQLNL5jZL48"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "सोन चिरैया",
+              "bookCode": "chsch",
+              "items": [
+                {
+                  "chapterID": 1,
+                  "chapterName": "सीखो",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "irroBlk8ZsM"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 2,
+                  "chapterName": "भय से छुटकारा",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "S2ZipxzgBI4"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 3,
+                  "chapterName": "नुमाइश",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "JphVWfI0z2w"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 4,
+                  "chapterName": "वर्षा रानी",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "RE3cUOkapso"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 5,
+                  "chapterName": "समझदार बालिका",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "P_8rSrydj4U"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 6,
+                  "chapterName": "मैं टी.वी. हूँ",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "h2l-rWgHOe0"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 7,
+                  "chapterName": "बहादुर बच्चे",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "tC9WA6hZrg0"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 8,
+                  "chapterName": "कोयल का सितार",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "TxDFMCv6zHA"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 9,
+                  "chapterName": "अनोखा जादू का खेल",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "82M47HXRxx0"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 10,
+                  "chapterName": "चाँद ला दो",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "2KQ4JZPYbPU"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 11,
+                  "chapterName": "चतुर तेनालीरामन",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "irkpDq57hXk"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 12,
+                  "chapterName": "परीलोक",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "s60ZT6VdjIk"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 13,
+                  "chapterName": "यूलिसिस और पॉलीफ़ीमिस",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "ZLTsPUk_HBI"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 14,
+                  "chapterName": "रिया का सपना",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "K6uA9wyreM8"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 15,
+                  "chapterName": "जहाँ का तहाँ",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "Pb9_oRTw3M0"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterID": 16,
+                  "chapterName": "चाँद का कुरता",
+                  "items": [
+                    {
+                      "type": "video",
+                      "value": "aDsqZJL6uXU"
+                    },
+                    {
+                      "type": "answerpdf",
+                      "value": [
+                        {
+                          "fileName": "fpV9WXSTmcI"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "वीणा",
+              "bookCode": "chve",
+              "items": [
+                {
+                  "unitID": 1,
+                  "unitName": "हमारा पर्यावरण",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "सीखो",
+                      "items": [
+                        {
+                          "value": "abAl3wsmtg0",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "चींटी",
+                      "items": [
+                        {
+                          "value": "L6-NRBkweyk",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "कितने पैर?",
+                      "items": [
+                        {
+                          "value": [
+                            "s2z7l9JVXc0",
+                            "iDuklB-b-yY"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "बया हमारी चिड़िया रानी!",
+                      "items": [
+                        {
+                          "value": "zYr7ZO-b6lc",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 5,
+                      "chapterName": "आम का पेड़",
+                      "items": [
+                        {
+                          "value": [
+                            "FKQ7bABLHrc",
+                            "o1tlLqkgviA"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 5
+                },
+                {
+                  "unitID": 2,
+                  "unitName": "हमारे मित्र",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "बीरबल की खिचड़ी",
+                      "items": [
+                        {
+                          "value": [
+                            "vrHmik2hILI",
+                            "8Syl6r9Fyiw"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "मित्र को पत्र",
+                      "items": [
+                        {
+                          "value": "O-b2IBWZGFI",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "चतुर गीदड़",
+                      "items": [
+                        {
+                          "value": [
+                            "YRQrEvfrH7Q",
+                            "5bCc2CkoAkc"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "प्रकृति पर्व – फूलदेई",
+                      "items": [
+                        {
+                          "value": [
+                            "THupiIfzLqQ",
+                            "9_TIh38ohBA"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                },
+                {
+                  "unitID": 3,
+                  "unitName": "आओ खेल",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "रस्साकशी",
+                      "items": [
+                        {
+                          "value": [
+                            "jyXzE89eFTA",
+                            "PdyRP1dGgQQ"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "एक जादुई पिटारा",
+                      "items": [
+                        {
+                          "value": [
+                            "dXTJFGTwVWc",
+                            "Ts_35DwmZao"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 2
+                },
+                {
+                  "unitID": 4,
+                  "unitName": "अपना-अपना काम",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "अपना-अपना काम",
+                      "items": [
+                        {
+                          "value": "ryihOanjiHY",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "पेड़ों की अम्मा ‘थिमक्का’",
+                      "items": [
+                        {
+                          "value": "-f4z85dJq3U",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "किसान की होशियारी",
+                      "items": [
+                        {
+                          "value": "G36Bb5cYuJk",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 3
+                },
+                {
+                  "unitID": 5,
+                  "unitName": "हमारा देश",
+                  "items": [
+                    {
+                      "chapterID": 1,
+                      "chapterName": "भारत",
+                      "items": [
+                        {
+                          "value": "cts-j7Crryg",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 2,
+                      "chapterName": "चंद्रयान (संवाद)",
+                      "items": [
+                        {
+                          "value": [
+                            "opQQZJZUNcs",
+                            "jXv80jtoNhI"
+                          ],
+                          "type": "playlist"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 3,
+                      "chapterName": "बोलने वाली माँद",
+                      "items": [
+                        {
+                          "value": "Qwvnk81I5D4",
+                          "type": "video"
+                        }
+                      ]
+                    },
+                    {
+                      "chapterID": 4,
+                      "chapterName": "हम अनेक किंतु एक",
+                      "items": [
+                        {
+                          "value": "xA6NzX1oUuk",
+                          "type": "video"
+                        }
+                      ]
+                    }
+                  ],
+                  "chapterCount": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "G.K.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "classTitle": 4,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "EVS",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Our Wondrous World",
+              "bookCode": "ceev",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Math Mela",
+              "bookCode": "cuvc",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Santoor",
+              "bookCode": "sfnk",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Veena",
+              "bookCode": "iide",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "G.K.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "classTitle": 5,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "EVS",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Our Wondrous World",
+              "bookCode": "vkyi",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Math Mela",
+              "bookCode": "wchn",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Santoor",
+              "bookCode": "ogrd",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Veena",
+              "bookCode": "jbxv",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "G.K.",
+          "items": []
+        }
+      ]
+    },
+    {
+      "classTitle": 6,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "Science",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Curiosity",
+              "bookCode": "fnay",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Ganit Prakash",
+              "bookCode": "newe",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "SST",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Exploring Society India and beyond",
+              "bookCode": "jklv",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Poorvi",
+              "bookCode": "lkap",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Malhar",
+              "bookCode": "ayys",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "Sanskrit",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Deepakam",
+              "bookCode": "zvvg",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 7,
+          "subjectTitle": "G.K.",
+          "items": []
+        },
+        {
+          "subjectID": 8,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 9,
+          "subjectTitle": "Arts",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kriti",
+              "bookCode": "mxsz",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 10,
+          "subjectTitle": "Vocational",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kushal Bodh",
+              "bookCode": "bkgv",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 11,
+          "subjectTitle": "P.E.",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Khel Yatra",
+              "bookCode": "vwpl",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classTitle": 7,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "Science",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Curiosity",
+              "bookCode": "cioz",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Ganit Prakash",
+              "bookCode": "gqxo",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "SST",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Exploring Society India and beyond",
+              "bookCode": "rupy",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Poorvi",
+              "bookCode": "cgvo",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Malhar",
+              "bookCode": "ztci",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "Sanskrit",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Deepakam",
+              "bookCode": "lfze",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 7,
+          "subjectTitle": "G.K.",
+          "items": []
+        },
+        {
+          "subjectID": 8,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 9,
+          "subjectTitle": "Arts",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kriti",
+              "bookCode": "dqiw",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 10,
+          "subjectTitle": "Vocational",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kushal Bodh",
+              "bookCode": "wagv",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 11,
+          "subjectTitle": "P.E.",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Khel Yatra",
+              "bookCode": "wvgt",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classTitle": 8,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "Science",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Curiosity",
+              "bookCode": "qfbw",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Ganit Prakash",
+              "bookCode": "itnx",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "SST",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Exploring Society India and beyond",
+              "bookCode": "akov",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Poorvi",
+              "bookCode": "idjn",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Malhar",
+              "bookCode": "dqog",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "Sanskrit",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Deepakam",
+              "bookCode": "hdmj",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 7,
+          "subjectTitle": "G.K.",
+          "items": []
+        },
+        {
+          "subjectID": 8,
+          "subjectTitle": "ICT",
+          "items": []
+        },
+        {
+          "subjectID": 9,
+          "subjectTitle": "Arts",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kriti",
+              "bookCode": "otzp",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 10,
+          "subjectTitle": "Vocational",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Kushal Bodh",
+              "bookCode": "ilmg",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 11,
+          "subjectTitle": "P.E.",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Khel Yatra",
+              "bookCode": "irtk",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classTitle": 9,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "Science",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Science",
+              "bookCode": "iesc",
+              "items": [
+                {
+                  "chapterName": "Matter in Our Surroundings",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "FeNANfICJIE",
+                        "vByST2lg89g",
+                        "Gop5en428i4",
+                        "zeZreo-fI6A",
+                        "PyYQ8HDPnGE",
+                        "PMdbdsLtxJ4",
+                        "1RPJPWFqAtk",
+                        "8bHhxO-isHI",
+                        "oGxKzshrLKA",
+                        "mAGUmS0RTrA",
+                        "zoHRm5HszHQ",
+                        "jqKwIZLRYZo",
+                        "OsMvW_w4-oY",
+                        "Sauga3jV5QQ",
+                        "DNephB-3kL4",
+                        "QSz9ybC8IOI",
+                        "5Qj-NqyOnY8",
+                        "Gqekt9x6NTE",
+                        "O5Yv4e12BUw",
+                        "VSAP75ae2gY",
+                        "H4mq09S5csA",
+                        "vqOaDHkDrRE",
+                        "m1dg15lh5Jk",
+                        "ptls-tgNfpg",
+                        "odBkTzgYJRQ",
+                        "6Obm4yBxIT4",
+                        "ZjCodRYNy8Q",
+                        "gOgl9HBq5wQ"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-1-surrounding.tsv",
+                          "title": "Matter types"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Is Matter Around Us Pure?",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "-XicxfZu024",
+                        "yBA62CvqOCA",
+                        "yTBGgJ6-_tQ",
+                        "SUJR7PXkxwY",
+                        "RgD4D8Ba6rA",
+                        "wPJemtz5MIo",
+                        "ynyKRCJn3iY",
+                        "OEYUCvxKGFM",
+                        "7kbS_jSsWZA",
+                        "qHIzN0gAsJk",
+                        "jVYEZxdGxZM",
+                        "Zq36Q9cYZvo",
+                        "X46Nfr0PJ1I",
+                        "LtQXPtdTN0w",
+                        "P1Ddw9YJuH4",
+                        "oWlhUILbyyc",
+                        "4lgQFpr-hKQ",
+                        "dvLpXDaWacU",
+                        "wgZeU05Y9I4",
+                        "qrU7V5yYdB0",
+                        "AnTeitMC71M",
+                        "lcAG76SUIJA",
+                        "UN-cFY5zy6w",
+                        "kf0zPkIWnzg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-2-matter.tsv",
+                          "title": "Matter types"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Atoms and Molecules",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "c9dOAL02yhU",
+                        "FbmxHg-icJw",
+                        "ZIsRiKdVjPc",
+                        "RfkzUA0i7s4",
+                        "ewhW92Ru1uQ",
+                        "3u6X09QSRlE",
+                        "elACpvoKP38",
+                        "85Zn2_rn6rU",
+                        "99uqPjAimjY",
+                        "HIUnHqmF8w8",
+                        "oBPzRS_3yMo",
+                        "NOJpXZelZ-8",
+                        "O4AYgsxGY2U",
+                        "tvIEKb1NKSI",
+                        "teNZK1XhUYM",
+                        "sk1IuwPx26Y",
+                        "TM_kc_36YUg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-3-atom.tsv",
+                          "title": "Evolution of Atomic Model Understanding"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Structure of the Atom",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "SVLW2wEyXJM",
+                        "W9DWCTq7S90",
+                        "J8d6sHoCfu0",
+                        "N8GMDjWf5Dg",
+                        "1ZxcuXXQnlQ",
+                        "kF-xdU5AYB0",
+                        "oCeY92dP6Vc",
+                        "Gg-9genM-K8",
+                        "NjdPxyS8aSo",
+                        "joBekUwC2G0",
+                        "1qmLXBNpBZQ",
+                        "ag1PznfLZsE",
+                        "4bXOxd0pDSI",
+                        "5S4Iij7RCpQ",
+                        "5fMCdhB2qC8",
+                        "ftzCQs19wSE",
+                        "jpb1f5UeMJg",
+                        "8zTRxTouju0",
+                        "t8huo1nX-ic",
+                        "EuNz8DhsTbM",
+                        "7Nf6FibMB_A",
+                        "UF0Khck5ul4",
+                        "x4pqkP2NYbk"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-4-atomstructure.tsv",
+                          "title": "Evolution of Atomic Model Understanding"
+                        }
+                      ],
+                      "type": "tsv"
+                    },
+                    {
+                      "type": "periodictable"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "The Fundamental Unit of Life",
+                  "chapterID": 5,
+                  "items": [
+                    {
+                      "value": [
+                        "6yrKXnMJ1qQ",
+                        "_m6AeXu-jr0",
+                        "BNLECsc0-Ng",
+                        "m4MHW_fhyu0",
+                        "NllS58O1TuY",
+                        "tMCAI_vEiZg",
+                        "SyqDoRsK4dk",
+                        "xPGbEWgVFMo",
+                        "mE9RCIRWXxE",
+                        "3gVqWpxN8mU",
+                        "-67N5md-ArE",
+                        "jPBmtIb7JFg",
+                        "A4jKO1v0Co0",
+                        "Ft2AtWVP4Zs",
+                        "jFzRJgychr4",
+                        "_brp4gY1y0M",
+                        "Q1UKYCXqTnU",
+                        "GWghTPfP7Iw",
+                        "8r8eB7EqU4Q",
+                        "bdYrb9y40Eo",
+                        "BKjxSRaGEuQ",
+                        "RtwIB5yZC_Y",
+                        "_MUCV2jSaD8",
+                        "SL1aH80LfxY",
+                        "UU0am5YjqzU",
+                        "QW5xlheYgtI",
+                        "_oXqBtfWnG4",
+                        "fStPm_b6b8w",
+                        "mlnwZeUqE_Y"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-5-cell.tsv",
+                          "title": "Fundamental Unit of Life: Cell"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Tissues",
+                  "chapterID": 6,
+                  "items": [
+                    {
+                      "value": [
+                        "Z8fMQYXtk8E",
+                        "nJd2d5_5bFQ",
+                        "VRUwlpFL4tA",
+                        "xaQOwRz2jV0",
+                        "4yjPT7r6t10",
+                        "WptWfF6CmKM",
+                        "JvxttdVBPt0",
+                        "U62anXyq6Ao",
+                        "9Ypn8l2HRZQ",
+                        "rSmFmf84oPY",
+                        "THG3j7FkZyk",
+                        "9W-95QLIpWo",
+                        "72jwRIj7PdY",
+                        "1v86SCg-HLk",
+                        "k9Pwjp5ybIk",
+                        "xBXiRpUq6Zw",
+                        "zPJRghCvc6U"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-6-tissues.tsv",
+                          "title": "Fundamental Unit of Life: Cell"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Motion",
+                  "chapterID": 7,
+                  "items": [
+                    {
+                      "value": [
+                        "WWw3ANhEE3U",
+                        "y7pASPexpSI",
+                        "-A_6Y6OiTPE",
+                        "2s8QtZWhu0w",
+                        "PJufQUROogI",
+                        "cXokTzroKLY",
+                        "RJ1d4N8NXu4",
+                        "UEVCWA4zftI",
+                        "d2Phad9Uwyo",
+                        "DMViOtZySsU",
+                        "04E24TA2nnI",
+                        "gNklrtpuyzU",
+                        "LY1JY83Ypko",
+                        "niePl49GKBQ",
+                        "Qjd_SK-Jdnk",
+                        "ObVg6d_p4r4",
+                        "3dAb9RuZ7Ts",
+                        "EDG31e26ze0",
+                        "Uah-XHI0g44",
+                        "67ZLoZSgBjM",
+                        "QLUxY9tPb9s",
+                        "obtLQjQARDA",
+                        "gn69UioHUdM",
+                        "pqS154ksPL0",
+                        "ksOLw6TxJKk",
+                        "FfBj6Q3Ow6A",
+                        "5bXm30-J5O0",
+                        "PXwL8GT7CQ4"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-7-motion-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-sci-1-7-motion-2.tsv",
+                          "title": "Definitions"
+                        },
+                        {
+                          "file": "9-sci-1-7-motion-3.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Force and Laws of Motion",
+                  "chapterID": 8,
+                  "items": [
+                    {
+                      "value": [
+                        "0mXm4XgpFuE",
+                        "TJQjNdsG35g",
+                        "x1IkIKFN2hU",
+                        "qi3JO8zRvww",
+                        "YxgFNdqjKqA",
+                        "nDWiTuvImik",
+                        "IXKfbIH0urs",
+                        "01BAJfyNEOI",
+                        "B5Q2c6-GjLM",
+                        "wUst39auR-Y",
+                        "BOWNyT6E18k",
+                        "T_viBdl0vsU",
+                        "FNe-QBZUizM",
+                        "shoM5ofzYcI",
+                        "iS4Y167ym88"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-8-force-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-sci-1-8-force-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Gravitation",
+                  "chapterID": 9,
+                  "items": [
+                    {
+                      "value": [
+                        "76qgIF5wdts",
+                        "wSr_09XBzGg",
+                        "fg6Ngqq45fg",
+                        "spAjfkchdLw",
+                        "hX6icq_u09M",
+                        "_TCTcZoSdVk",
+                        "39fI9ajFw4Q",
+                        "UqZIfVsjOoQ",
+                        "LR4Ydwh-UWM",
+                        "VLNCd1Iy378",
+                        "Jq704plbsg4",
+                        "CaU43rwevss",
+                        "g-NN_6Zi43k",
+                        "ixg2t1HBAhw",
+                        "78i01PnBQCk",
+                        "RWrFCg3glMw",
+                        "8PX7ruZnWlY",
+                        "PzZihglDVAY",
+                        "83Gqk2yTB-M",
+                        "y7V9gHYFEuI",
+                        "C0CNkvME2S4",
+                        "15ItVrHUX4k",
+                        "6coMCUEQiHE"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-9-gravity-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-sci-1-9-gravity-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Work and Energy",
+                  "chapterID": 10,
+                  "items": [
+                    {
+                      "value": [
+                        "Tli2PiONiP8",
+                        "p9tpEGiR8EI",
+                        "TXMZQd77KlI",
+                        "K7UJZV7mVAc",
+                        "QC6twCyVyJo",
+                        "oICwR2HORCA",
+                        "3dOG1fkwUr4",
+                        "MuJRT-pYzvk",
+                        "98ahtyVmd4A",
+                        "9N-CjdNCpqs",
+                        "h2tDxoHGREo",
+                        "t9cWxx6YQMs",
+                        "jU4ExNOryqo",
+                        "08CeOIV9db8",
+                        "LBr3rpSx1fM",
+                        "R8w8TasTTg8",
+                        "UQjfFa2jOCk",
+                        "3Wq9kTRCJOI",
+                        "_cDxjW1l1gw",
+                        "gOF0nXsvLis",
+                        "yAyD1pjRPhs"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-10-energy-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-sci-1-10-energy-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Sound",
+                  "chapterID": 11,
+                  "items": [
+                    {
+                      "value": [
+                        "NfC4aa_phr0",
+                        "1XD5JDqeB8k",
+                        "j2qHL0cdIAg",
+                        "baeAXG0E2GY",
+                        "3FkLNvK8inA",
+                        "CoAmPHEszrQ",
+                        "TmHTrMp8uno",
+                        "AkV9Mp3-Hi4",
+                        "zJ4NNIcftys",
+                        "NQvCtDMcuLQ",
+                        "nxZWQkb-hPw",
+                        "qeiMRuI1YPs",
+                        "CS0rCxc4Fnw",
+                        "kbH7hSveMPo",
+                        "JewMh4Bf2rM",
+                        "hE7gBDNLdrs",
+                        "Nl9zsfpw6F0",
+                        "7zQn5HGQplc",
+                        "W3-LMLLeJrw",
+                        "Y7UZ8Hegn_k"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-11-sound-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-sci-1-11-sound-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Improvement in Food Resources",
+                  "chapterID": 12,
+                  "items": [
+                    {
+                      "value": [
+                        "B-jRzKIhxwo",
+                        "G13BtJyGZGM",
+                        "wCLJBvdbBbk",
+                        "sUjlu67su0A",
+                        "foxdMT1S3d4",
+                        "95Vo2Ydr_IA",
+                        "Y18uqmpc7ak",
+                        "-hvI4bHwPMU",
+                        "UjAf70q-88Q",
+                        "1RlHTs4V8Jw",
+                        "n0gWnqDFeIU",
+                        "uxtJpW78Sgo",
+                        "6U3yHKYzkg0",
+                        "xpBz5U2qF4A",
+                        "cf82qeP8xXs",
+                        "zIrUjuVfMaQ",
+                        "7j5SMfjzafk",
+                        "2Jg18sruNUw",
+                        "1qqvfpGQEKY",
+                        "3LDdoDu_AbU"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sci-1-12-improvefood.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Mathematics",
+              "bookCode": "iemh",
+              "items": [
+                {
+                  "chapterName": "Number Systems",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "gi2jovZ7UGs",
+                        "mq5Lxy4d3bk",
+                        "tXCd1xqQ8Xg",
+                        "xnneIRtQCOU",
+                        "_mAkeE3zkfY",
+                        "ZKhw-VM5Iig",
+                        "bu9rJ5ldWY0",
+                        "vEhfXjVc3zE",
+                        "QwAoPkeupR4",
+                        "usVSeth2NXA",
+                        "ZFGsKXhEEP4",
+                        "2MPH2Ydn1uo",
+                        "0vz454Xi-u8",
+                        "t18Dqw_M_Fg",
+                        "oWg6cwALFVs",
+                        "vKumidipGpw",
+                        "Hh1Ic_R-ZFI",
+                        "hSQCOjqDDsA",
+                        "-uHaNbARrtA",
+                        "KBt1fQldytI"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-1-number-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-math-1-1-number-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Polynomials",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "9ziI1fqpJ4o",
+                        "sb6NZXRBtoE",
+                        "hN05Vn4HrNM",
+                        "FD56OYxJwKo",
+                        "b1LK0CTmBB4",
+                        "aLxy1Lmt_wA",
+                        "9Aam1XBm9rA",
+                        "kdzFdmr5hbo",
+                        "yy4lr56xJ2Y",
+                        "4aRkRyDrKo4",
+                        "F169ROWdWFI",
+                        "Zl-z0YKNvqE",
+                        "CFjSNc_a1ZA",
+                        "y_kyH6dAt8g",
+                        "-XawEiIVI44",
+                        "r2Iez7DroSo",
+                        "IVT-H2VKWL0"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-2-polynomial-1.tsv",
+                          "title": "All Formulae"
+                        },
+                        {
+                          "file": "9-math-1-2-polynomial-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Coordinate Geometry",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "fkh6kJcZOMg",
+                        "NGURJoEw9XQ",
+                        "rnYSlAQYiN4",
+                        "t0LNmudcqb0",
+                        "JNR788BlUl8",
+                        "4C8USnjT5HI",
+                        "peUqu8_HYII"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-3-coordinategeo.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Linear Equations in Two Variables",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "EtHj_WhP-NA",
+                        "XJNrlKEjX0s",
+                        "mT5JcAipdQY",
+                        "K8l8Zceukco",
+                        "ogoWNVXjJKg",
+                        "RATV7_AoW2E",
+                        "VrZrakW-lS4",
+                        "CFX8Mh3QHsI",
+                        "_XnARt6yXl8",
+                        "U1Ow-TXPNQ8"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-4-linearequation.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Introduction to Euclid’s Geometry",
+                  "chapterID": 5,
+                  "items": [
+                    {
+                      "value": [
+                        "G93Me80fi5M",
+                        "PiUzr2t5hEs",
+                        "V-0Hb8zDjO0"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-5-euclid.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Lines and Angles",
+                  "chapterID": 6,
+                  "items": [
+                    {
+                      "value": [
+                        "T9xMA-DQVMc",
+                        "cOm-CJfbn-I",
+                        "XlQSBQXs3Vw",
+                        "1cu-zhN4xUs",
+                        "qYVIkOFQEVM",
+                        "gj1qDNS99kk",
+                        "OvfL67V_754",
+                        "P-1ADuWZ5ts",
+                        "dMNccfPnKTY",
+                        "5NI3zLuWZB4",
+                        "QRvA9BJ5w-g",
+                        "utsjIzBDssU",
+                        "5CpnZ78GNsM"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-6-lineandangle.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Triangles",
+                  "chapterID": 7,
+                  "items": [
+                    {
+                      "value": [
+                        "-CsiVLGmF64",
+                        "BJKq20b2Qq8",
+                        "EwUUpWRcMOI",
+                        "h-vCt32KLFE",
+                        "twIvcL98FF0",
+                        "jhNkQ3elDPc",
+                        "bw0Ol4YDIxE",
+                        "zuxqzHg0uwE",
+                        "yThNHUQtAl8",
+                        "4D7zrY6SR1s",
+                        "7JIMjKPiS8M",
+                        "mTo4oYznCnE",
+                        "AE3SFRMpMIk",
+                        "NEOtr2PQUz0",
+                        "b9UyHMZaqbQ",
+                        "CbLJ8GDBPEA",
+                        "5BaHBZ2P3rA",
+                        "350EjdOgLAg",
+                        "aCMMliVt3EQ",
+                        "DkkyJivzhcw"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-7-triangle-1.tsv",
+                          "title": "Tringle formulae"
+                        },
+                        {
+                          "file": "9-math-1-7-triangle-2.tsv",
+                          "title": "Congruency and Similarity"
+                        },
+                        {
+                          "file": "9-math-1-7-triangle-3.tsv",
+                          "title": "Trigonometry Identities"
+                        },
+                        {
+                          "file": "9-math-1-7-triangle-4.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Quadrilaterals",
+                  "chapterID": 8,
+                  "items": [
+                    {
+                      "value": [
+                        "PBiw8jUzElc",
+                        "H8YNahCBaFU",
+                        "eyZ1MF5HqOE",
+                        "9Gnoc7ThnzE",
+                        "04PgBsvRVlc",
+                        "NeOLt93wkrE",
+                        "_OKsZmgCu2E",
+                        "Afkq1-Qz7DM",
+                        "uWlV-wQjTQM",
+                        "pYdC9Gqzeew",
+                        "KJ8iNeAu2hc",
+                        "UwHIy6Ajj0c",
+                        "ut5ngqE7fEo",
+                        "Lsak2xb9Ns4",
+                        "w8hbJCITuAk",
+                        "klzcXNJOnHI",
+                        "K1oT8oqintk",
+                        "Jc6otFAfsLw",
+                        "h4lP3SMxif4",
+                        "jemTALk2L2Y",
+                        "TmftXmNvM8U",
+                        "gSjyvK2KTVE",
+                        "gJAr3GeWMDg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-8-quad-1.tsv",
+                          "title": "Quadrilateral formulae"
+                        },
+                        {
+                          "file": "9-math-1-8-quad-2.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Circles",
+                  "chapterID": 9,
+                  "items": [
+                    {
+                      "value": [
+                        "NXFBDLvy-jA",
+                        "_6M_ML-7RN8",
+                        "sb9puHNSx0E",
+                        "kEMbwr1e3Vk",
+                        "iKrAe6beEeo",
+                        "8bJUmd2Dp98",
+                        "At_1LQ8BrNY",
+                        "NSySNI0CZyc",
+                        "UhNx2N8jfAQ",
+                        "uZfrSys9cbc",
+                        "frgp8TQ4CRk",
+                        "9QF9Wd-VqQM",
+                        "m9pLt_su5tc",
+                        "ieGxECOIcWg",
+                        "TmftXmNvM8U",
+                        "gSjyvK2KTVE",
+                        "gJAr3GeWMDg",
+                        "P4EeVYEBW0M",
+                        "bTOzfqFN1gI"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-9-circle.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Heron’s Formula",
+                  "chapterID": 10,
+                  "items": [
+                    {
+                      "value": [
+                        "JsX0omv63hM",
+                        "LhRhub5eWQA"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-10-heron.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Surface Areas and Volumes",
+                  "chapterID": 11,
+                  "items": [
+                    {
+                      "value": [
+                        "jifJ5yHbP0g",
+                        "fLaiKWcLwAw",
+                        "_9Q5AWJvPGc",
+                        "6hOimXdeA2s"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-11-surface.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Statistics",
+                  "chapterID": 12,
+                  "items": [
+                    {
+                      "value": [
+                        "qHUmpoUGz6Y",
+                        "X0j82NTTzCk",
+                        "7EPrtxk6nO8",
+                        "dSwFYUhQc98",
+                        "tibgk8Hw_k8",
+                        "c8Ea7j_cvrg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-math-1-12-statistics.tsv",
+                          "title": "Chapter Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "SST",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Democratic Politics",
+              "bookCode": "iedp",
+              "items": [
+                {
+                  "chapterName": "What Is Democracy? Why Democracy?",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "Rs4J0b2c8i0",
+                        "J4hUH3Ni5oc",
+                        "k_OoOzQSmQI"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Constitutional Design",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "2di856vKYKI",
+                        "YbpzYfHaPac",
+                        "gIYwH2o4-HI"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Electoral Politics",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "_L3aND2va_E",
+                        "WsdO0I3zVpo",
+                        "py9OGrgUVXo"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Working of Institutions",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "TzDfnRMpukE",
+                        "tlZDwWwykeo",
+                        "OlEiVCZO7dE"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Democratic Rights",
+                  "chapterID": 5,
+                  "items": [
+                    {
+                      "value": [
+                        "gjIlCuiryfs",
+                        "RJ7jXmgCpKc",
+                        "4dQeTdqHAeg"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Contemporary India",
+              "bookCode": "ieci",
+              "items": [
+                {
+                  "chapterName": "India – Size and Location",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "2wX5l1ksFr8",
+                        "3sWbcqSubJI"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Physical Features of India",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "pi7CKZ5WKp4",
+                        "HqGcNjA2PZ8"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Drainage",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "9XBLgkTx_Jc",
+                        "kWGszVqPyNo"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Climate",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "sYao9OWPsx4",
+                        "Q77lcLNwICo"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Natural Vegetation and Wildlife",
+                  "chapterID": 5,
+                  "items": [
+                    {
+                      "value": [
+                        "tsHu4sB4cKE",
+                        "Z34UHaVtLDo"
+                      ],
+                      "type": "playlist"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Population",
+                  "chapterID": 6,
+                  "items": [
+                    {
+                      "value": [
+                        "sIxJyVjJlUE"
+                      ],
+                      "type": "video"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "Economics",
+              "bookCode": "ieec",
+              "items": [
+                {
+                  "chapterName": "The Story of Village Palampur",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "Sr-IZFy2ERI",
+                        "QBuV1PkIeoM",
+                        "PUhrN4ia7vw"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-3-01-palampur-1.tsv",
+                          "title": "Story of Palampur"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "People as Resource",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "XlY_U0vfX68",
+                        "lbuTOk7X-lI",
+                        "zYp2SEVeY7M"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-3-02-people-1.tsv",
+                          "title": "People as Resource"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Poverty as a Challenge",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "dLLHzYZTGjE",
+                        "Hwdrm95mqvg",
+                        "r5MQ4DzoINM"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-3-03-poverty-1.tsv",
+                          "title": "Poverty as a Challenge"
+                        }
+                      ],
+                      "type": "tsv"
+                    },
+                    {
+                      "value": "chapter-3-hardword.json",
+                      "type": "spell"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Food Security in India",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "h_DZ8wo2NDM",
+                        "2oCsMusryJo",
+                        "dsGI4GCQfsk"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-3-04-food-1.tsv",
+                          "title": "Food Security in India"
+                        }
+                      ],
+                      "type": "tsv"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bookID": 4,
+              "bookTitle": "India and The Complementary World",
+              "bookCode": "iess",
+              "items": [
+                {
+                  "chapterName": "The French Revolution",
+                  "chapterID": 1,
+                  "items": [
+                    {
+                      "value": [
+                        "ik3tXVUbiQE",
+                        "LUAQY7-4W-8",
+                        "PENmdbZ0XUg",
+                        "Fctn2jpastw",
+                        "o1w2JwLk3W8",
+                        "E8MJZ906Ru8",
+                        "EZxhk_DxMQQ",
+                        "jgCb8jpRFJY",
+                        "ia1CGhXm6OM",
+                        "cGxsfJW0Jck",
+                        "uA2bUrOzw9E",
+                        "IlGoQL-jR84",
+                        "TsVgVlNmGnk",
+                        "OOIOvHiKRC8",
+                        "JaXfk-RmCjk",
+                        "FxrY5xs7GjQ"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-4-1-frenchrevolution.tsv",
+                          "title": "The French Revolution"
+                        }
+                      ],
+                      "type": "tsv"
+                    },
+                    {
+                      "value": "9-sst-4-1-frenchrevolution-1.json",
+                      "type": "timeline",
+                      "order": "asc",
+                      "title": "French Revolution Timeline"
+                    },
+                    {
+                      "type": "flowchart",
+                      "value": [
+                        {
+                          "file": "9-sst-4-1-frenchrevolution-3.json",
+                          "title": "Old Regime"
+                        },
+                        {
+                          "file": "9-sst-4-1-frenchrevolution-2.json",
+                          "title": "French Judiciary"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Socialism in Europe and the Russian Revolution",
+                  "chapterID": 2,
+                  "items": [
+                    {
+                      "value": [
+                        "PPeZ8mAh5i0",
+                        "r18hlQM9at8",
+                        "XdCqpvaqPY0",
+                        "hY-u9TfGcow",
+                        "1diMu_1tubM",
+                        "UFVXqj5kMlE",
+                        "3AYiOd81kIs",
+                        "GElIhDMh_Cc",
+                        "muzoXGBF6kI",
+                        "FihIJVLMv_U",
+                        "maf56c-0K80",
+                        "WKER918y59c",
+                        "yR3JYb9diow",
+                        "4mVkM65KCpQ",
+                        "1I3IkwGkVeY",
+                        "Db73IkedTvc",
+                        "wfJ9iK3ui1g",
+                        "ffskqVrF9Fs",
+                        "eJVhSXl0Vu0",
+                        "0NbzC2MLFgs",
+                        "nAep4Kk0N7I",
+                        "OempenN3nVI",
+                        "PaP8410fLbk",
+                        "PHsu2jhA0X0",
+                        "J1eIEQY5Z1g",
+                        "edOL_It6mmc",
+                        "z0U6tsWawhU",
+                        "zlU3kKegKM4",
+                        "8Di_QklMRB0",
+                        "uQPWarxRECo",
+                        "Mi49z1zQDUk",
+                        "GeOF2xUZrS8",
+                        "kIjYJc35nHI",
+                        "aFkA_TBLiLg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": "9-sst-4-2-russia-1.json",
+                      "type": "timeline",
+                      "order": "asc",
+                      "title": "Russian Revolution Timeline"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "study.csv",
+                          "title": "These are not your notes tiya"
+                        }
+                      ],
+                      "type": "csv"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Nazism and the Rise of Hitler",
+                  "chapterID": 3,
+                  "items": [
+                    {
+                      "value": [
+                        "Y0tWxqMR-2I",
+                        "8qa_VybAnMg"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": "9-sst-4-3-hitler-1.json",
+                      "type": "timeline",
+                      "order": "asc",
+                      "title": "German History Timeline"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Forest Society and Colonialism",
+                  "chapterID": 4,
+                  "items": [
+                    {
+                      "value": [
+                        "KiR_LN7QyF4",
+                        "2UDDXGaUcLE",
+                        "HtUDlVx_arM",
+                        "OUxYcAHsLAI",
+                        "RSLQCV3gmYo",
+                        "1_y6-8g7fGY",
+                        "gFtlWtJyd84",
+                        "1FtZi5iLzL8",
+                        "M6tDlH3IaS0",
+                        "M0z047cL5XY",
+                        "hwp1P98gQDk",
+                        "9cb77DYZHFM",
+                        "9uLIz8fX4rA",
+                        "rtLcoq9bMmM",
+                        "OWwMzvyCMVk",
+                        "bef_G9GyviA",
+                        "J5ofNgG57-I",
+                        "DQN__PL6sEw",
+                        "YhGMlOjLHOA",
+                        "aAmzDvgCzOA",
+                        "Qn1cCk33MsM",
+                        "TwFbpS4N4hI",
+                        "dww0MtQIClo"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-4-4-freesociety-1.tsv",
+                          "title": "Forest Society and Colonialism Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    },
+                    {
+                      "value": "9-sst-4-4-freesociety-1.json",
+                      "type": "timeline",
+                      "order": "asc",
+                      "title": "Forest Society and Colonialism Timeline"
+                    }
+                  ]
+                },
+                {
+                  "chapterName": "Pastoralists in the Modern World",
+                  "chapterID": 5,
+                  "items": [
+                    {
+                      "value": [
+                        "-YFBcI-xPiM",
+                        "E9X74igu9_0",
+                        "frGXQHyQu00"
+                      ],
+                      "type": "playlist"
+                    },
+                    {
+                      "value": [
+                        {
+                          "file": "9-sst-4-5-pastoralists-1.tsv",
+                          "title": "Pastoralists in the Modern World Notes"
+                        }
+                      ],
+                      "type": "tsv"
+                    },
+                    {
+                      "value": "9-sst-4-5-pastoral-1.json",
+                      "type": "timeline",
+                      "order": "asc",
+                      "title": "Pastoralists in the Modern World Timeline"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Beehive",
+              "bookCode": "henv",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Moments",
+              "bookCode": "qzeh",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "Words & Expressions",
+              "bookCode": "ldas",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "क्षितिज",
+              "bookCode": "dlts",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "स्पर्श",
+              "bookCode": "psey",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "कृतिका",
+              "bookCode": "csyb",
+              "items": []
+            },
+            {
+              "bookID": 4,
+              "bookTitle": "सन्चयन",
+              "bookCode": "imcp",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "Sanskrit",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "शेमुषी",
+              "bookCode": "sovg",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "व्याकरणविथिः",
+              "bookCode": "rcty",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "अभ्यासवान भव",
+              "bookCode": "yyvd",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 7,
+          "subjectTitle": "ICT",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "ICT",
+              "bookCode": "zozy",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 8,
+          "subjectTitle": "P.E.",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Health & P.E.",
+              "bookCode": "tvnp",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classTitle": 10,
+      "items": [
+        {
+          "subjectID": 1,
+          "subjectTitle": "Science",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Science",
+              "bookCode": "jwwd",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 2,
+          "subjectTitle": "Maths",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Mathematics",
+              "bookCode": "aawk",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 3,
+          "subjectTitle": "SST",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Democratic Politics",
+              "bookCode": "iakb",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Contemporary India",
+              "bookCode": "fead",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "Economics",
+              "bookCode": "pvrr",
+              "items": []
+            },
+            {
+              "bookID": 4,
+              "bookTitle": "India and The Complementary World",
+              "bookCode": "nlgz",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 4,
+          "subjectTitle": "English",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Beehive",
+              "bookCode": "klmz",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "Moments",
+              "bookCode": "mbzb",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "Words & Expressions",
+              "bookCode": "gcyw",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 5,
+          "subjectTitle": "Hindi",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "क्षितिज",
+              "bookCode": "seer",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "स्पर्श",
+              "bookCode": "bije",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "कृतिका",
+              "bookCode": "yftt",
+              "items": []
+            },
+            {
+              "bookID": 4,
+              "bookTitle": "सन्चयन",
+              "bookCode": "jqec",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 6,
+          "subjectTitle": "Sanskrit",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "शेमुषी",
+              "bookCode": "prfa",
+              "items": []
+            },
+            {
+              "bookID": 2,
+              "bookTitle": "व्याकरणविथिः",
+              "bookCode": "mrma",
+              "items": []
+            },
+            {
+              "bookID": 3,
+              "bookTitle": "अभ्यासवान भव",
+              "bookCode": "rfqg",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 7,
+          "subjectTitle": "ICT",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "ICT",
+              "bookCode": "befv",
+              "items": []
+            }
+          ]
+        },
+        {
+          "subjectID": 8,
+          "subjectTitle": "P.E.",
+          "items": [
+            {
+              "bookID": 1,
+              "bookTitle": "Health & P.E.",
+              "bookCode": "aubw",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classTitle": 11,
+      "items": []
+    },
+    {
+      "classTitle": 12,
+      "items": []
+    }
+  ],
+  "Streams": {
+    "Mathematics": [
+      "Mathematics",
+      "Applied Mathematics",
+      "Statistics"
+    ],
+    "Science": [
+      "Physics",
+      "Chemistry"
+    ],
+    "Health Science": [
+      "Food Science and Nutrition",
+      "Health Science",
+      "Sports Science",
+      "Yoga",
+      "Physical Education"
+    ],
+    "Life Science": [
+      "Biology",
+      "Biotechnology",
+      "Microbiology",
+      "Human Biology",
+      "Applied Biology"
+    ],
+    "Computer Science": [
+      "Computer Science",
+      "Informatics Practices",
+      "Artificial Intelligence",
+      "Data Science"
+    ],
+    "Interdisciplinary Science": [
+      "Psychology",
+      "Environmental Technology",
+      "Renewable Energy Studies"
+    ],
+    "Commerce": [
+      "Accountancy",
+      "Economics",
+      "Business Economics",
+      "Financial Accounting"
+    ],
+    "Business": [
+      "Business Studies",
+      "Entrepreneurship",
+      "Retail Management",
+      "Marketing",
+      "Salesmanship",
+      "Financial Markets Management"
+    ],
+    "Management": [
+      "Management Studies",
+      "Business Management",
+      "Office Administration",
+      "Project Management"
+    ],
+    "Law": [
+      "Legal Studies",
+      "Introduction to Law",
+      "Constitutional Studies"
+    ],
+    "Governance": [
+      "Political Science",
+      "Public Administration",
+      "Civics",
+      "International Relations"
+    ],
+    "Society": [
+      "Sociology",
+      "Social Work",
+      "Anthropology",
+      "Human Development"
+    ],
+    "Philosophy": [
+      "Philosophy",
+      "Indian Philosophy",
+      "Logic and Critical Thinking"
+    ],
+    "Ethics": [
+      "Ethics",
+      "Moral Science",
+      "Value Education",
+      "Citizenship Education"
+    ],
+    "Culture": [
+      "Indian Culture and Heritage",
+      "Cultural Studies",
+      "Heritage Studies"
+    ],
+    "FineArts": [
+      "Fine Arts",
+      "Painting",
+      "Sculpture",
+      "Applied Art",
+      "Commercial Art",
+      "Visual Arts"
+    ],
+    "Performing Arts": [
+      "Music (Vocal)",
+      "Music (Instrumental)",
+      "Dance",
+      "Theatre",
+      "Drama",
+      "Performing Arts"
+    ],
+    "Home Studies": [
+      "Home Science",
+      "Nutrition and Dietetics",
+      "Child Development",
+      "Family Studies"
+    ],
+    "Environment Studies": [
+      "Environmental Studies",
+      "Environmental Education",
+      "Ecology",
+      "Climate Studies"
+    ],
+    "Media Studies": [
+      "Media Studies",
+      "Journalism",
+      "Mass Communication",
+      "Tourism and Travel Studies"
+    ],
+    "Applied Humanities": [
+      "Fashion Studies",
+      "Design Studies"
+    ]
+  }
+}

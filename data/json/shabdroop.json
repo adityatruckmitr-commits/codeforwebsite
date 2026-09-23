@@ -1,0 +1,616 @@
+{
+    "roop-types": [
+        { "name": "स्वरान्त", "value": "vowel" },
+        { "name": "व्यञ्जनान्त", "value": "consonant" },
+        { "name": "सर्वनाम्", "value": "pronoun" }
+    ],
+    "gender": [
+        { "name": "पुंलिङ्ग", "value": "m" },
+        { "name": "स्त्रीलिङ्ग", "value": "f" },
+        { "name": "नपुंसकलिङ्ग", "value": "n" }
+    ],
+    "vibhaktis": [
+        { "name": "प्रथमा", "value": "nominative", "Meaning": "ने" },
+        { "name": "द्वितीया", "value": "accusative", "Meaning": "को" },
+        { "name": "तृतीया", "value": "instrumental", "Meaning": "से, के द्वारा" },
+        { "name": "चतुर्थी", "value": "dative", "Meaning": "को, के लिए" },
+        { "name": "पञ्चमी", "value": "ablative", "Meaning": "से (अलग होना)" },
+        { "name": "षष्ठी", "value": "genitive", "Meaning": "का-के-की" },
+        { "name": "सप्तमी", "value": "locative", "Meaning": "में, पर" },
+        { "name": "सम्बोधन", "value": "vocative", "Meaning": "" }
+    ],
+    "vachanas": [
+        { "name": "एकवचन", "value": "singular" },
+        { "name": "द्विवचन", "value": "dual" },
+        { "name": "बहुवचन", "value": "plural" }
+    ],
+    "patterns": [
+        {
+            "a_ma": {
+                "base": "बालक",
+                "note": "अकारान्त पुंलिङ्ग",
+                "forms": [
+                    ["बालकः","बालकौ","बालकाः"],
+                    ["बालकम्","बालकौ","बालकान्"],
+                    ["बालकेन","बालकाभ्याम्","बालकैः"],
+                    ["बालकाय","बालकाभ्याम्","बालकेभ्यः"],
+                    ["बालकात्","बालकाभ्याम्","बालकेभ्यः"],
+                    ["बालकस्य","बालकयोः","बालकानाम्"],
+                    ["बालकस्य","बालकयोः","बालकेषु"],
+                    ["हे बालक","हे बालकौ","हे बालकाः"]
+                ]
+            }
+        },
+        {
+            "a_mb": {
+                "base": "राम",
+                "note": "अकारान्त पुंलिङ्ग",
+                "forms": [
+                    ["रामः","रामौ","रामाः"],
+                    ["रामम्","रामौ","रामान्"],
+                    ["रामेण","रामाभ्याम्","रामैः"],
+                    ["रामाय","रामाभ्याम्","रामेभ्यः"],
+                    ["रामात्","रामाभ्याम्","रामेभ्यः"],
+                    ["रामस्य","रामयोः","रामाणाम्"],
+                    ["रामे","रामयोः","रामेषु"],
+                    ["हे राम","हे रामौ","हे रामाः"]
+                ]
+            }
+        },
+        {
+            "a_na": {
+                "base": "फल",
+                "note": "अकारान्त नपुंसकलिङ्ग",
+                "forms": [
+                    ["फलम्","फले","फलानि"],
+                    ["फलम्","फले","फलानि"],
+                    ["फलेन","फलाभ्याम्","फलैः"],
+                    ["फलाय","फलाभ्याम्","फलेभ्यः"],
+                    ["फलात्","फलाभ्याम्","फलेभ्यः"],
+                    ["फलस्य","फलयोः","फलानाम्"],
+                    ["फले","फलयोः","फलेषु"],
+                    ["हे फल","हे फले","हे फलानि"]
+                ]
+            }
+        },
+        {
+            "a_nb": {
+                "base": "आम्र",
+                "note": "अकारान्त नपुंसकलिङ्ग",
+                "forms": [
+                    ["आम्रम्","आम्रौ","आम्राः"],
+                    ["आम्रम्","आम्रौ","आम्रान्"],
+                    ["आम्रेण","आम्राभ्याम्","आम्रैः"],
+                    ["आम्राय","आम्राभ्याम्","आम्रेभ्यः"],
+                    ["आम्रात्","आम्राभ्याम्","आम्रेभ्यः"],
+                    ["आम्रस्य","आम्रयोः","आम्राणाम्"],
+                    ["आम्रे","आम्रयोः","आम्रेषु"],
+                    ["हे आम्र","हे आम्रौ","हे आम्राः"]
+                ]
+            }
+        },
+        {
+            "aa_f": {   
+                "base": "नदी",
+                "note": "आकारान्त स्त्रीलिङ्ग",
+                "forms": [
+                    ["नदी","नद्योः","नद्यः"],
+                    ["नदीम्","नद्योः","नदीन्"],
+                    ["नद्या","नद्याभ्याम्","नद्याः"],
+                    ["नद्यै","नद्याभ्याम्","नदिभ्यः"],
+                    ["नद्याः","नद्याभ्याम्","नदिभ्यः"],
+                    ["नद्याः","नद्योः","नदीनाम्"],
+                    ["नद्याः","नद्योः","नदिषु"],
+                    ["हे नदी","हे नद्योः","हे नद्यः"]
+                ]
+            }
+        },
+        {
+            "i_m": {
+                "base": "मुनि",
+                "note": "इकारान्त पुंलिङ्ग",
+                "forms": [
+                    ["मुनिः","मुनी","मुनयः"],
+                    ["मुनिम्","मुनी","मुनीन्"],
+                    ["मुनिना","मुनिभ्याम्","मुनिभिः"],
+                    ["मुनये","मुनिभ्याम्","मुनिभ्यः"],
+                    ["मुनेः","मुनिभ्याम्","मुनिभ्यः"],
+                    ["मुनेः","मुन्योः","मुनीनाम्"],
+                    ["मुनौ","मुन्योः","मुनिषु"],
+                    ["हे मुने","हे मुनी","हे मुनयः"]
+                ]
+            }
+        },
+        {
+            "i_n": {
+                "base": "दधि",
+                "note": "इकारान्त नपुंसकलिङ्ग",
+                "forms": [
+                    ["दधि","दधिनी","दधीनि"],
+                    ["दधि","दधिनी","दधीनि"],
+                    ["दधिना","दधिभ्याम्","दधिभिः"],
+                    ["दधिने","दधिभ्याम्","दधिभ्यः"],
+                    ["दधिनः","दधिभ्याम्","दधिभ्यः"],
+                    ["दधिनः","दधिनोः","दधीनाम्"],
+                    ["दधिनि","दधिनोः","दधिषु"],
+                    ["हे दधि","हे दधिनी","हे दधीनि"]
+                ]
+            }
+        },
+        {
+            "i_f": {
+                "base": "मति",
+                "note": "इकारान्त स्त्रीलिङ्ग",
+                "forms": [
+                    ["मति","मतयोः","मतयः"],
+                    ["मतिम्","मतयोः","मतीन्"],
+                    ["मत्या","मत्याभ्याम्","मत्याः"],
+                    ["मत्या","मत्याभ्याम्","मतिभ्यः"],
+                    ["मत्याः","मत्याभ्याम्","मतिभ्यः"],
+                    ["मत्याः","मतयोः","मतीनाम्"],
+                    ["मत्याः","मतयोः","मतिषु"],
+                    ["हे मति","हे मतयोः","हे मतयः"]
+                ]
+            }
+        },
+        {
+            "e_f": {
+                "base": "नदी",
+                "note": "ईकारान्त स्त्रीलिङ्ग",
+                "forms": [
+                    ["नदी","नद्यौ","नद्यः"],
+                    ["नदीम्","नद्यौ","नदीन्"],
+                    ["नद्या","नदिभ्याम्","नदिभिः"],
+                    ["नद्यै","नदिभ्याम्","नदिभ्यः"],
+                    ["नद्याः","नदिभ्याम्","नदिभ्यः"],
+                    ["नद्याः","नद्योः","नदीनाम्"],
+                    ["नद्याम्","नद्योः","नदिषु"],
+                    ["हे नदि","हे नद्यौ","हे नद्यः"]
+                ]
+
+            }
+        },
+        {
+            "u_m": {
+                "base": "भानु",
+                "note": "उकारान्त पुंलिङ्ग",
+                "forms": [
+                    ["भानुः","भानू","भानवः"],
+                    ["भानुम्","भानू","भानून्"],
+                    ["भानुना","भानुभ्याम्","भानुभिः"],
+                    ["भानवे","भानुभ्याम्","भानुभ्यः"],
+                    ["भानोः","भानुभ्याम्","भानुभ्यः"],
+                    ["भानोः","भान्वोः","भानूनाम्"],
+                    ["भानौ","भान्वोः","भानुषु"],
+                    ["हे भानो","हे भानू","हे भानवः"]
+                ]
+            }
+        },
+        {
+            "u_f": {
+                "base": "धेनु",
+                "note": "उकारान्त स्त्रीलिङ्ग",
+                "forms": [
+                    ["धेनुः","धेनू","धेनवः"],
+                    ["धेनुम्","धेनू","धेनूः"],
+                    ["धेन्वा","धेनुभ्याम्","धेनुभिः"],
+                    ["धेनवे","धेनुभ्याम्","धेनुभ्यः"],
+                    ["धेनोः","धेनुभ्याम्","धेनुभ्यः"],
+                    ["धेनोः","धेन्वोः","धेनूनाम्"],
+                    ["धेनौ","धेन्वोः","धेनुषु"],
+                    ["हे धेनो","हे धेनू","हे धेनवः"]
+                ]
+            }
+        },
+        {
+            "u_m": {
+
+            }
+        },
+        {
+            "o_m": {
+                
+            }
+        },
+        {
+            "ri_m": {
+                
+            }
+        },
+        {
+            "k_m": {
+                
+            }
+        },
+        {
+            "n_m": {
+                "base": "राजन्",
+                "note": "नकारान्त पुंलिङ्ग",
+                "forms": [
+                    ["राजा","राजानौ","राजानः"],
+                    ["राजानम्","राजानौ","राज्ञः"],
+                    ["राज्ञा","राजभ्याम्","राजभिः"],
+                    ["राज्ञे","राजभ्याम्","राजभ्यः"],
+                    ["राज्ञः","राजभ्याम्","राजभ्यः"],
+                    ["राज्ञः","राज्ञोः","राज्ञाम्"],
+                    ["राज्ञि","राज्ञोः","राजसु"],
+                    ["हे राजन्","हे राजानौ","हे राजानः"]
+                ]
+            }
+        },
+        {
+            "t_m": {
+                
+            }
+        },
+        {
+            "d_m": {
+                
+            }
+        },
+        {
+            "ch_f": {
+                "base": "वाच्",
+                "note": "चकारान्त स्त्रीलिङ्ग",
+                "forms": [
+                    ["वाक्","वाचौ","वाचः"],
+                    ["वाचम्","वाचौ","वाचः"],
+                    ["वाचा","वाचोभ्याम्","वाचोभिः"],
+                    ["वाचे","वाचोभ्याम्","वाचोभ्यः"],
+                    ["वाचः","वाचोभ्याम्","वाचोभ्यः"],
+                    ["वाचः","वाचोः","वाचाम्"],
+                    ["वाचि","वाचोः","वाक्षु"],
+                    ["हे वाक्","हे वाचौ","हे वाचः"]
+                ]
+            }
+        },
+        {
+            "j_m": {
+                
+            }
+        },
+        {
+            "bh_m": {
+                
+            }
+        },
+        {
+            "sh_m": {
+                
+            }
+        },
+        {
+            "sha_m": {
+                
+            }
+        },
+        {
+            "s_m": {
+                
+            }
+        },
+        {
+            "h_m": {
+                
+            }
+        },
+        {
+            "p_m": {
+                
+            }
+        },
+        {
+            "r_m": {
+                
+            }
+        },
+        {
+            "m_n": {
+                "base": "नाम",
+                "note": "मकारान्त नपुंसकलिङ्ग",
+                "forms": [
+                    ["नाम","नामनी","नामानि"],
+                    ["नाम","नामनी","नामानि"],
+                    ["नाम्ना","नामभ्याम्","नामभिः"],
+                    ["नाम्ने","नामभ्याम्","नामभ्यः"],
+                    ["नाम्नः","नामभ्याम्","नामभ्यः"],
+                    ["नाम्नः","नाम्नोः","नाम्नाम्"],
+                    ["नाम्नि","नाम्नोः","नामसु"],
+                    ["हे नाम","हे नामनी","हे नामानि"]
+                ]
+            }
+        },
+        {
+            "v_t_m": {
+                
+            }
+        },
+        {
+            "v_i_m": {
+                
+            }
+        },
+        {
+            "v_t_f": {
+                
+            }
+        },
+        {
+            "v_i_f": {
+                
+            }
+        },
+        {
+            "v_t_n": {
+                
+            }
+        },
+        {
+            "v_i_n": {
+                
+            }
+        },
+        {
+            "v_na": {
+                
+            }
+        },
+        {
+            "v_nb": {
+                
+            }
+        }
+    ],
+    "words": [
+        { "id": "balaka", "name": "बालक", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "लड़का", "class": "12" },
+        { "id": "rama", "name": "राम", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_mb", "Meaning": "राम - नाम", "class": "12" },
+        { "id": "deva", "name": "देव", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "देवता, द्न् वाला", "class": "12" },
+        { "id": "vidyalaya", "name": "विद्यालय", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "स्कूल", "class": "12" },
+        { "id": "ashva", "name": "अश्व", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "घोड़ा", "class": "12" },
+        { "id": "gaja_m", "name": "गज", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "हाथी", "class": "12" },
+        { "id": "surya", "name": "सूर्य", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_mb", "Meaning": "सूरज", "class": "12" },
+        { "id": "chandra", "name": "चन्द्र", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_mb", "Meaning": "चंद3मा", "class": "12" },
+        { "id": "shikshaka", "name": "शिक्षक", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "टीचर", "class": "12" },
+        { "id": "sainika", "name": "सैनिक", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "सिपाही", "class": "12" },
+        { "id": "adhyapaka", "name": "अध्यापक", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "टीचर", "class": "12" },
+        { "id": "kukkura", "name": "कुक्कुर", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_mb", "Meaning": "कुत्ता", "class": "12" },
+        { "id": "kaka", "name": "काक", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "कौवा", "class": "12" },
+        { "id": "hamsa", "name": "हंस", "gender": "m", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "हंस पक्षी", "class": "12" },
+        { "id": "anshm", "name": "अंश", "gender": "m", "endingType": "consonant", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "भाग, हिस्सा", "class": "12" },
+        { "id": "deshm", "name": "देश", "gender": "m", "endingType": "consonant", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "देश, प्रांत", "class": "12" },
+        { "id": "narm", "name": "नर", "gender": "m", "endingType": "consonant", "subtype": "अकारान्त", "pattern": "a_mb", "Meaning": "मनुष्य", "class": "12" },
+        { "id": "dwijm", "name": "द्विज", "gender": "m", "endingType": "consonant", "subtype": "अकारान्त", "pattern": "a_ma", "Meaning": "ब्राह्मण, द्विज", "class": "12" },
+        { "id": "phala", "name": "फल", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "खाने का फल", "class": "12" },
+        { "id": "pushpa", "name": "पुष्प", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "फ़ूल", "class": "12" },
+        { "id": "griha", "name": "गृह", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_nb", "Meaning": "घर, मकान", "class": "12" },
+        { "id": "amra", "name": "आम्र", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_nb", "Meaning": "आम फल", "class": "12" },
+        { "id": "rajata", "name": "रजत", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "चाँदी", "class": "12" },
+        { "id": "svarna", "name": "स्वर्ण", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "सोना, गोल्ड", "class": "12" },
+        { "id": "loha", "name": "लोह", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "लोहा", "class": "12" },
+        { "id": "tamra", "name": "ताम्र", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_nb", "Meaning": "ताम्बा", "class": "12" },
+        { "id": "vana", "name": "वन", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "जंगल", "class": "12" },
+        { "id": "patra", "name": "पत्र", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_nb", "Meaning": "चिठ्ठी", "class": "12" },
+        { "id": "jala", "name": "जल", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "पानी", "class": "12" },
+        { "id": "ghrta", "name": "घृत", "gender": "n", "endingType": "vowel", "subtype": "अकारान्त", "pattern": "a_na", "Meaning": "घी खाने वाला", "class": "12" },
+        { "id": "sita", "name": "सीता", "gender": "f", "endingType": "vowel", "subtype": "आकारान्त", "pattern": "aa_f", "Meaning": "सीता - नाम", "class": "12" },
+        { "id": "gita", "name": "गीता", "gender": "f", "endingType": "vowel", "subtype": "आकारान्त", "pattern": "aa_f", "Meaning": "गीता - नाम", "class": "12" },
+        { "id": "mala", "name": "माला", "gender": "f", "endingType": "vowel", "subtype": "आकारान्त", "pattern": "aa_f", "Meaning": "फ़ूल की माला", "class": "12" },
+        { "id": "kaksha", "name": "कक्षा", "gender": "f", "endingType": "vowel", "subtype": "आकारान्त", "pattern": "aa_f", "Meaning": "क्लास", "class": "12" },
+        { "id": "mata", "name": "माता", "gender": "f", "endingType": "vowel", "subtype": "आकारान्त", "pattern": "aa_f", "Meaning": "मम्मी", "class": "12" },
+        { "id": "muni", "name": "मुनि", "gender": "m", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_m", "Meaning": "साधू", "class": "12" },
+        { "id": "rishi", "name": "ऋषि", "gender": "m", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_m", "Meaning": "तपस्या करने वाला", "class": "12" },
+        { "id": "ravi", "name": "रवि", "gender": "m", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_m", "Meaning": "सूरज", "class": "12" },
+        { "id": "agni", "name": "अग्नि", "gender": "m", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_m", "Meaning": "आग", "class": "12" },
+        { "id": "kavi", "name": "कवि", "gender": "m", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_m", "Meaning": "कविता", "class": "12" },
+        { "id": "mati", "name": "मति", "gender": "f", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_f", "Meaning": "बुद्धि", "class": "12" },
+        { "id": "bhumi", "name": "भूमि", "gender": "f", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_f", "Meaning": "ज़मीन", "class": "12" },
+        { "id": "rashi", "name": "राशि", "gender": "f", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_f", "Meaning": "धन, पैसा", "class": "12" },
+        { "id": "akshi", "name": "अक्षि", "gender": "n", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_n", "Meaning": "आँख, नेत्र, नयन, चछु", "class": "12" },
+        { "id": "dadhi", "name": "दधि", "gender": "n", "endingType": "vowel", "subtype": "इकारान्त", "pattern": "i_n", "Meaning": "दाढ़ी", "class": "12" },
+        { "id": "nadi", "name": "नदी", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "नदी, river", "class": "12" },
+        { "id": "sarasvati", "name": "सरस्वती", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "विद्या की देवी", "class": "12" },
+        { "id": "lakshmi", "name": "लक्ष्मी", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "धन की देवी", "class": "12" },
+        { "id": "stri", "name": "स्त्री", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "महिला", "class": "12" },
+        { "id": "gauri", "name": "गौरी", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "देी, शिवजी की पत्नी", "class": "12" },
+        { "id": "shri", "name": "श्री", "gender": "f", "endingType": "vowel", "subtype": "ईकारान्त", "pattern": "e_f", "Meaning": "धन, धन की देवी", "class": "12" },
+        { "id": "bhanu", "name": "भानु", "gender": "m", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_m", "Meaning": "सूरज", "class": "12" },
+        { "id": "guru", "name": "गुरु", "gender": "m", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_m", "Meaning": "टीचर", "class": "12" },
+        { "id": "sadhu", "name": "साधु", "gender": "m", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_m", "Meaning": "मुनि", "class": "12" },
+        { "id": "shambhu", "name": "शम्भु", "gender": "m", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_m", "Meaning": "शिवजी", "class": "12" },
+        { "id": "dhenu", "name": "धेनु", "gender": "f", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_f", "Meaning": "गाय", "class": "12" },
+        { "id": "vadhu", "name": "वधु", "gender": "f", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_f", "Meaning": "दुल्हन", "class": "12" },
+        { "id": "tanu", "name": "तनु", "gender": "f", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_f", "Meaning": "पुत्री", "class": "12" },
+        { "id": "sutanu", "name": "सुतनु", "gender": "f", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_f", "Meaning": "सुपुत्री", "class": "12" },
+        { "id": "madhu", "name": "मधु", "gender": "n", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_n", "Meaning": "शहद", "class": "12" },
+        { "id": "anu", "name": "अणु", "gender": "n", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_n", "Meaning": "छोट कण या तिनका", "class": "12" },
+        { "id": "satyu", "name": "सत्यु", "gender": "n", "endingType": "vowel", "subtype": "उकारान्त", "pattern": "u_n", "Meaning": "सत्य का पालन करने वाला", "class": "12" },
+        { "id": "go", "name": "गौ", "gender": "m", "endingType": "vowel", "subtype": "ओकारान्त", "pattern": "o_m", "Meaning": "बैल", "class": "12" },
+        { "id": "gau", "name": "गौ", "gender": "f", "endingType": "vowel", "subtype": "ओकारान्त", "pattern": "o_f", "Meaning": "गाय", "class": "12" },
+        { "id": "nau", "name": "नौ", "gender": "n", "endingType": "vowel", "subtype": "ओकारान्त", "pattern": "o_n", "Meaning": "नाव", "class": "12" },
+        { "id": "dyo", "name": "द्यो", "gender": "n", "endingType": "vowel", "subtype": "ओकारान्त", "pattern": "o_n", "Meaning": "आकाश, स्वर्ग", "class": "12" },
+        { "id": "pitri", "name": "पितृ", "gender": "m", "endingType": "vowel", "subtype": "ऋकारान्त", "pattern": "ri_m", "Meaning": "पिता", "class": "12" },
+        { "id": "nri", "name": "नृ", "gender": "m", "endingType": "vowel", "subtype": "ऋकारान्त", "pattern": "ri_m", "Meaning": "मनुष्य, पुरुष, मानव", "class": "12" },
+        { "id": "matri", "name": "मातृ", "gender": "f", "endingType": "vowel", "subtype": "ऋकारान्त", "pattern": "ri_f", "Meaning": "मम्मी", "class": "12" },
+        { "id": "rajan", "name": "राजन्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_m", "Meaning": "राजा", "class": "12" },
+        { "id": "atman", "name": "आत्मन्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_ma", "Meaning": "आत्मा, अपने आप", "class": "12" },
+        { "id": "brahman", "name": "ब्राह्मण्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_m", "Meaning": "एक जाति", "class": "12" },
+        { "id": "yuvan", "name": "युवन्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_m", "Meaning": "युवा, जवान व्यक्ति", "class": "12" },
+        { "id": "sadhun", "name": "साधुन्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_m", "Meaning": "साधु", "class": "12" },
+        { "id": "pathin", "name": "पथिन्", "gender": "m", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_mb", "Meaning": "पथ, रास्ता", "class": "12" },
+        { "id": "vachan", "name": "वचन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "वाणी, कथन", "class": "12" },
+        { "id": "naamn", "name": "नामन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "नाम", "class": "12" },
+        { "id": "manan", "name": "मनन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "मन", "class": "12" },
+        { "id": "yashan", "name": "यशन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "यश, प्रसिद्धि", "class": "12" },
+        { "id": "balan", "name": "बलन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "बल, शक्ति", "class": "12" },
+        { "id": "vanan", "name": "वनन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "वन, जंगल", "class": "12" },
+        { "id": "dedan", "name": "मेदन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "चर्बी, मेद", "class": "12" },
+        { "id": "paavakan", "name": "पावकन्", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "अग्नि", "class": "12" },
+        { "id": "paapan", "name": "पापन", "gender": "n", "endingType": "consonant", "subtype": "नकारान्त", "pattern": "n_n", "Meaning": "पाप", "class": "12" },
+        { "id": "jalmuch", "name": "जलमुच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_m", "Meaning": "बादल", "class": "12" },
+        { "id": "wach", "name": "वाच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_m", "Meaning": "बोलने वाला पुरुष", "class": "12" },
+        { "id": "swach", "name": "श्वाच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_m", "Meaning": "कुत्ता", "class": "12" },
+        { "id": "rajach", "name": "राजच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_m", "Meaning": "राजा", "class": "12" },
+        { "id": "sach", "name": "साच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_m", "Meaning": "अनुयायी, सहायक, साथी", "class": "12" },
+        { "id": "tiryyach", "name": "तिर्य्यच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_ma", "Meaning": "पशु, जानवर, चार पैरों पर चलने वाले प्राणी", "class": "12" },
+        { "id": "prtyach", "name": "प्रत्यच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_ma", "Meaning": "पश्चिम दिशा की ओर", "class": "12" },
+        { "id": "udach", "name": "उदच्", "gender": "m", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_ma", "Meaning": "उत्तर दिशा की ओर", "class": "12" },
+        { "id": "vac", "name": "वाच्", "gender": "f", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_f", "Meaning": "वांणी,बोली", "class": "12" },
+        { "id": "dish", "name": "दिश्", "gender": "f", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_f", "Meaning": "दिशा, रास्ता दिखाना", "class": "12" },
+        { "id": "laksh", "name": "लक्ष्", "gender": "f", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_f", "Meaning": "देखना, निशाना लगाना, ध्यान से देखना", "class": "12" },
+        { "id": "rch", "name": "ऋच्", "gender": "f", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_f", "Meaning": "श्लोक, मंत्र", "class": "12" },
+        { "id": "bhakt_f", "name": "भक्त्", "gender": "f", "endingType": "consonant", "subtype": "चकारान्त", "pattern": "ch_f", "Meaning": "भक्ति करने वाला", "class": "12" },
+        { "id": "nama", "name": "नाम", "gender": "n", "endingType": "consonant", "subtype": "मकारान्त", "pattern": "m_n", "Meaning": "नाम", "class": "12" },
+        { "id": "karma", "name": "कर्म्", "gender": "n", "endingType": "consonant", "subtype": "मकारान्त", "pattern": "m_n", "Meaning": "काम", "class": "12" },
+        { "id": "jnana", "name": "ज्ञान्", "gender": "n", "endingType": "consonant", "subtype": "मकारान्त", "pattern": "m_n", "Meaning": "ज्ञान", "class": "12" },
+        { "id": "mana", "name": "मन्", "gender": "n", "endingType": "consonant", "subtype": "मकारान्त", "pattern": "m_n", "Meaning": "मन", "class": "12" },
+        { "id": "rabh", "name": "रभ्", "gender": "m", "endingType": "consonant", "subtype": "भकारान्त", "pattern": "bh_m", "Meaning": "पकड़ना, ग्रहण करना", "class": "12" },
+        { "id": "shrabh", "name": "श्रभ्", "gender": "m", "endingType": "consonant", "subtype": "भकारान्त", "pattern": "bh_m", "Meaning": "आह्वान करने वाला, पुकारने वाला", "class": "12" },
+        { "id": "labh", "name": "लभ्", "gender": "m", "endingType": "consonant", "subtype": "भकारान्त", "pattern": "bh_m", "Meaning": "प्राप्त करने वाला", "class": "12" },
+        { "id": "jabh", "name": "जभ्", "gender": "m", "endingType": "consonant", "subtype": "भकारान्त", "pattern": "bh_m", "Meaning": "निगलने/खाने वाला", "class": "12" },
+        { "id": "gabh", "name": "गभ्", "gender": "m", "endingType": "consonant", "subtype": "भकारान्त", "pattern": "bh_m", "Meaning": "पकड़ने वाला, ग्रहणकर्ता", "class": "12" },
+        { "id": "sridf", "name": "सृद्", "gender": "f", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_f", "Meaning": "पकाने वाली, रसोई करने वाली", "class": "12" },
+        { "id": "ghrid", "name": "धृद्", "gender": "f", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_f", "Meaning": "धारण करने वाली, स्थिर", "class": "12" },
+        { "id": "jrmbhid", "name": "जृम्भिद्", "gender": "f", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_f", "Meaning": "जंभाई देने वाली शक्ति", "class": "12" },
+        { "id": "shmshrud", "name": "श्मश्रुद्", "gender": "f", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_f", "Meaning": "दाढ़ी", "class": "12" },
+        { "id": "adm", "name": "अद्", "gender": "m", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_m", "Meaning": "खाने वाला", "class": "12" },
+        { "id": "vidm", "name": "विद्", "gender": "m", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_m", "Meaning": "जानने वाला, ज्ञानी", "class": "12" },
+        { "id": "hrid", "name": "हृद्", "gender": "m", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_m", "Meaning": "हृदय", "class": "12" },
+        { "id": "sridm", "name": "सृद्", "gender": "m", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_m", "Meaning": "पकाने वाला, रसोई करने वाला", "class": "12" },
+        { "id": "paadn", "name": "पाद्", "gender": "n", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_n", "Meaning": "पैर", "class": "12" },
+        { "id": "vedn", "name": "वेद्", "gender": "n", "endingType": "consonant", "subtype": "दकारान्त", "pattern": "d_n", "Meaning": "ज्ञान", "class": "12" },
+        { "id": "aarh", "name": "अर्ह्", "gender": "f", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_f", "Meaning": "योग्य, पात्र", "class": "12" },
+        { "id": "daah", "name": "दह्", "gender": "f", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_f", "Meaning": "दहन, जलना", "class": "12" },
+        { "id": "spreh", "name": "स्पृह्", "gender": "f", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_f", "Meaning": "इच्छा, लालसा", "class": "12" },
+        { "id": "greh", "name": "गृह्", "gender": "f", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_f", "Meaning": "ग्रहण, लेना", "class": "12" },
+        { "id": "vaah", "name": "वह्", "gender": "f", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_f", "Meaning": "वहन, ले जाना", "class": "12" },
+        { "id": "arh", "name": "अर्ह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "योग्य, पात्र", "class": "12" },
+        { "id": "durh", "name": "दुर्ह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "कठिन, दुष्कर", "class": "12" },
+        { "id": "grih", "name": "गृह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "ग्रहण करने वाला, पकड़ने वाला", "class": "12" },
+        { "id": "dah", "name": "दह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "जलाने वाला, अग्नि-स्वरूप", "class": "12" },
+        { "id": "lah", "name": "लह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "चाटने वाला, रस चखने वाला", "class": "12" },
+        { "id": "sprih", "name": "स्पृह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "इच्छा/लालसा रखने वाला", "class": "12" },
+        { "id": "vah", "name": "वह्", "gender": "m", "endingType": "consonant", "subtype": "हकारान्त", "pattern": "h_m", "Meaning": "वहन करने वाला, ले जाने वाला", "class": "12" },
+        { "id": "raj", "name": "रज्", "gender": "m", "endingType": "consonant", "subtype": "जकारान्त", "pattern": "j_m", "Meaning": "धूल, कण", "class": "12" },
+        { "id": "bhaj", "name": "भज्", "gender": "m", "endingType": "consonant", "subtype": "जकारान्त", "pattern": "j_m", "Meaning": "भक्ति/सेवा करने वाला", "class": "12" },
+        { "id": "srij", "name": "सृज्", "gender": "m", "endingType": "consonant", "subtype": "जकारान्त", "pattern": "j_m", "Meaning": "उत्पन्न करने वाला", "class": "12" },
+        { "id": "yaj", "name": "यज्", "gender": "m", "endingType": "consonant", "subtype": "जकारान्त", "pattern": "j_m", "Meaning": "यजमान", "class": "12" },
+        { "id": "muj", "name": "मुज्", "gender": "m", "endingType": "consonant", "subtype": "जकारान्त", "pattern": "j_m", "Meaning": "छुड़ाने वाला, मुक्त करने वाला", "class": "12" },
+        { "id": "sak", "name": "शक्", "gender": "f", "endingType": "consonant", "subtype": "ककारान्त", "pattern": "k_f", "Meaning": "सामर्थ्य, शक्ति", "class": "12" },
+        { "id": "suuk", "name": "सुक्", "gender": "f", "endingType": "consonant", "subtype": "ककारान्त", "pattern": "k_f", "Meaning": "स्तुति, मंत्र", "class": "12" },
+        { "id": "dik", "name": "दिक्", "gender": "f", "endingType": "consonant", "subtype": "ककारान्त", "pattern": "k_f", "Meaning": "दिशा", "class": "12" },
+        { "id": "ruuk", "name": "रुक्", "gender": "f", "endingType": "consonant", "subtype": "ककारान्त", "pattern": "k_f", "Meaning": "हानि, दुःख", "class": "12" },
+        { "id": "stup", "name": "स्तुप्", "gender": "f", "endingType": "consonant", "subtype": "पकारान्त", "pattern": "p_f", "Meaning": "ढेर, स्तूप", "class": "12" },
+        { "id": "swap", "name": "स्वप्", "gender": "f", "endingType": "consonant", "subtype": "पकारान्त", "pattern": "p_f", "Meaning": "नींद", "class": "12" },
+        { "id": "tap", "name": "तप्", "gender": "f", "endingType": "consonant", "subtype": "पकारान्त", "pattern": "p_f", "Meaning": "तपस्या, ऊष्णता", "class": "12" },
+        { "id": "lip", "name": "लिप्", "gender": "f", "endingType": "consonant", "subtype": "पकारान्त", "pattern": "p_f", "Meaning": "लिपि, अंकन, लिखावट", "class": "12" },
+        { "id": "dhar", "name": "धार्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "धारण करने वाली शक्ति, धारा", "class": "12" },
+        { "id": "veer", "name": "वीर्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "वीरता, शक्ति", "class": "12" },
+        { "id": "jwar", "name": "ज्वर्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "ज्वर, ताप", "class": "12" },
+        { "id": "kurmer", "name": "कूर्मर्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "कछुए की पत्नी", "class": "12" },
+        { "id": "mrutter", "name": "मरुत्तर्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "मरुतों की माता", "class": "12" },
+        { "id": "usher", "name": "उषर्", "gender": "f", "endingType": "consonant", "subtype": "रकारान्त", "pattern": "r_f", "Meaning": "प्रभात, उषा", "class": "12" },
+        { "id": "usherf", "name": "उषस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "प्रभात, भोर", "class": "12" },
+        { "id": "trishsf", "name": "तृषस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "प्यास", "class": "12" },
+        { "id": "dishsf", "name": "दिशस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "दिशा", "class": "12" },
+        { "id": "ratrisf", "name": "रात्रिस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "रात", "class": "12" },
+        { "id": "shrutisf", "name": "श्रुतिस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "वेद-शास्त्र / सुनी हुई बात", "class": "12" },
+        { "id": "matisf", "name": "मतिस्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "बुद्धि", "class": "12" },
+        { "id": "jagatsf", "name": "जगत्स्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "s_f", "Meaning": "भूमि, पृथ्वी", "class": "12" },
+        { "id": "vidwas", "name": "विद्वस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "विद्वान्, ज्ञानी, पंडित, शिक्षित व्यक्ति", "class": "12" },
+        { "id": "pumas", "name": "पुम्स्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "पुरुष", "class": "12" },
+        { "id": "manas", "name": "मनस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "मन", "class": "12" },
+        { "id": "medas", "name": "मेदस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "चर्बी, मेद", "class": "12" },
+        { "id": "paapas", "name": "पापस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "पाप", "class": "12" },
+        { "id": "asmatsm", "name": "अस्मत्स्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "दिन", "class": "12" },
+        { "id": "vishvasm", "name": "विश्वस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "सर्व, सब", "class": "12" },
+        { "id": "prishtsm", "name": "पृषत्स्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "वृषभ, बैल", "class": "12" },
+        { "id": "pindsm", "name": "पिण्डस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "पिण्ड, गोला", "class": "12" },
+        { "id": "shwasm", "name": "श्वस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_m", "Meaning": "कल का दिनआने वाला", "class": "12" },
+        { "id": "chandrmas", "name": "चन्द्रमस्", "gender": "m", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_ma", "Meaning": "चंद्रमा", "class": "12" },
+        { "id": "divas", "name": "दिवस्", "gender": "n", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_n", "Meaning": "दिन, आकाश", "class": "12" },
+        { "id": "tapas", "name": "तपस्", "gender": "n", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_n", "Meaning": "तप, तपस्या", "class": "12" },
+        { "id": "balas", "name": "बलस्", "gender": "n", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_n", "Meaning": "बल", "class": "12" },
+        { "id": "swapas", "name": "स्वपस्", "gender": "n", "endingType": "consonant", "subtype": "सकारान्त", "pattern": "s_n", "Meaning": "नींद", "class": "12" },
+        { "id": "dishf", "name": "दिश्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_f", "Meaning": "दिशा", "class": "12" },
+        { "id": "eish", "name": "ईश्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_f", "Meaning": "शक्ति, देवी", "class": "12" },
+        { "id": "driksh", "name": "दक्ष्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_f", "Meaning": "दक्षता, योग्य स्त्री", "class": "12" },
+        { "id": "rushf", "name": "रुश्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_f", "Meaning": "चमक, शोभा", "class": "12" },
+        { "id": "vishf", "name": "विश्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_f", "Meaning": "जनसमूह, प्रजा", "class": "12" },
+        { "id": "yashas", "name": "यशश्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_m", "Meaning": "यश, प्रसिद्धि", "class": "12" },
+        { "id": "punsh", "name": "पुंश्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_m", "Meaning": "पुरुष", "class": "12" },
+        { "id": "rush", "name": "रुश्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_m", "Meaning": "प्रकाश, चमक", "class": "12" },
+        { "id": "dish_m", "name": "दिश्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_m", "Meaning": "आदेश देने वाला", "class": "12" },
+        { "id": "mrish", "name": "मृश्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_m", "Meaning": "स्पर्श करने वाला, छूने वाला", "class": "12" },
+        { "id": "tejash", "name": "तेजश्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "sh_n", "Meaning": "तेज, शक्ति", "class": "12" },
+        { "id": "trishf_sha", "name": "तृष्", "gender": "f", "endingType": "consonant", "subtype": "षकारान्त", "pattern": "sha_f", "Meaning": "प्यास", "class": "12" },
+        { "id": "prish", "name": "पृष्", "gender": "f", "endingType": "consonant", "subtype": "षकारान्त", "pattern": "sha_f", "Meaning": "पीठ", "class": "12" },
+        { "id": "trish_sha_m", "name": "तृष्", "gender": "m", "endingType": "consonant", "subtype": "षकारान्त", "pattern": "sha_m", "Meaning": "प्यास रखने वाला", "class": "12" },
+        { "id": "dwishm", "name": "द्विष्", "gender": "m", "endingType": "consonant", "subtype": "षकारान्त", "pattern": "sha_m", "Meaning": "शत्रु, द्वेष करने वाला", "class": "12" },
+        { "id": "vishsh", "name": "विषष्", "gender": "n", "endingType": "consonant", "subtype": "षकारान्त", "pattern": "sha_n", "Meaning": "विष", "class": "12" },
+        { "id": "dhritf", "name": "धृत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "धारण करने वाली, स्थिर स्त्री", "class": "12" },
+        { "id": "sritf", "name": "सृत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "प्रवाह, बहने वाली", "class": "12" },
+        { "id": "matf", "name": "मत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "इच्छा/मत रखने वाली", "class": "12" },
+        { "id": "aaotf", "name": "ओत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "धागा, बुनाई", "class": "12" },
+        { "id": "vitf", "name": "वित्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "बुद्धि/ज्ञान रखने वाली", "class": "12" },
+        { "id": "smritf", "name": "स्मृत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "स्मरण/स्मृति", "class": "12" },
+        { "id": "bhritf", "name": "भृत्", "gender": "f", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_f", "Meaning": "पोषण करने वाली, धारक स्त्री", "class": "12" },
+        { "id": "bhavat", "name": "भवत्", "gender": "m", "endingType": "consonant", "subtype": "तकारान्त", "pattern": "t_m", "Meaning": "आप", "class": "12" },
+        { "id": "bhagvat", "name": "भगवत्", "gender": "m", "endingType": "consonant", "subtype": "तकारान्त", "pattern": "t_m", "Meaning": "भगवान्", "class": "12" },
+        { "id": "mahat", "name": "महत्", "gender": "m", "endingType": "consonant", "subtype": "तकारान्त", "pattern": "t_m", "Meaning": "विशाल, महान्", "class": "12" },
+        { "id": "patm", "name": "पत्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "उड़ने वाला, संरक्षक", "class": "12" },
+        { "id": "chitm", "name": "चित्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "ज्ञानी, बुद्धिमान", "class": "12" },
+        { "id": "gantm", "name": "गन्त्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "जाने वाला, यात्री", "class": "12" },
+        { "id": "hantm", "name": "हन्त्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "मारने वाला, संहारक", "class": "12" },
+        { "id": "kartm", "name": "कर्त्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "कर्ता, करने वाला", "class": "12" },
+        { "id": "gajatm", "name": "जगत्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "जगत्, संसार", "class": "12" },
+        { "id": "satm", "name": "सत्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "अस्तित्व, सत्य", "class": "12" },
+        { "id": "chittm", "name": "चित्त्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "चित्त, मन", "class": "12" },
+        { "id": "bhutm", "name": "भूत्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "भूत, प्रेत, भूतकाल", "class": "12" },
+        { "id": "yaatm", "name": "यात्", "gender": "m", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_m", "Meaning": "चलने वाला वाहन", "class": "12" },
+        { "id": "gachat", "name": "गच्छत्", "gender": "m", "endingType": "consonant", "subtype": "तकारान्त", "pattern": "t_ma", "Meaning": "चलकर जाना", "class": "12" },
+        { "id": "marut", "name": "मारुत्", "gender": "m", "endingType": "consonant", "subtype": "तकारान्त", "pattern": "t_mb", "Meaning": "हवा का देवता", "class": "12" },
+        { "id": "chitn", "name": "चित्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_n", "Meaning": "चेतना", "class": "12" },
+        { "id": "mritn", "name": "मृत्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_n", "Meaning": "मिट्टी", "class": "12" },
+        { "id": "atitn", "name": "अतित्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_n", "Meaning": "भोजन", "class": "12" },
+        { "id": "ghritn", "name": "घृत्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_n", "Meaning": "घी", "class": "12" },
+        { "id": "sritn", "name": "सृत्", "gender": "n", "endingType": "consonant", "subtype": "शकारान्त", "pattern": "t_n", "Meaning": "प्रवाह, बहना", "class": "12" },
+        { "id": "tatm", "name": "तत्", "gender": "m", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_m", "Meaning": "वह", "class": "12" },
+        { "id": "atatm", "name": "एतत्", "gender": "m", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_m", "Meaning": "यह (बहुत पास)", "class": "12" },
+        { "id": "kimm", "name": "किम्", "gender": "m", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_m", "Meaning": "कौन", "class": "12" },
+        { "id": "idamm", "name": "इदम्", "gender": "m", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_i_m", "Meaning": "यह", "class": "12" },
+        { "id": "twamn", "name": "त्वम्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_n", "Meaning": "तुम", "class": "12" },
+        { "id": "ahan", "name": "अहम्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_n", "Meaning": "मै", "class": "12" },
+        { "id": "tatf", "name": "तत्", "gender": "f", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_f", "Meaning": "वह", "class": "12" },
+        { "id": "atatf", "name": "एतत्", "gender": "f", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_f", "Meaning": "यह (बहुत पास)", "class": "12" },
+        { "id": "kimf", "name": "किम्", "gender": "f", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_f", "Meaning": "कौन", "class": "12" },
+        { "id": "idamf", "name": "इदम्", "gender": "f", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_i_f", "Meaning": "यह", "class": "12" },
+        { "id": "tatn", "name": "तत्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_n", "Meaning": "वह", "class": "12" },
+        { "id": "atatn", "name": "एतत्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_n", "Meaning": "यह (बहुत पास)", "class": "12" },
+        { "id": "kimn", "name": "किम्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_t_n", "Meaning": "कौन", "class": "12" },
+        { "id": "idamn", "name": "इदम्", "gender": "n", "endingType": "pronoun", "subtype": "सर्वनाम्", "pattern": "v_i_n", "Meaning": "यह", "class": "12" }
+    ],
+    "allsubtypes": [
+        { "name": "अकारान्त", "value": "a", "type": "vowel" },
+        { "name": "आकारान्त", "value": "aa", "type": "vowel" },
+        { "name": "इकारान्त", "value": "i", "type": "vowel" },
+        { "name": "ईकारान्त", "value": "e", "type": "vowel" },
+        { "name": "उकारान्त", "value": "u", "type": "vowel" },
+        { "name": "ओकारान्त", "value": "o", "type": "vowel" },
+        { "name": "ऋकारान्त", "value": "ri", "type": "vowel" },
+        { "name": "ककारान्त", "value": "k", "type": "consonant" },
+        { "name": "नकारान्त", "value": "n", "type": "consonant" },
+        { "name": "तकारान्त", "value": "t", "type": "consonant" },
+        { "name": "दकारान्त", "value": "d", "type": "consonant" },
+        { "name": "चकारान्त", "value": "ch", "type": "consonant" },
+        { "name": "जकारान्त", "value": "j", "type": "consonant" },
+        { "name": "भकारान्त", "value": "bh", "type": "consonant" },
+        { "name": "शकारान्त", "value": "sh", "type": "consonant" },
+        { "name": "षकारान्त", "value": "sha", "type": "consonant" },
+        { "name": "सकारान्त", "value": "s", "type": "consonant" },
+        { "name": "हकारान्त", "value": "h", "type": "consonant" },
+        { "name": "पकारान्त", "value": "p", "type": "consonant" },
+        { "name": "रकारान्त", "value": "r", "type": "consonant" },
+        { "name": "मकारान्त", "value": "m", "type": "consonant" },
+        { "name": "सर्वनाम्", "value": "v", "type": "pronoun" }
+    ]
+}

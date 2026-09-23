@@ -1,0 +1,23 @@
+Degree of Polynomial: Highest power
+Polynnomials of degree 1, 2 and 3 are called linear, quadratic and cubic polynomials respectively.
+Not Polynomial	$({{\dfrac{1}{x−1}}, \sqrt{x}+2, {\dfrac{1}{x^2+2x+}}})$
+Linear Polynomial: Degree 1 (Graph is straight Line)
+	\img"10-math-1-2-img1.png"
+Quadratic Polynomial: Degree 2 (Graph is Curve, open upward or downward, called parabola)
+	\img"10-math-1-2-img2.png"
+	Case 1: Parabola cut X axis at 2 points. These 2 values of x are Zeros of Polynomial
+	Case 2: Parabola touch X axis at one point. There the 2 Zeros of polynomial coincide and make only 1 point. Thus has 1 Zero of polynomial
+	Case 3: Parabola is above or below X axis. Thus this is no Zero polynomial
+Cubic Polynomial: Degree 3
+Polynomial represented by $p(x) = x^2 + 2x + 3$
+p(k) is calculated by putting k in place of x
+Zero of Polynomial: Values which make Polynomial 0
+Factor Theorem: If p(k) = 0 then (x-k) is a factor of polynomial
+Let a polynomial be $ax^2 + bx + c$, and lets assume it is product of $(x-p)(x-r)$
+	$p + r = \dfrac{-b}{a}$
+	$p\times r = \dfrac{c}{a}$
+	Root = ${\dfrac{-b ± \sqrt{b^2 - 4ac}}{2a}}$
+Same way for $ax^3 + bx^2 + cx + d$, lets asume it is product of $(x-p)(x-r)(x-s)$
+	$p + r + s = \dfrac{-b}{a}$
+	$pr + ps + rs = \dfrac{c}{a}$
+	$prs = \dfrac{-d}{a}$

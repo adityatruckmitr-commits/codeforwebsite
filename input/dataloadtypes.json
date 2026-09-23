@@ -1,0 +1,86 @@
+[
+    {
+        "type": "playlist",
+        "value": [
+            {
+                "id": "QA1MpnZbzq4",
+                "title": ""
+            }
+        ]
+    },
+    {
+        "value": [
+            "UVNLDM3Q0yM",
+            "UCTyLqbIJrA"
+        ],
+        "type": "playlist"
+    },
+    {
+        "value": "UVNLDM3Q0yM",
+        "type": "video"
+    },
+    {
+        "value": [
+        {
+            "file": "test1.csv",
+            "title": "This is test 1"
+        }
+        ],
+        "type": "csv"
+    },
+    {
+        "value": [
+        {
+            "file": "test1.txt",
+            "title": "This is test 1"
+        }
+        ],
+        "type": "txt"
+    },
+    {
+        "value": [
+        {
+            "file": "test1.tsv",
+            "title": "This is test 1"
+        }
+        ],
+        "type": "tsv"
+    },
+    {
+        "value": "9-sst-4-1-frenchrevolution-1.json",
+        "type": "timeline",
+        "order": "asc",
+        "Title": "my title"
+    },
+    {
+        "value": [
+            "cat.jpg",
+            "dog.jpg"
+        ],
+        "type": "imagegroup"
+    },
+    {
+        "value": "hsyj101.pdf",
+        "type": "answers"
+    },
+    {
+        "value": [
+            "cat.jpg",
+            "dog.jpg"
+        ],
+        "type": "answers"
+    },
+    {
+        "type": "periodictable"
+    },
+    {
+        "type": "flowchart",
+        "value": [
+            { "file": "json1.json", "title": "title1" },
+            { "file": "json2.json", "title": "title2" }
+        ]
+    },
+    {
+        "type": "sanskrit"
+    }
+]

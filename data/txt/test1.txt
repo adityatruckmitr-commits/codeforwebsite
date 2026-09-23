@@ -1,0 +1,43 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  azureServiceConnection: "Azure-Service-Connection-Name"  # change
+  webAppName: "my-static-webapp-name"                       # change
+
+steps:
+- checkout: self
+  clean: true
+
+# Optional: validate index.htm exists
+- script: |
+    if [ ! -f "$(Build.SourcesDirectory)/index.htm" ]; then
+      echo "ERROR: index.htm not found in repo root"
+      ls -la "$(Build.SourcesDirectory)"
+      exit 1
+    fi
+  displayName: "Validate index.htm"
+
+# Zip the entire site (root + folders)
+- task: ArchiveFiles@2
+  displayName: "Create site ZIP"
+  inputs:
+    rootFolderOrFile: "$(Build.SourcesDirectory)"
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: "$(Build.ArtifactStagingDirectory)/site.zip"
+    replaceExistingArchive: true
+
+# Deploy ZIP to Azure Web App
+- task: AzureWebApp@1
+  displayName: "Deploy to Azure Web App"
+  inputs:
+    azureSubscription: "$(azureServiceConnection)"
+    appType: webAppLinux      # use 'webApp' for Windows
+    appName: "$(webAppName)"
+    package: "$(Build.ArtifactStagingDirectory)/site.zip"

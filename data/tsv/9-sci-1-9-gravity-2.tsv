@@ -1,0 +1,12 @@
+Gravitation
+	Any matter which has mass attracts other matter.
+	The force exerted by 2 bodies of matter on each other is called Gravitation
+	In case of Earth and other objects on earth. The mass of other objects is negligible to mass of earth.
+		$Fd^{2} = GMm$
+		$F = mg = \frac{GMm}{d^{2}}$
+		Distance between earth's center and stone center is d. So d = Earth Radius + distance of stone from earth surface.
+		Since Distance of stone from earth's surface is negligible to Radius of earth. Thus we take R instead of d
+		$F = mg = \frac{GMm}{R^{2}}$
+		Weight is force.
+		Thrust is force.
+		$F = ma = T = pa$  (p is pressure and a is area)

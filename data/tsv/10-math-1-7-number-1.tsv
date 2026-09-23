@@ -1,0 +1,4 @@
+Coordinate is in form (x,y)
+Distance of (x,y) from origin = $\sqrt{x^2+y^2}$
+Distance between 2 coordinates $({x_1}, {y_1})$ and $({x_2}, {y_2})$ = $\sqrt{({x_2}-{x_1})^2+({y_2}-{y_1})^2}$
+The coordiantes of point $P(x, y)$ which divides linne segment joining points $A({x_1}, {y_1})$ and $B({x_2}, {y_2})$ internally  in ration ${m_1}:{m_2}$ are $({\dfrac{{m_1}{x_2}+{m_2}{x_1}}{{m_1}+{m_2}}, \dfrac{{m_1}{y_2}+{m_2}{y_1}}{{m_1}+{m_2}}})$

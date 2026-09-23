@@ -1,0 +1,54 @@
+Polygons and Quadrilaterals
+	Sum of Angles: sum of all 4 angles is $360^\circ$
+	Sum of Angles of Polygon of $n$ sides: $S=(n-2)\times180^\circ$
+	Number of diagonals in polygon of $n$ sides: $\frac{n(n-3)}{2}$
+	Regular Polygon: all sides and angles are equal
+		Regular Polygon
+			Each interior angle $=\frac{(n-2)\times180}{n}$
+			Each exterior angle $=\frac{360}{n}$
+	Types of Quadrilateral
+		Trapezium
+			\img"quad1.png"
+			Both opposite sides are not equal
+			Only 1 pair of opposite side is $\parallel$
+			$Area=\frac12\times height \times (sum\: of\: parallel\: sides)$
+		Isosceles Trapezium
+			\img"quad2.png"
+			Trapezium with non-parallel sides equal
+			$\angle1=\angle2$ and $\angle3=\angle4$
+			$\angle1+\angle4=180^\circ$ and $\angle2+\angle3=180^\circ$
+			Diagonals are equal
+		Parallelogram
+			\img"quad3.png"
+			Opposite sides are equal and parallel
+			Opposite angles are equal
+			Adjacent angles are supplementary
+			Diagonal makes 2 congruent triangles
+			Diagonals bisect each other
+			$Area=base\times height$
+		Rhombus
+			\img"quad4.png"
+			All 4 sides are equal
+			Opposite sides are parallel
+			Opposite angles are equal
+			Adjacent angles are supplementary
+			Diagonals are perpendicular
+			$Area=base\times height=\frac12\times(product\: of\: diagonals)$
+		Rectangle
+			\img"quad5.png"
+			All angles are right angles
+			Opposite sides are equal and parallel
+			Diagonals are equal
+			Diagonals bisect each other
+			$Area=base\times height$
+		Square
+			\img"quad6.png"
+			Rectangle with length and width equal
+			$Area=s^2$
+		Kite
+			\img"quad7.png"
+			2 pairs of adjacent sides are equal
+			Angles between unequal sides are equal
+			Diagonal between unequal angles bisects unequal angles and bisects other diagonal
+			Diagonals are perpendicular to each other
+			$Area=\frac12\times(product\: of\: diagonals)$

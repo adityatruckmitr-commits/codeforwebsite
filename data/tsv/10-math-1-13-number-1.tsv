@@ -1,0 +1,38 @@
+Class Mark = $\dfrac{Upper Class Limit + Lower Class Limit}{2}$
+Mean of Grouped data
+	Direct method:
+		Frequency: $f_i$
+		Class mark: $x_i$
+		Mean $(\overline{x}) = \dfrac{\sum{{f_i}{x_i}}}{\sum{f_i}}$
+		\img"10-math-1-13-img1.png"
+	Assumed Mean
+		Frequency: $f_i$
+		Class mark: $x_i$
+		Assumed Mean: $a$
+		Deviation: $d_i = {x_i}-a$
+		Mean $(\overline{x}) = a + \overline{d} = a+{\dfrac{\sum{{f_i}{d_i}}}{\sum{f_i}}}$
+		\img"10-math-1-13-img2.png"
+	Step Deviation Method
+		Frequency: $f_i$
+		Class mark: $x_i$
+		Assumed Mean: $a$
+		Deviation: $d_i = {x_i}-a$
+		Class Interval = $h$
+		Step Deviation $u_i = \dfrac{{x_i}-a}{h}$
+		Mean $(\overline{x}) = a + h\overline{u} = a+h{\dfrac{\sum{{f_i}{u_i}}}{\sum{f_i}}}$
+		\img"10-math-1-13-img3.png"
+Mode
+	Lower Limit of Modal Class: $l$
+	Size of Class interval: $h$
+	Frequency of modal class: $f_1$
+	Frequency of class preceding modal class: $f_0$
+	Frequency of class succeeding modal class: $f_2$
+	Modal Class: The class interval which has highest frequency
+	Mode $= l+({\dfrac{{f_1}-{f_0}}{2{f_1}-{f_0}-{f_2}}})\times{h}$
+	\img"10-math-1-13-img4.png"
+Median
+	If n is Odd, Median = $\dfrac{n+1}{2}$ th term.
+	if n is even, Median = $\dfrac{n^{th} term + (n+1)^{th} term}{2}$
+	Median Class: we find cumulative frequencies of all class and then locate class $\dfrac{n}{2}$.
+	Median $= l+({\dfrac{{\dfrac{n}{2}}-cf}{f}})\times{h}$
+$3Median = Mode + 2Mean$

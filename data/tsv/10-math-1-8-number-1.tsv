@@ -1,0 +1,18 @@
+Trigonometry is special case of ratios about right angled triangle.
+	\img"10-math-1-8-img1.png"
+	(jiva)Sine of A: $\dfrac{l}{h}$
+	(kotijya)/cisube of A: $\dfrac{b}{h}$
+	Tangent of A: $\dfrac{l}{b}$
+	Cosecant of A : $\dfrac{h}{l}$
+	Secant of A : $\dfrac{h}{b}$
+	Cotangent of A : $\dfrac{b}{l}$
+Some Identities of Trigonometry
+	$tan{\theta} = \dfrac{sin{\theta}}{cos{\theta}}$
+	$cosec{\theta} = \dfrac{1}{sin{\theta}}$
+	$sec{\theta} = \dfrac{1}{cos{\theta}}$
+	$cot{\theta} = \dfrac{1}{tan{\theta}} = \dfrac{cosec{\theta}}{sec{\theta}} = \dfrac{cos{\theta}}{sin{\theta}}$
+	$sin^2{\theta}+cos^2{\theta} = 1$
+	$1+tan^2{\theta} = sec^2{\theta}$
+	$1+cot^2{\theta} = cosec^2{\theta}$
+Memory for common ratios
+	\img"10-math-1-8-img2.png"

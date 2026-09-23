@@ -1,0 +1,32 @@
+{
+  "layout": "LR",
+  "nodes": [
+    {
+      "id": "france",
+      "type": "processNode",
+      "data": { "label": "France Divided in 13 districts" }
+    },
+    {
+      "id": "district",
+      "type": "processNode",
+      "data": { "label": "Each district had District Parliament" }
+    },
+    {
+      "id": "parliament",
+      "type": "processNode",
+      "data": {
+        "label": " Each District Parliament has 50–150 members, Judges & Legal Elites (Lawyers) & Settle court cases"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "france",
+      "target": "district"
+    },
+    {
+      "source": "district",
+      "target": "parliament"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+"width"=70%
+<"स्वर सन्धि">
+शुद्ध स्वर : अ, इ, उ, ऋ, लृ
+
+<"संयुक्त स्वर">
+Table
+	Columns
+		Col	
+		Col	
+		Col	
+		Col	
+		Col	
+		Col	
+	Row
+		Col	दीर्घ सन्धि
+		Col	अ / आ
+		Col	+
+		Col	अ / आ
+		Col	=
+		Col	आ
+	Row
+		Col	दीर्घ सन्धि
+		Col	इ / ई
+		Col	+
+		Col	इ / ई
+		Col	=
+		Col	ई
+	Row
+		Col	दीर्घ सन्धि
+		Col	उ / ऊ
+		Col	+
+		Col	उ / ऊ
+		Col	=
+		Col	ऊ
+	Row
+		Col	दीर्घ सन्धि
+		Col	ऋ / ऋृ
+		Col	+
+		Col	ऋ / ऋृ
+		Col	=
+		Col	ऋृ
+	Row
+		Col	गुण सन्धि
+		Col	अ / आ
+		Col	+
+		Col	इ / ई
+		Col	=
+		Col	ए
+	Row
+		Col	गुण सन्धि
+		Col	अ / आ
+		Col	+
+		Col	उ / ऊ
+		Col	=
+		Col	ओ
+	Row
+		Col	गुण सन्धि
+		Col	अ / आ
+		Col	+
+		Col	ऋ / ऋृ
+		Col	=
+		Col	अर्
+	Row
+		Col	वृद्धि सन्धि
+		Col	अ / आ
+		Col	+
+		Col	ए
+		Col	=
+		Col	ऐ
+	Row
+		Col	वृद्धि सन्धि
+		Col	अ / आ
+		Col	+
+		Col	ओ
+		Col	=
+		Col	औ
+	Row
+		Col	यण् सन्धि
+		Col	इ / ई
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	य्
+	Row
+		Col	यण् सन्धि
+		Col	उ / ऊ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	व्
+	Row
+		Col	यण् सन्धि
+		Col	ऋ / ऋृ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	र्
+	Row
+		Col	यण् सन्धि
+		Col	ळ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	ल्
+	Row
+		Col	अयादि सन्धि
+		Col	ए
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	अय्
+	Row
+		Col	अयादि सन्धि
+		Col	ऐ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	आय्
+	Row
+		Col	अयादि सन्धि
+		Col	ओ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	अव्
+	Row
+		Col	अयादि सन्धि
+		Col	औ
+		Col	+
+		Col	अन्य स्वर
+		Col	=
+		Col	आव्
+	Row
+		Col	पूर्वरूप सन्धि
+		Col	ए
+		Col	+
+		Col	अ
+		Col	=
+		Col	एऽ
+	Row
+		Col	पूर्वरूप सन्धि
+		Col	ओ
+		Col	+
+		Col	अ
+		Col	=
+		Col	ओऽ
+EndTable
+<"प्रकृतिभाव: सन्धि का निषेध">
+Table
+	Columns
+		Col	प्रगृह्य संज्ञा
+		Col	
+		Col	
+	Row
+		Col	प्रगृह्य संज्ञा
+		Col	ऐसे द्विवचन जिनके अंत मे ई, ऊ या ए आता है, या पहले शब्द के अंत मे मी या मू आता है
+		Col	इनकी संधि अगले शब्द के स्वर से नहीं होती है
+	Row
+		Col	पररूप
+		Col	उपसर्ग के अ के बाद ए आए तो अ एका रूप ले लेता है
+		Col	यहाँ वृद्धी संधि नहीं होती, बल्कि अ का लोप हो जाता है
+EndTable
+<"व्यन्जन सन्धि">
+Table
+	Columns
+		Col	
+		Col	
+		Col	
+		Col	
+		Col	
+		Col	
+	Row
+		Col	जश्त्व सन्धि (झल् को जश् होना)
+		Col	वर्गीकृत (1,2,3,4)
+		Col	+
+		Col	स्वर या व्यंजन
+		Col	=
+		Col	वर्गीकृत (3)
+	Row
+		Col	श्चुत्व सन्धि (स,त वर्ग + स,च वर्ग होने पर स् को श्, त् को च् होता है)
+		Col	स्
+		Col	+
+		Col	च्
+		Col	=
+		Col	श्च्
+	Row
+		Col	श्चुत्व सन्धि (स,त वर्ग + स,च वर्ग होने पर स् को श्, त् को च् होता है)
+		Col	स्
+		Col	+
+		Col	श्
+		Col	=
+		Col	श्श्
+	Row
+		Col	श्चुत्व सन्धि (स,त वर्ग + स,च वर्ग होने पर स् को श्, त् को च् होता है)
+		Col	त्
+		Col	+
+		Col	च्
+		Col	=
+		Col	च्च्
+	Row
+		Col	श्चुत्व सन्धि (स,त वर्ग + स,च वर्ग होने पर स् को श्, त् को च् होता है)
+		Col	त् / द्
+		Col	+
+		Col	ज्
+		Col	=
+		Col	ज्ज्
+	Row
+		Col	ष्टुत्व सन्धि (स्,त वर्ग + ष्,ट वर्ग होने पर स् को ष्, त् को ट् होता है)
+		Col	स्
+		Col	+
+		Col	ष्
+		Col	=
+		Col	ष्ष्
+	Row
+		Col	ष्टुत्व सन्धि (स्,त वर्ग + ष्,ट वर्ग होने पर स् को ष्, त् को ट् होता है)
+		Col	स्
+		Col	+
+		Col	ट्
+		Col	=
+		Col	ष्ट्
+	Row
+		Col	ष्टुत्व सन्धि (स्,त वर्ग + ष्,ट वर्ग होने पर स् को ष्, त् को ट् होता है)
+		Col	त् 
+		Col	+
+		Col	ट्
+		Col	=
+		Col	ट्ट्
+	Row
+		Col	ष्टुत्व सन्धि (स्,त वर्ग + ष्,ट वर्ग होने पर स् को ष्, त् को ट् होता है)
+		Col	त् / द्
+		Col	+
+		Col	ड्
+		Col	=
+		Col	ड्ड्
+	Row
+		Col	ष्टुत्व सन्धि (स्,त वर्ग + ष्,ट वर्ग होने पर स् को ष्, त् को ट् होता है)
+		Col	ष्
+		Col	+
+		Col	त्
+		Col	=
+		Col	ष्ट्
+	Row
+		Col	चर्त्व सन्धि
+		Col	वर्गीकृत (2,3,4)
+		Col	+
+		Col	वर्गीकृत (1,2)
+		Col	=
+		Col	वर्गीकृत (1)
+	Row
+		Col	अनुस्‍वार सन्धि (मोनुस्‍वार)
+		Col	म्
+		Col	+
+		Col	कोई व्यंजन
+		Col	=
+		Col	म् को अनुस्‍वार हो जाता है
+	Row
+		Col	अनुस्‍वार सन्धि (मोनुस्‍वार)
+		Col	अनुस्‍वार
+		Col	+
+		Col	वर्गीकृत व्यंजन
+		Col	=
+		Col	अनुस्‍वार द्विताय स्वर के पञ्चमाक्षर में बदल जाता है
+	Row
+		Col	लत्व सन्धि
+		Col	त्, थ्, द्, ध
+		Col	+
+		Col	ल्
+		Col	=
+		Col	ल्ल्
+	Row
+		Col	लत्व सन्धि
+		Col	त्, थ्, द्, ध
+		Col	+
+		Col	न्
+		Col	=
+		Col	अनुस्‍वार + ल्ल्
+	Row
+		Col	छत्व सन्धि (मोनुस्‍वार)
+		Col	वर्गीकृत व्यंजन या र्, ल्, व्, ह्
+		Col	+
+		Col	श्
+		Col	=
+		Col	च्छ्
+	Row
+		Col	च का आगम
+		Col	हृस्व स्वर (अ, इ, उ)
+		Col	+
+		Col	छ्
+		Col	=
+		Col	च्छ्
+	Row
+		Col	च का आगम
+		Col	र्
+		Col	+
+		Col	र्
+		Col	=
+		Col	प्रथम पद उपधा का स्वर दीर्घ + र् का लोप
+	Row
+		Col	न् का ण् होना
+		Col	ऋ, र्, ष (आधा व्यन्जन या मात्रा के साथ)
+		Col	+
+		Col	न्
+		Col	=
+		Col	ण्
+EndTable

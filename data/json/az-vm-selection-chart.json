@@ -1,0 +1,337 @@
+{
+  "layout": "LR",
+  "comment": "startNode, decisionNode, processNode, endNode, groupNode",
+  "nodes": [
+    { 
+      "id": "start",
+      "type": "startNode",
+      "data": { "label": "Start" },
+      "position": { "x": 200, "y": 100 },
+      "comment": "This is start node"
+    },
+    { 
+      "id": "cpu1",
+      "type": "decisionNode",
+      "data": { "label": "CPU Intensive?" },
+      "parentNode": "start",
+      "extent": "parent",
+      "comment": "This is CPU Intensive Decision Box"
+    },
+    { 
+      "id": "mem1",
+      "type": "decisionNode",
+      "data": { "label": "Memory Intensive?" },
+      "parentNode": "cpu1",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for CPU Intensive workloads"
+    },
+    { 
+      "id": "io1",
+      "type": "decisionNode",
+      "data": { "label": "IOPS Intensive?" },
+      "parentNode": "mem1",
+      "extent": "parent",
+      "comment": "This is IOPS Intensive Decision box for CPU & memory Intensive workloads"
+    },
+    { 
+      "id": "io2",
+      "type": "decisionNode",
+      "data": { "label": "IOPS Intensive?" },
+      "parentNode": "mem1",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for CPU Intensive workloads"
+    },
+    { 
+      "id": "vm1",
+      "type": "processNode",
+      "data": { "label": "E, M, L, D" },
+      "parentNode": "io1",
+      "extent": "parent",
+      "comment": "IO, CPU and Memory Optimized."
+    },
+    { 
+      "id": "vm2",
+      "type": "processNode",
+      "data": { "label": "E, M, D" },
+      "parentNode": "io1",
+      "extent": "parent",
+      "comment": "CPU and Memory Optimized."
+    },
+    { 
+      "id": "vm3",
+      "type": "processNode",
+      "data": { "label": "F, FX, E, L" },
+      "parentNode": "io2",
+      "extent": "parent",
+      "comment": "IO, CPU Optimized."
+    },
+    { 
+      "id": "vm4",
+      "type": "processNode",
+      "data": { "label": "F, FX" },
+      "parentNode": "io2",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "mem2",
+      "type": "decisionNode",
+      "data": { "label": "Memory Intensive?" },
+      "parentNode": "cpu1",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "mem3",
+      "type": "decisionNode",
+      "data": { "label": "Memory in TB?" },
+      "parentNode": "mem2",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "mem4",
+      "type": "decisionNode",
+      "data": { "label": "Memory > 4TB?" },
+      "parentNode": "mem3",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "vm6",
+      "type": "processNode",
+      "data": { "label": "M" },
+      "parentNode": "mem4",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "vm5",
+      "type": "processNode",
+      "data": { "label": "E, M, L" },
+      "parentNode": "mem4",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "io3",
+      "type": "decisionNode",
+      "data": { "label": "IOPS Intensive?" },
+      "parentNode": "mem3",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "vm7",
+      "type": "processNode",
+      "data": { "label": "E, M, L" },
+      "parentNode": "io3",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "vm8",
+      "type": "processNode",
+      "data": { "label": "E, M" },
+      "parentNode": "io3",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "st1",
+      "type": "decisionNode",
+      "data": { "label": "Storage Intensive?" },
+      "parentNode": "mem3",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "vm9",
+      "type": "processNode",
+      "data": { "label": "L Series" },
+      "parentNode": "st1",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "gpu1",
+      "type": "decisionNode",
+      "data": { "label": "GPU Intensive?" },
+      "parentNode": "st1",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "vm10",
+      "type": "processNode",
+      "data": { "label": "NC, ND, NG, NV Series" },
+      "parentNode": "gpu1",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "hpc1",
+      "type": "decisionNode",
+      "data": { "label": "HPC Optimized?" },
+      "parentNode": "gpu1",
+      "extent": "parent",
+      "comment": "This is Memory Intensive Decision box for Non-CPU Intensive workloads"
+    },
+    { 
+      "id": "vm11",
+      "type": "processNode",
+      "data": { "label": "NM, NP Series" },
+      "parentNode": "st1",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    },
+    { 
+      "id": "vm12",
+      "type": "processNode",
+      "data": { "label": "HB, HC, HX Series" },
+      "parentNode": "st1",
+      "extent": "parent",
+      "comment": "CPU Optimized."
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "start",
+      "target": "cpu1"
+    },
+    {
+      "id": "e2",
+      "source": "cpu1",
+      "target": "mem1",
+      "label": "Yes"
+    },
+    {
+      "id": "e3",
+      "source": "cpu1",
+      "target": "mem2",
+      "label": "No"
+    },
+    {
+      "id": "e4",
+      "source": "mem1",
+      "target": "io1",
+      "label": "Yes"
+    },
+    {
+      "id": "e5",
+      "source": "mem1",
+      "target": "io2",
+      "label": "No"
+    },
+    {
+      "id": "e6",
+      "source": "io1",
+      "target": "vm1",
+      "label": "Yes"
+    },
+    {
+      "id": "e7",
+      "source": "io1",
+      "target": "vm2",
+      "label": "No"
+    },
+    {
+      "id": "e8",
+      "source": "io2",
+      "target": "vm3",
+      "label": "Yes"
+    },
+    {
+      "id": "e9",
+      "source": "io2",
+      "target": "vm4",
+      "label": "No"
+    },
+    {
+      "id": "e10",
+      "source": "mem2",
+      "target": "mem3",
+      "label": "Yes"
+    },
+    {
+      "id": "e11",
+      "source": "mem3",
+      "target": "mem4",
+      "label": "Yes"
+    },
+    {
+      "id": "e12",
+      "source": "mem3",
+      "target": "io3",
+      "label": "No"
+    },
+    {
+      "id": "e13",
+      "source": "mem2",
+      "target": "st1",
+      "label": "No"
+    },
+    {
+      "id": "e14",
+      "source": "st1",
+      "target": "gpu1",
+      "label": "No"
+    },
+    {
+      "id": "e15",
+      "source": "gpu1",
+      "target": "hpc1",
+      "label": "No"
+    },
+    {
+      "id": "e16",
+      "source": "mem4",
+      "target": "vm6",
+      "label": "Yes"
+    },
+    {
+      "id": "e17",
+      "source": "mem4",
+      "target": "vm5",
+      "label": "No"
+    },
+    {
+      "id": "e18",
+      "source": "io3",
+      "target": "vm7",
+      "label": "Yes"
+    },
+    {
+      "id": "e19",
+      "source": "io3",
+      "target": "vm8",
+      "label": "No"
+    },
+    {
+      "id": "e20",
+      "source": "st1",
+      "target": "vm9",
+      "label": "Yes"
+    },
+    {
+      "id": "e21",
+      "source": "gpu1",
+      "target": "vm10",
+      "label": "Yes"
+    },
+    {
+      "id": "e22",
+      "source": "hpc1",
+      "target": "vm12",
+      "label": "Yes"
+    },
+    {
+      "id": "e23",
+      "source": "hpc1",
+      "target": "vm11",
+      "label": "No"
+    }
+  ]
+}
+

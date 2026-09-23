@@ -1,0 +1,30 @@
+{
+    "layout": "LR",
+    "nodes": [
+        {"id": "sndi",     "type": "processNode","data": {"label": "सन्धि सूत्र"}},
+
+        {"id": "1c_end",   "type": "processNode","data": {"label": "प्रथम पद व्यंजनांत"}},
+        {"id": "1v_end",   "type": "processNode","data": {"label": "प्रथम पद स्वरांत,\nअनुस्‍वार अन्त,\nविसर्ग अन्त"}},
+
+        {"id": "2v_start",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में स्वर"}},
+        {"id": "2c_start",     "type": "processNode","data": {"label": "द्वितीय पद के आरम्भ में व्यंजन"}},
+
+        {"id": "pgh",      "type": "processNode","data": {"label": "प्रथमा पद (प्रगृह्य संज्ञा या उपसर्ग)"}},
+        {"id": "c_sndi1",   "type": "processNode","data": {"label": "व्यंजन सन्धि (श्चुत्व, ष्टुत्व, चर्त्व, लत्व, छत्व, अनुस्‍वार, च का आगम, न् का ण् होना"}},
+        {"id": "c_sndi2",   "type": "processNode","data": {"label": "व्यंजन सन्धि (च का आगम, न् का ण् होना"}},
+        {"id": "v_sndi",   "type": "processNode","data": {"label": "स्वर सन्धि (दीर्घ गुण वृद्धि यण् अयादि पूर्वरूप)"}},
+        {"id": "no_sndi",   "type": "processNode","data": {"label": "प्रकृतिभाव: सन्धि का निषेध"}}
+    ],
+    "edges": [
+        {"source": "sndi",      "target": "1c_end"},
+        {"source": "sndi",      "target": "1v_end"},
+        {"source": "1c_end",    "target": "c_sndi1"},
+        {"source": "1v_end",    "target": "2v_start"},
+        {"source": "1v_end",    "target": "2c_start"},
+        {"source": "2c_start",  "target": "c_sndi2"},
+        {"source": "2v_start",  "target": "pgh"},
+        {"source": "2v_start",  "target": "v_sndi"},
+        {"source": "pgh",  "target": "no_sndi"}
+
+    ]
+}

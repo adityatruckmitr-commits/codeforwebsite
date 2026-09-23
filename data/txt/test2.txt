@@ -1,0 +1,34 @@
+"width"=75%
+
+\heading Homogeneous and Heterogeneous Mixtures
+
+A <"mixture"> is a combination of two or more substances where each substance retains its own chemical identity.
+
+\right This line is aligned to the right side to verify right alignment support.
+
+Salt and sugar dissolve in water to form a <"homogeneous mixture">.
+
+\img"millikan.png"
+
+Table
+	Columns
+		Col	Homogeneous Mixture
+		Col	Heterogeneous Mixture
+	Row
+		Col	Particles uniformly distributed
+		Col	Particles unevenly distributed
+	Row
+		Col	Size about 10^-9 mm
+		Col	Size more than 1 nm, visible to naked eye
+	Row
+		Col	No Tyndall effect
+		Col	Shows Tyndall effect
+	Row
+		Col	Salt / sugar / alcohol in water
+		Col	Colloidal solution and suspension
+
+\heading Key Points
+
+Milk is a <"colloid"> and shows <"Tyndall effect"> when light passes through it.
+
+\right This is another right-aligned sentence with a <"highlighted phrase">.

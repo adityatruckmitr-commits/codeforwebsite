@@ -1,0 +1,13 @@
+Polygon
+	Number of sides: $S=(n-2)\times180^\circ$
+	Regular Polygon:
+		Each interior angle: $=\frac{(n-2)\times180}{n}$
+		Each exterior angle: $=\frac{360}{n}$
+		Area: create triangles from center. Find are of 1 triangle and multiply by number of sides.
+Area Quadrilateral
+	Trapezium: $Area=\frac12\times height \times (sum\:of\:parallel sides)$
+	Parallelogram: $Area=base\times height$
+	Rhombus: $Area=base\times height=\frac12\times(product\:of\:diagonals)$
+	Rectangle: $Area=base\times height$
+	Square: $Area=s^2$
+	Kite: $Area=\frac12\times(product\:of\:diagonals)$

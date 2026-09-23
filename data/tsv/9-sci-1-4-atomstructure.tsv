@@ -1,0 +1,89 @@
+John Dalton's Atomic Model
+	\img"dalton.jpg"
+	Experiment
+		Metal cathode
+		Perforated metal anode
+		Gas pressure $10^{-3}$ Hg
+		Fluorescence behind anode
+		High voltage
+	Postulates
+		All matter is made up of atoms
+		Atoms of the same element are identical
+		Atoms of different elements are different
+		Atoms combine in simple whole-number ratios
+		Chemical reactions involve rearrangement of atoms
+	Limitations
+		Atoms are not indivisible
+		Cannot explain isotopes
+JJ Thomson – Discovery of Electron
+	\img"cathod-ray-tube.webp"
+	Discharge tube experiment
+		Charge to mass ratio
+			$e/m = 1.75 \times 10^{11}$
+	Properties of cathode rays
+		Negatively charged
+		Travel in straight line
+		Possess kinetic energy
+		Deflected by magnetic and electric field
+		Produce fluorescence and X-rays
+Millikan Oil Drop Experiment
+	\img"millikan.png"
+	Calculated charge of electron
+	Using $e/m$ and $e$, mass of electron was calculated
+E. Goldstein – Discovery of Proton
+	\img"canal-rays.png"
+	Perforated cathode
+	Gas pressure $10^{-1}$ Hg
+	Positive canal rays discovered
+JJ Thomson – Atomic Model
+	\img"watermelon-model.webp"
+	Atom is sphere of positive charge
+	Electrons embedded inside it
+Rutherford Alpha Particle Scattering Experiment
+	Alpha Particle Scattering Experiment
+	\img"rutherford-scattering.jpg"
+	Atomic Model
+	\img"rutherford-atomic-model.png"
+	Alpha particles bombarded on gold foil
+		Charge $+2e$
+		Mass $4$ times proton
+	Observations
+		$99.9\%$ passed straight
+		Some deflected
+		Very few returned $(1$ in $20000)$
+	Conclusions
+		Most of atom is empty
+		Positive charge at nucleus
+		Nucleus is heavy
+Bohr Atomic Model
+	\img"bohrs_atomic_model.jpeg"
+	Postulates
+		Electrons revolve in fixed shells
+		Angular momentum
+			$L=\dfrac{nh}{2\pi}$
+	Radius of orbit
+		$r=0.53\dfrac{n^2}{Z}$ Å
+	Velocity
+		$v=2.18\times10^6\dfrac{Z}{n}$
+	Energy
+		$E=-13.6\dfrac{Z^2}{n^2}$ eV
+Hydrogen Spectrum
+	Hydrogen's emitted spectrum
+	\img"hydrogen-spectrum.jpg"
+	Explanation
+	\img"spectral-lines-of-hydrogen-spectrum.png"
+	Energy emitted
+		$\Delta E = 13.6\left(\dfrac{1}{n_2^2}-\dfrac{1}{n_1^2}\right)$
+	$\Delta E = h\nu$
+	$\lambda=\dfrac{c}{\nu}$
+	$\dfrac{1}{\lambda}=R_H\left(\dfrac{1}{n_1^2}-\dfrac{1}{n_2^2}\right)$
+	$R_H=1.097\times10^7\,m^{-1}$
+	Spectral series
+		Lyman – UV
+		Balmer – Visible
+		Paschen – IR
+		Brackett – IR
+		Pfund – IR
+Limitations of Bohr Model
+	Valid only for single-electron atoms
+	Does not explain fine structure

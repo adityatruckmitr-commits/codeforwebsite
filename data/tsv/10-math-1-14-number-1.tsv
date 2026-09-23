@@ -1,0 +1,8 @@
+The theoritical probability (also called classical probability) of an event E, is written as P(E)
+	$P(E) = \dfrac{No of favourable Outcomes of E}{No of all Outcome of E}$
+The sum of probabilities of all elementary event of an experiment is 1.
+In general, it is true that for an event E
+	$\overline{E}$ represet (not E) is called complement of event E.
+	$E$ and $\overline{E}$ are complementary events.
+	$P(\overline{E}) = 1 - P(E)$
+Probability of an event impossible to occur is 0.

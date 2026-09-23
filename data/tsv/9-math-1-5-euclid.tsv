@@ -1,0 +1,39 @@
+Euclid’s Geometry
+	Assumption: a thought which people believe is correct.
+	Axiom: assumption that are universally true e.g.
+		Sun rise in east.
+		A line can extend indefinitely etc.
+	Postulates: Axioms related to geometry.
+	Statement: Sentence that can be true or false.
+	Theorem: Statement which are proved by Axioms and Postulates.
+	Corollary: result from a theorem that doesn't require proving.
+	Euclid's assumptions
+		If $p = q$ and $s = q$, therefore $p = s$
+		If $p = q$, therefore $p + s = q + s$ and $2p = 2q$
+		If $p = q$, therefore $p - s = q - s$ and $\frac{p}{2}= \frac{q}{2}$
+		If 2 figures fit in each other equally, then they are equal.
+		Who is greater than part:
+			Let Q be a shape and $P$ is broken piece of that shape.
+			Therefore Q > P; Q = P + R (where R is the shape left after $P$ broke apart from Q)
+	Incidence Axioms
+		Line has infinite points.
+		From a point infinite lines can be drawn.
+		Between 2 points there can only be 1 line
+	Parallel Lines Axiom
+		If $l$ is a line and $p$ is a point not on line $l$
+			Then only 1 line can be drawn from point $p$ which will be parallel to $l$.
+	Collinear Points Axiom
+		3 or more points are collinear if they all are on same line, or if line drawn between any 2 points, if extended, passes through rest of points.
+	Concurrent Lines Axiom
+		2 or more lines are said to be concurrent if there exists a point which lies on all of them, i.e. they all intersect at a common point.
+	Euclid's Postulates
+		Between 2 points, only 1 straight line is possible.
+		Line segment can be extended indefinitely.
+		A circle can be drawn from any center & of any radius.
+		All right angles are equal.
+		If 2 lines intersected by 3rd line, then side where internal angles sum is less than 2 right angles $(180^\circ)$, the 2 lines will at some point on that side, if extended.
+		\img"euclid.png"
+		Equivalent version of Euclid's 5th postulate
+			Playfair's Axiom
+				If a line $l$ and a point $p$, such that $p$ does not lie on line $l$, then only 1 line parallel to line $l$ is possible from point $p$.
+				2 distinct intersecting lines $l$ and $M$ cannot be parallel to same 3rd line.

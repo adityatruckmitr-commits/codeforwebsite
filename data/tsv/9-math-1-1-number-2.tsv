@@ -1,0 +1,84 @@
+Number Type:
+	Natural Numbers: 1 - ∞
+	Whole Numbers: 0 - ∞
+	Integers:  -∞ - 0 - ∞
+	Rational Numbers: P/Q where P & Q are integers and Q ≠ 0
+		Equivalent Rational Numbers: $\frac{x}{y} = \frac{2x}{2y} = \frac{7x}{7y}$ where $\frac{x}{y}$ is simplest form. (always write rational numbers in simplest forms.
+		Properties of rational numbers:
+			Closure: (+), (-) or (x) of 2 rational number is also a rational number
+			Commutative: a + b = b + a
+			Associative: (a + b) + c = a + (b + c)
+			(a x b) x c = a x (b x c)
+			Distributive: a x (b x c) = ab + ac
+			Density property: between 2 rational numbers there are infinite  rational numbers
+		Decimal expansion of real number
+			Terminating (denominator factors in 2, 5 only)
+			Non--terminating repeating
+				Pure recurring
+					All digits repeat (denominator factor number: 7 or other prime number except 2,3, 5)
+				Mixed Recurring
+					Only last digit repeats (denominator factor has 3, 9)
+	Irrational Numbers:
+		Properties of irrational numbers:
+			Infinite irrational numbers between 2 rational numbers
+			Irrational number can only be approximated, by irrational number
+			Between 2 irrational numbers there are infinite numbers
+			Negative of an irrational numbers is an irrational number
+			$Rational number + Irrational number = irrational number$
+			$Rational number (≠ 0) \times irrational number = irrational number$
+			Addition, Substraction, Multiplication and Division of 2 irrational numbers need not to be an irrational number
+		Types of irrational number
+			$\sqrt[n]{a}$
+				$n$ = order of surd
+				$\sqrt{a}$ = surd (value of root that cannot be simplified)
+				$a$ = radicand
+				$\sqrt{}$ = root/radical sign
+			$b\,\sqrt[n]{a}$
+				Factor $b$ and $\sqrt[n]{a}$
+			Like irrational numbers = having same irrational factor
+			Unlike irrational number = having different irrational factor
+			Comparison 
+				Convert each irrational number to same number
+				Compare the radicands
+				Larger radicand, larger irrational number
+		Converting irrational number to fractions
+			e.g., $0.\overline{6}$
+			$x = 0.\overline{6},\ i.e.\ 10x = 6.\overline{6},\ i.e.\ 9x = 6,\ i.e.\ x = \frac{2}{3}$
+	Co-prime
+		Set of 2 numbers
+		No common factor except 1
+	Composite numbers
+		Has factor other than 1 and itself
+	Number line
+		To represent number on number line we use Pythagoras theorem
+	Multiplication of irrational number - $\sqrt[n]{a}\times \sqrt[n]{b} = \sqrt[n]{ab}$
+	Division laws in irrational number - $\dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} = \sqrt[n]{\dfrac{a}{b}}$
+	Rationalization 
+		Rationalization Factor of an irrational number, is number which is multiplied to it to make it rational.
+		When denominator of a Rational number is an irrational number, then we multiply denominator with rationalization factor to convert it to rational number
+		Irrational numbers x rationalization factor = rational number
+		This process is called rationalization
+		$\sqrt[n]{a} = a^{\frac{1}{n}}$ = its rationalizing factor is $a^{1-\frac{1}{n}}$
+		Denominator rationalization
+			$\dfrac{x}{a+\sqrt{b}}$ this can be rationalizied by multiplying $a-\sqrt{b}$ to numerator and denominator
+			$\dfrac{x}{a+\sqrt[n]{b}}$ this can be rationalizied by multiplying $ab^{n}-b$
+	Law of indices
+		$a^{m} \times a^{n} = a^{m+n}$
+		$a^{m} \div a^{n} = a^{m-n}$
+		$(a^{m})^{n} = a^{mn}$
+		$(ab)^{n} = a^{n}\times b^{n}$
+		If $a^{m} = a^{n}$ and $a\ne0,\ a\ne1,\ a\ne -1$ then $m = n$
+		If $a^{n} = b^{n}$ and $n$ is odd number then $a=b$
+		If $a^{n} = b^{n}$ and $n$ is even number then $a=\pm b$
+	Law of Radicals
+		$\sqrt[n]{a}\times\sqrt[n]{b} = \sqrt[n]{ab}$
+		$\dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} = \sqrt[n]{\dfrac{a}{b}}$
+		$\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}$
+		$\sqrt[m]{a^{p}} = a^{\frac{p}{m}}$
+	Types of surds
+		Unit Surd: $\sqrt[n]{a}$
+		Multiple of Surd: $k\sqrt[n]{a}$
+		Mixed Surd: $b+\sqrt[n]{a}$
+		Compound Surd: $\sqrt[m]{a}+\sqrt[n]{b}$
+		Binomial Surd: $k\sqrt[n]{a}+\sqrt[m]{b}$
+		Similar Surd: having same surd factor :-> $\sqrt{5},\ 3\sqrt{5},\ 9\sqrt{5}$ etc.

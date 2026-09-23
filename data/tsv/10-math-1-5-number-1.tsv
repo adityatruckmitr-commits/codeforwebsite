@@ -1,0 +1,17 @@
+Arithmetic Progression is list of numbers in which each term is obtained by adding a fixed number d to preceding term, except the first term. The fixed number d is called common difference. e.g.: 2,5,8,11,14,17 etc. where Common Difference (d) = 3.
+Each item in AP is called Term.
+A given list of numbers $a_1, a_2, a_3,...s, a_n$ is an AP if difference of $(a_2 - a_1), (a_3 - a_2), (a_4 - a_3), ...$ and so on give same value. I.e. if $(a_{k+1} - a_k)$ is same for different values of $k$.
+Values:
+	${a_1}$: First Term
+	d: Common Difference
+	${a_n}$: Nth Term
+	$\sum {a_n}$: Sum of first N Terms
+	Mean of 2 terms in AP
+Formulas
+	${a_2}-{a_1} = {a_3}-{a_2} = {a_4}-{a_3} = d$
+	$\sum{a_n} = {a_1} + (n-1)d$
+	Mean of Even-Even Term or Odd-Odd Term (Mean of Mth and Nth Term where both M & N are even or odd)
+		Mean = $(\dfrac{M+N}{2})^{th}$ Term
+	Mean of Even - Odd term (Mean of Mth and Nth Term where one is even other is Odd)
+		Mean = $\dfrac{{(\dfrac{M+N}{2})^{th} Term} + {(\dfrac{M+N}{2} + 1)^{th} Term}}{2}$
+	$\sum{a_n} = \dfrac{n}{2}({a_1}+{a_n}) = \dfrac{n}{2}[2{a_1} + (n-1)d]$

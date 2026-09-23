@@ -1,0 +1,53 @@
+Theorems
+	Area of Triangle Theorem
+		\img"tri4.png"
+		\img"tri5.png"
+		$Area=\frac12(base\times height)$
+		$Area=\frac12\,bc\sin A$
+		Equilateral Triangle $=\frac{\sqrt3}{4}a^2$
+	Pythagoras Theorem
+		$c^2=a^2+b^2$
+	Median Theorem
+		\img"tri6.png"
+		Median divides base into 2 equal parts
+		Median divides triangle into 2 equal area triangles
+		$PS=\sqrt{\frac{(2PQ)^2+(2PR)^2-QR^2}{4}}$
+	Centroid Theorem
+		\img"tri7.png"
+		Centroid is at $\frac23$ distance from each vertex to median on opposite side
+		$2A'G=AG,\ 2B'G=BG,\ 2C'G=CG$
+		$3(AB^2+BC^2+AC^2)=4(A'A^2+B'B^2+C'C^2)$
+	Angle Bisector Theorem
+		\img"tri8.png"
+		$\frac{a}{b}=\frac{x}{y}$ OR $\frac{a}{x}=\frac{b}{y}$ OR $ay=bx$
+	Mid-segment Theorem
+		\img"tri9.png"
+		$DE\parallel BC$
+		$BC=2DE$
+	Circumcenter Theorem
+		\img"tri10.png"
+		Point where all perpendicular bisectors meet
+		It is equidistant from each vertex
+		Circle drawn from circumcenter passes through all vertices
+		$R=\frac{abc}{4\times Area_\triangle}$
+	Incenter Theorem
+		\img"tri11.png"
+		Point where all angle bisectors meet
+		It is equidistant from each side
+		Circle touches all sides
+		$r=\frac{Area_\triangle}{s}$ where $s$ is semiperimeter
+	Orthocenter
+		\img"tri12.png"
+		Point where all altitudes meet
+		Acute triangle orthocenter is inside
+		Right triangle orthocenter is at right angle
+		Obtuse triangle orthocenter is outside
+	Triangle Proportionality Theorem
+		\img"tri13.png"
+		If $MN\parallel BC$
+			$\frac{AM}{MB}=\frac{AN}{NC}$
+			$\frac{AM}{AB}=\frac{AN}{AC}$
+			$\frac{MB}{AB}=\frac{NC}{AC}$
+	Apollonius Theorem
+		\img"tri16.png"
+		$b^2+c^2=2m^2+\frac{a^2}{2}$

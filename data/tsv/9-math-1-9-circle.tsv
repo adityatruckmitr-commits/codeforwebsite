@@ -1,0 +1,35 @@
+TERMS — CIRCLES
+	Radius: distance from the centre of the circle to any point on the circle
+	Circumference: perimeter of a circle = 2πr
+	Chord: a line segment joining two points on a circle
+	Diameter: the longest chord, always passes through the centre = 2r
+	Secant: a line that cuts a circle at two points
+	Tangent: a line that touches the circle at one point and is perpendicular to the radius there
+	Arc: the curved path of the circle between two points on it
+	Segment: the region of a circle bounded by a chord and its corresponding arc
+	Sector: the region enclosed between two radii and the arc between them
+	Concentric circles: circles having the same centre
+	Congruent circles: circles having equal radii
+	Congruent arcs: arcs with equal radii and equal central angles
+	Subtended angles of an arc: angle at centre, angle at circle
+	Angle relation: angle at centre = 2 × angle at the circle
+THEOREMS — CIRCLES
+	Shortest distance from a point to a line is the length of the perpendicular from the point to the line
+	Chord subtended angles in the same segment of a circle are equal
+		\img"circle1.png"
+		If two chords subtend equal angles at the centre or at the circle, then the chords are equal
+		\img"circle2.png"
+		Equal chords are equidistant from the centre
+		Chords equidistant from the centre are equal in length
+		\img"circle3.png"
+		If two chords are equal, their corresponding arcs are congruent
+		If two arcs are congruent, their corresponding chords are equal
+		Congruent arcs subtend equal angles at the centre
+		Equal chords subtend equal angles at the centre
+		If a line segment makes equal angles at two points on the same side of the line, then the four points lie on the same circle
+	Chord-subtended angles in opposite segments of a circle are supplementary
+	Angle subtended by a chord at the centre is double the angle subtended by it at the circle
+	Perpendicular from Centre to Chord
+		Line from Center to mid-point of chord, is perpendicular to chord
+	If 2 chords are equal
+		Their perpendicular distance from center is also equal

@@ -1,0 +1,56 @@
+[
+  {
+    "year": "500 BCE",
+    "date": "500 BCE",
+    "title": "Early ideas of rule by people",
+    "description": "Ancient city-states (notably Athens) experiment with citizen participation.\n\tNote: citizenship was limited; many groups were excluded."
+  },
+  {
+    "year": "1215",
+    "date": "1215",
+    "title": "Magna Carta and limits on rulers",
+    "description": "Early step toward rule of law: the ruler's powers are not unlimited and are constrained by law/agreements."
+  },
+  {
+    "year": "1688",
+    "date": "1688",
+    "title": "Glorious Revolution (England)",
+    "description": "Parliamentary supremacy strengthens; the idea that rulers must be accountable to representative institutions gains ground."
+  },
+  {
+    "year": "1776",
+    "date": "1776",
+    "title": "American Revolution",
+    "description": "Representative government and constitutional ideas spread through modern revolutions."
+  },
+  {
+    "year": "1789",
+    "date": "1789",
+    "title": "French Revolution",
+    "description": "Ideas of liberty, equality and popular sovereignty influence democratic movements worldwide."
+  },
+  {
+    "year": "1800s",
+    "date": "1800s",
+    "title": "Expansion of voting rights",
+    "description": "In many countries, struggles for universal adult franchise grow.\n\tVoting rights expand gradually beyond property-owning men."
+  },
+  {
+    "year": "1945",
+    "date": "1945",
+    "title": "Post–World War II democratic wave",
+    "description": "New constitutions, decolonization and mass movements push many countries toward elections and representative government."
+  },
+  {
+    "year": "1970s–1990s",
+    "date": "1970s–1990s",
+    "title": "Third wave of democracy",
+    "description": "Several authoritarian regimes fall; multi-party elections and civil liberties become key global demands."
+  },
+  {
+    "year": "Today",
+    "date": "Today",
+    "title": "Democracy as a working ideal",
+    "description": "Democracy understood through core features: elected rulers, final decision-making by elected representatives, free and fair elections, political equality, and constitutional limits/rights.\n\tDebates continue about quality of democracy, inclusion, and accountability."
+  }
+]

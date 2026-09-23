@@ -1,0 +1,8 @@
+\img"10-math-1-11-img1.png"
+Values:
+	Radius: r
+	Angle of Arc: $\theta$
+Formulas:
+	Length of an arc $= \dfrac{\theta}{360}\times 2{\pi}r$
+	Area of a sector of arc $= \dfrac{\theta}{360}\times {\pi}r^2$
+	Area of rest of segment of circle $= Area of Arc - Area of Triangle

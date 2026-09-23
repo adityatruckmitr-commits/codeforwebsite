@@ -1,0 +1,63 @@
+{
+  "layout": "LR",
+  "nodes": [
+    {
+      "id": "election_commission",
+      "type": "processNode",
+      "data": { "label": "Election Commission" }
+    },
+    {
+      "id": "state_elections",
+      "type": "processNode",
+      "data": { "label": "State Elections" }
+    },
+    {
+      "id": "central_elections",
+      "type": "processNode",
+      "data": { "label": "Central Elections" }
+    },
+    {
+      "id": "political_executive_state",
+      "type": "processNode",
+      "data": { "label": "Political Executive" }
+    },
+    {
+      "id": "political_executive_central",
+      "type": "processNode",
+      "data": { "label": "Political Executive" }
+    },
+    {
+      "id": "vidhan_sabha",
+      "type": "processNode",
+      "data": { "label": "Vidhan Sabha" }
+    },
+    {
+      "id": "vidhan_parishad",
+      "type": "processNode",
+      "data": { "label": "Vidhan Parishad" }
+    },
+    {
+      "id": "rajya_sabha",
+      "type": "processNode",
+      "data": { "label": "Rajya Sabha" }
+    },
+    {
+      "id": "lok_sabha",
+      "type": "processNode",
+      "data": { "label": "Lok Sabha" }
+    }
+  ],
+  "edges": [
+    { "source": "election_commission", "target": "state_elections" },
+    { "source": "election_commission", "target": "central_elections" },
+
+    { "source": "state_elections", "target": "political_executive_state" },
+    { "source": "political_executive_state", "target": "vidhan_sabha" },
+    { "source": "vidhan_sabha", "target": "vidhan_parishad" },
+
+    { "source": "central_elections", "target": "political_executive_central" },
+    { "source": "political_executive_central", "target": "lok_sabha" },
+
+    { "source": "vidhan_sabha", "target": "rajya_sabha" }
+  ]
+}

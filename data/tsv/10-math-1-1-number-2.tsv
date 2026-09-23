@@ -1,0 +1,23 @@
+The fundamental Theorem of Arithmetic: Every composite number can be expressed(factorized) as a product of primes, and their factorization is unique, apart from the order in which the prime factors occur.
+	Theorem 1: If $p$ is a prime number, where $p$ divides $a^2$. Then $p$ divides $a$, where $a$ is a positive integer.
+	Theorem 2: $\sqrt2$  is irrational.
+		1)  Let's assume $\sqrt2$ is a rational number.
+		2)  $\sqrt2 = {\dfrac{r}{s}}$ if $r$ and $s$ have any common factors then bring it to simplest form.
+		3)  $\sqrt2 = {\dfrac{a}{b}}$
+		4)  $b\sqrt2 = a$
+		5)  $2{b^2} = a^2$
+		6)  Thus ${\dfrac{a^2}{2}} = b^2$ thus 2 is factor of $a^2$
+		7)  2 is also factor of a (by Theorem 1). Thus lets say $2c = a$
+		8)  In Step 4, lets input value of $a$ from step 6.
+		9)  $2{b^2} = 4{c^2}$
+		10) $b^2 = 2{c^2}$
+		11) Since 2 divides $b^2$, thus 2 divides b.
+		12) By Step 6 and step 10, we can say a  & b both have 2 as common factor.
+		13) Where as ${\dfrac{a}{b}}$ is in simplest form, thus it cannot have w as factor.
+		14) Thus confusion is due to wrong assumption that $\sqrt2$ is a rational number.
+	Two Numbers $A$ and $B$, their HCF is $a$, and LCM is $b$
+		${\dfrac{A}{a}}\times{\dfrac{B}{a}}\times a = b$
+		${\dfrac{A}{a}}\times B = b$
+		$A\times{\dfrac{B}{a}} = b$
+	If $p, q, r$ are positive integers
+		$LCM(p,q,r) = \dfrac{pqr\times HCF(p,q,r)}{HCF(p,q)\times HCF(q,r)\times HCF(p,r)}$

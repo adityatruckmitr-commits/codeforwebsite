@@ -1,0 +1,39 @@
+Data
+	Primary Data
+		Collected by self
+	Secondary Data
+		Collected by someone other than user
+
+Presentation of Data
+	Ungrouped Data
+		Raw Data
+			Not arranged
+		Arrayed Data
+			Arranged in ascending or descending order
+		Frequency Distribution Table
+			Tabular format
+
+Grouped Data
+	Class Interval
+		Groups of regular and consistent upper and lower limit classes
+	Upper Limit
+		Greatest number in each class interval
+	Lower Limit
+		Inclusive frequency distribution
+			Previous class upper limit is less than current class lower limit
+			Lower limit is included in class
+		Exclusive frequency distribution
+			Previous class upper limit is equal to current class lower limit
+			Lower limit is excluded in class
+	Class Size
+		Difference between upper and lower limit
+	Class Mark
+		Mid-point of each class = $\dfrac{Upper Limit + Lower Limit}{2}$
+
+Graphical Representation
+	Bar Graph
+		For inconsistent class interval data
+	Histogram
+		For consistent class interval data
+	Frequency Polygon
+		For scientific or trend data

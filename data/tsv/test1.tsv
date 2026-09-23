@@ -1,0 +1,23 @@
+Physics formulas
+	Force: $F = m*g$
+	Kinematics: $Δx = v*t + (1/2)*a*t^2$
+	Electrostatics
+		@math ∇·E = \frac{ρ}{epsilon0}
+		Charge relation: $Q = C*V$
+Math notes
+	Pythagoras: $c^2 = a^2 + b^2$
+	Quadratic: $x = (-b + sqrt(b^2 - 4*a*c)) / (2*a)$
+Sets & logic
+	Subset: $A ⊆ B$
+	Logic: $∀x ∈ ℝ: x^2 ≥ 0$
+radius of electron shell (Angstrom, A deg) is: $r = \frac{n^2 h^2 epsilon0}{pi m Z e^2} = \frac{h^2 epsilon0}{pi m e^2}\times \frac{n^2}{Z}$
+\img"data/images/circle.png"
+Chemical Equations
+	@math 2H2 + O2 -> 2H2O
+	@math N2 + 3H2 \overset{\text{Fe}}{\leftrightarrow} 2NH3
+	@math NaCl(aq) + AgNO3(aq) -> AgCl(s)
+	\img"circle.png"
+	/table/th{Heading 1}/th{Heading 2}/td{1,1}/td{1,2}\t/td{2,1}/td{2,2}
+Math
+	@math angle(ABC) + angle(BCA) + angle(BAC) = 180deg
+@math arc(AB)     vec(B)

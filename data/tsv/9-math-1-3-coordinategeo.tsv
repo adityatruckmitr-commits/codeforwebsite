@@ -1,0 +1,37 @@
+Coordinate Geometry
+	Cartesian System: every point is represented by $(x,y)$. Developed by Rene Descartes
+	Coordinate axis
+		X axis
+		Y axis
+	Origin: Point $(0,0)$
+	Abscissa: Perpendicular distance on Y axis
+	Ordinate: Perpendicular distance on X axis
+	Quadrant
+		Abscissa(+), Ordinate(+): 1st Quadrant
+		Abscissa(-), Ordinate(+): 2nd Quadrant
+		Abscissa(-), Ordinate(-): 3rd Quadrant
+		Abscissa(+), Ordinate(-): 4th Quadrant
+		Quadrant numbering go in anti-clockwise direction.
+		\img"quadrent.png"
+		Quadrant Sign Table
+		Table
+			Columns
+				Col	Quadrant
+				Col	Abscissa (x)
+				Col	Ordinate (y)
+			Row
+				Col	I (1st)
+				Col	+
+				Col	+
+			Row
+				Col	II (2nd)
+				Col	−
+				Col	+
+			Row
+				Col	III (3rd)
+				Col	−
+				Col	−
+			Row
+				Col	IV (4th)
+				Col	+
+				Col	−

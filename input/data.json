@@ -1,0 +1,9 @@
+﻿{
+  "bookID": 5,
+  "bookTitle": "Wren & Marten",
+  "bookCode": "ijwm",
+  "pdfMode": "single",
+  "pdfFile": "data/pdf/ijwm.pdf",
+  "pdfOffset": 0,
+  "items": []
+}

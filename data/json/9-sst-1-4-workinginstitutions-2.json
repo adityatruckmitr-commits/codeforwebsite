@@ -1,0 +1,38 @@
+{
+  "layout": "TB",
+  "nodes": [
+    { "id": "state_government_india", "type": "processNode", "data": { "label": "State Government in India" } },
+
+    { "id": "state_legislature", "type": "processNode", "data": { "label": "State Legislature" } },
+    { "id": "state_executive", "type": "processNode", "data": { "label": "State Executive" } },
+    { "id": "state_judiciary", "type": "processNode", "data": { "label": "State Judiciary" } },
+
+    { "id": "governor", "type": "processNode", "data": { "label": "Governor" } },
+    { "id": "chief_minister", "type": "processNode", "data": { "label": "Chief Minister" } },
+    { "id": "council_of_ministers", "type": "processNode", "data": { "label": "Council of Ministers" } },
+
+    { "id": "vidhan_sabha", "type": "processNode", "data": { "label": "Vidhan Sabha" } },
+    { "id": "vidhan_parishad", "type": "processNode", "data": { "label": "Vidhan Parishad" } },
+
+    { "id": "high_court", "type": "processNode", "data": { "label": "High Court" } },
+    { "id": "district_courts", "type": "processNode", "data": { "label": "District Courts" } },
+    { "id": "subordinate_courts", "type": "processNode", "data": { "label": "Subordinate Courts" } }
+  ],
+  "edges": [
+    { "source": "state_government_india", "target": "state_legislature" },
+    { "source": "state_government_india", "target": "state_executive" },
+    { "source": "state_government_india", "target": "state_judiciary" },
+
+    { "source": "state_legislature", "target": "vidhan_sabha" },
+    { "source": "state_legislature", "target": "vidhan_parishad" },
+
+    { "source": "state_executive", "target": "governor" },
+    { "source": "state_executive", "target": "chief_minister" },
+
+    { "source": "chief_minister", "target": "council_of_ministers" },
+
+    { "source": "state_judiciary", "target": "high_court" },
+    { "source": "state_judiciary", "target": "district_courts" },
+    { "source": "state_judiciary", "target": "subordinate_courts" }
+  ]
+}

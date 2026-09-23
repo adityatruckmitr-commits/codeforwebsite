@@ -1,0 +1,228 @@
+[
+    {
+      "year": "1889",
+      "date": "1889-04-20",
+      "title": "Birth of Adolf Hitler",
+      "description": "Adolf Hitler is born in Braunau am Inn, Austria."
+    },
+    {
+      "year": "1903",
+      "date": "1903-01-01",
+      "title": "Death of Hitler’s Father",
+      "description": "Hitler’s father dies."
+    },
+    {
+      "year": "1907",
+      "date": "1907-01-01",
+      "title": "Move to Vienna",
+      "description": "Hitler moves to Vienna and aspires to be an artist; he is rejected by the Academy of Fine Arts."
+    },
+    {
+      "year": "1913",
+      "date": "1913-01-01",
+      "title": "Moves to Germany",
+      "description": "Hitler moves to Munich, Germany."
+    },
+    {
+      "year": "1914",
+      "date": "1914-01-01",
+      "title": "World War I Service",
+      "description": "Hitler serves in the German army during World War I, earns medals for bravery, and reaches the rank of corporal."
+    },
+    {
+      "year": "1919",
+      "date": "1919-01-01",
+      "title": "Joins Nazi Party",
+      "description": "Hitler joins the German Workers’ Party, later renamed the National Socialist German Workers’ Party (Nazi Party)."
+    },
+
+    {
+      "year": "1914",
+      "date": "1914-08-01",
+      "title": "World War I Begins",
+      "description": "World War I begins."
+    },
+    {
+      "year": "1918",
+      "date": "1918-11-09",
+      "title": "German Defeat",
+      "description": "Germany surrenders and Kaiser Wilhelm II abdicates."
+    },
+    {
+      "year": "1918",
+      "date": "1918-11-09",
+      "title": "Weimar Republic Proclaimed",
+      "description": "Proclamation of the Weimar Republic."
+    },
+    {
+      "year": "1919",
+      "date": "1919-06-28",
+      "title": "Treaty of Versailles",
+      "description": "Treaty of Versailles is signed, imposing harsh terms on Germany."
+    },
+
+    {
+      "year": "1919",
+      "date": "1919-01-01",
+      "title": "Weimar Constitution",
+      "description": "Weimar Constitution creates Germany’s first democratic government."
+    },
+    {
+      "year": "1919–1920",
+      "date": "1919-01-01",
+      "title": "Spartacist Uprising",
+      "description": "Communist revolution attempt is crushed by the Free Corps."
+    },
+    {
+      "year": "1923",
+      "date": "1923-01-01",
+      "title": "Hyperinflation Crisis",
+      "description": "France occupies the Ruhr; Germany prints money; the mark collapses."
+    },
+    {
+      "year": "1923",
+      "date": "1923-11-01",
+      "title": "Beer Hall Putsch",
+      "description": "Hitler fails in his coup attempt, is imprisoned, and writes Mein Kampf."
+    },
+    {
+      "year": "1924–1928",
+      "date": "1924-01-01",
+      "title": "Economic Stabilization",
+      "description": "Dawes Plan leads to temporary economic recovery."
+    },
+    {
+      "year": "1929",
+      "date": "1929-10-24",
+      "title": "Wall Street Crash",
+      "description": "The Great Depression begins."
+    },
+    {
+      "year": "1929–1932",
+      "date": "1929-01-01",
+      "title": "Economic Crisis",
+      "description": "Severe unemployment in Germany reaches 6 million."
+    },
+    {
+      "year": "1932",
+      "date": "1932-01-01",
+      "title": "Nazi Party Victory",
+      "description": "Nazi Party becomes the largest in the Reichstag with 37% of votes."
+    },
+
+    {
+      "year": "1933",
+      "date": "1933-01-30",
+      "title": "Hitler Becomes Chancellor",
+      "description": "Hitler becomes Chancellor of Germany."
+    },
+    {
+      "year": "1933",
+      "date": "1933-02-28",
+      "title": "Reichstag Fire Decree",
+      "description": "Civil rights are suspended."
+    },
+    {
+      "year": "1933",
+      "date": "1933-03-03",
+      "title": "Enabling Act",
+      "description": "Hitler gains dictatorial powers."
+    },
+    {
+      "year": "1934",
+      "date": "1934-06-01",
+      "title": "Night of the Long Knives",
+      "description": "Internal purge of Nazi rivals."
+    },
+    {
+      "year": "1934",
+      "date": "1934-08-01",
+      "title": "Hitler Becomes Führer",
+      "description": "After President Hindenburg dies, Hitler becomes supreme leader."
+    },
+    {
+      "year": "1935",
+      "date": "1935-09-01",
+      "title": "Nuremberg Laws",
+      "description": "Jews lose citizenship and marriage rights."
+    },
+    {
+      "year": "1936",
+      "date": "1936-03-01",
+      "title": "Rhineland Reoccupation",
+      "description": "German troops reoccupy the Rhineland."
+    },
+    {
+      "year": "1938",
+      "date": "1938-03-01",
+      "title": "Anschluss",
+      "description": "Germany annexes Austria."
+    },
+    {
+      "year": "1938",
+      "date": "1938-11-09",
+      "title": "Kristallnacht",
+      "description": "Jewish shops and synagogues are attacked."
+    },
+    {
+      "year": "1939",
+      "date": "1939-03-01",
+      "title": "Czechoslovakia Occupied",
+      "description": "Nazi Germany occupies Czechoslovakia."
+    },
+    {
+      "year": "1939",
+      "date": "1939-09-01",
+      "title": "World War II Begins",
+      "description": "Germany invades Poland."
+    },
+    {
+      "year": "1941",
+      "date": "1941-06-22",
+      "title": "Operation Barbarossa",
+      "description": "Germany invades the Soviet Union."
+    },
+    {
+      "year": "1941",
+      "date": "1941-12-08",
+      "title": "USA Enters WWII",
+      "description": "United States enters the war after Pearl Harbor."
+    },
+    {
+      "year": "1945",
+      "date": "1945-01-27",
+      "title": "Auschwitz Liberated",
+      "description": "Soviet troops liberate Auschwitz."
+    },
+    {
+      "year": "1945",
+      "date": "1945-04-30",
+      "title": "Hitler Dies",
+      "description": "Hitler commits suicide in his Berlin bunker."
+    },
+    {
+      "year": "1945",
+      "date": "1945-05-08",
+      "title": "Germany Surrenders",
+      "description": "World War II ends in Europe."
+    },
+
+    {
+      "year": "1945",
+      "date": "1945-10-01",
+      "title": "Nuremberg Trials",
+      "description": "Nazi war criminals are tried."
+    },
+    {
+      "year": "1945",
+      "date": "1945-12-01",
+      "title": "Holocaust Memory",
+      "description": "Memorials, diaries, and archives preserve Holocaust history."
+    },
+    {
+      "year": "1939–1940",
+      "date": "1939-01-01",
+      "title": "Gandhi Appeals for Peace",
+      "description": "Mahatma Gandhi writes letters to Hitler urging peace and nonviolence."
+    }
+  ]

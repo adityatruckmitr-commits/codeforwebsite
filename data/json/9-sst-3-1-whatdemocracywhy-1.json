@@ -1,0 +1,135 @@
+{
+  "layout": "TB",
+  "nodes": [
+    {
+      "id": "def",
+      "type": "processNode",
+      "data": {
+        "label": "Democracy (core idea)"
+      }
+    },
+    {
+      "id": "elected",
+      "type": "processNode",
+      "data": {
+        "label": "Rulers elected by people"
+      }
+    },
+    {
+      "id": "final",
+      "type": "processNode",
+      "data": {
+        "label": "Final decision-making power\nwith elected reps"
+      }
+    },
+    {
+      "id": "freefair",
+      "type": "processNode",
+      "data": {
+        "label": "Free & fair elections\n(real choice)"
+      }
+    },
+    {
+      "id": "equal",
+      "type": "processNode",
+      "data": {
+        "label": "One person, one vote,\none value"
+      }
+    },
+    {
+      "id": "limits",
+      "type": "processNode",
+      "data": {
+        "label": "Limits by Constitution\n& citizens' rights"
+      }
+    },
+    {
+      "id": "why",
+      "type": "processNode",
+      "data": {
+        "label": "Why democracy?"
+      }
+    },
+    {
+      "id": "account",
+      "type": "processNode",
+      "data": {
+        "label": "Accountable government"
+      }
+    },
+    {
+      "id": "quality",
+      "type": "processNode",
+      "data": {
+        "label": "Better decisions\n(consultation, debate)"
+      }
+    },
+    {
+      "id": "peace",
+      "type": "processNode",
+      "data": {
+        "label": "Peaceful conflict resolution"
+      }
+    },
+    {
+      "id": "dignity",
+      "type": "processNode",
+      "data": {
+        "label": "Dignity & equality"
+      }
+    },
+    {
+      "id": "correct",
+      "type": "processNode",
+      "data": {
+        "label": "Corrects mistakes"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "def",
+      "target": "elected"
+    },
+    {
+      "source": "elected",
+      "target": "final"
+    },
+    {
+      "source": "elected",
+      "target": "freefair"
+    },
+    {
+      "source": "elected",
+      "target": "equal"
+    },
+    {
+      "source": "elected",
+      "target": "limits"
+    },
+    {
+      "source": "def",
+      "target": "why"
+    },
+    {
+      "source": "why",
+      "target": "account"
+    },
+    {
+      "source": "why",
+      "target": "quality"
+    },
+    {
+      "source": "why",
+      "target": "peace"
+    },
+    {
+      "source": "why",
+      "target": "dignity"
+    },
+    {
+      "source": "why",
+      "target": "correct"
+    }
+  ]
+}

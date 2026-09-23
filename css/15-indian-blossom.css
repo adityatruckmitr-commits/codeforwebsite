@@ -1,0 +1,165 @@
+/* Theme — Indian Blossom Season (Spring Flowers)
+   Soft petals + fresh greens + morning sky.
+   Compatible with the same token variable schema as your other themes.
+*/
+:root{
+  /* Fonts */
+  --font-cursive: "Tangerine", sans-serif;
+  --font-style: "Rubik Glitch", sans-serif;
+  --font-regular: "DM Serif Text", sans-serif;
+  --font-hindi: "Yatra One", sans-serif;
+
+  /* Base ink (cool morning shade; keeps petals readable) */
+  --ink-rgb: 14, 22, 24;            /* deep teal-slate */
+  --border-rgb: 255, 210, 230;      /* petal blush border */
+
+  /* Neutrals */
+  --neutral-700-rgb: 72, 106, 104;
+  --neutral-800-rgb: 8, 12, 12;
+
+  /* Text */
+  --text-0: #fff7fb;
+  --text-0-rgb: 255, 247, 251;
+  --text-1: #ffe3f0;
+  --text-2: #ffd0e6;
+  --text-3: #ffb7dc;
+  --text-contrast: #07080a;
+  --text-caption: #ffffff;
+  --text-muted: var(--text-2);
+  --caption-text: #ffffff;
+
+  /* Accents (flowers + spring) */
+  --accent-pink-rgb:   251, 113, 133; /* rose */
+  --accent-rose-rgb:   244, 63, 94;   /* deep rose */
+  --accent-purple-rgb: 192, 132, 252; /* lilac */
+  --accent-violet-rgb: 167, 139, 250; /* violet */
+  --accent-amber-rgb:  252, 211, 77;  /* pollen */
+  --accent-green-rgb:  34, 197, 94;   /* new leaves */
+  --accent-mint-rgb:   134, 239, 172; /* mint leaf */
+  --accent-teal-rgb:   45, 212, 191;  /* cool water */
+  --accent-blue-rgb:   56, 189, 248;  /* morning sky */
+  --accent-cyan-rgb:   34, 211, 238;  /* fresh air */
+
+  /* Hover / Scroll */
+  --hover-95: rgba(251,113,133,0.16);
+  --scroll-90: rgba(56,189,248,0.30);
+
+  /* Misc */
+  --blackboard: rgba(14,22,24,0.96);
+  --true-black: rgba(0,0,0,1);
+  --caption-bg: rgba(0,0,0,0.55);
+  --accent-complement-rgb: 255, 255, 255;
+
+  /* Accent aliases */
+  --accent-pink: rgb(var(--accent-pink-rgb));
+  --accent-rose: rgb(var(--accent-rose-rgb));
+  --accent-purple: rgb(var(--accent-purple-rgb));
+  --accent-violet: rgb(var(--accent-violet-rgb));
+  --accent-amber: rgb(var(--accent-amber-rgb));
+  --accent-green: rgb(var(--accent-green-rgb));
+  --accent-mint: rgb(var(--accent-mint-rgb));
+  --accent-teal: rgb(var(--accent-teal-rgb));
+  --accent-blue: rgb(var(--accent-blue-rgb));
+  --accent-cyan: rgb(var(--accent-cyan-rgb));
+  --accent-complement: rgb(var(--accent-complement-rgb));
+
+  /* Links */
+  --link: var(--text-1);
+  --link-hover: rgb(var(--accent-cyan-rgb));
+
+  /* Indicators */
+  --indicator: rgb(var(--accent-pink-rgb));
+  --indicator-hover: rgb(var(--accent-teal-rgb));
+  --indicator-active: rgb(var(--accent-amber-rgb));
+
+  /* Overlays */
+  --overlay-a1: rgba(var(--accent-pink-rgb), 0.18);
+  --overlay-a2: rgba(var(--accent-blue-rgb), 0.14);
+
+  /* Surfaces (fresh “glass” over morning shade) */
+  --surface-35: rgba(var(--ink-rgb), 0.35);
+  --surface-40: rgba(var(--ink-rgb), 0.40);
+  --surface-45: rgba(var(--ink-rgb), 0.45);
+  --surface-50: rgba(var(--ink-rgb), 0.50);
+  --surface-55: rgba(var(--ink-rgb), 0.55);
+  --surface-60: rgba(var(--ink-rgb), 0.60);
+  --surface-65: rgba(var(--ink-rgb), 0.65);
+  --surface-70: rgba(var(--ink-rgb), 0.70);
+  --surface-75: rgba(var(--ink-rgb), 0.75);
+  --surface-80: rgba(var(--ink-rgb), 0.80);
+  --surface-84: rgba(var(--ink-rgb), 0.84);
+  --surface-88: rgba(var(--ink-rgb), 0.88);
+  --surface-90: rgba(var(--ink-rgb), 0.90);
+  --surface-94: rgba(var(--ink-rgb), 0.94);
+  --surface-95: rgba(var(--ink-rgb), 0.95);
+
+  /* Borders */
+  --border-40: rgba(var(--border-rgb), 0.30);
+  --border-45: rgba(var(--border-rgb), 0.35);
+  --border-50: rgba(var(--border-rgb), 0.42);
+  --border-70: rgba(var(--border-rgb), 0.58);
+  --border-75: rgba(var(--border-rgb), 0.64);
+  --border-80: rgba(var(--border-rgb), 0.70);
+
+  /* Shadows (soft bloom) */
+  --shadow-tint-rgb: var(--accent-complement-rgb);
+  --shadow-color-1: rgba(var(--ink-rgb), 0.46);
+  --shadow-color-2: rgba(var(--shadow-tint-rgb), 0.18);
+
+  --shadow-xs: 0 1px 2px var(--shadow-color-1);
+  --shadow-sm: 0 2px 6px var(--shadow-color-1),
+               0 0 10px rgba(var(--accent-pink-rgb), 0.14);
+  --shadow-md: 0 6px 18px var(--shadow-color-1),
+               0 0 16px rgba(var(--accent-blue-rgb), 0.12);
+  --shadow-lg: 0 16px 44px var(--shadow-color-1),
+               0 0 26px rgba(var(--accent-purple-rgb), 0.14);
+
+  --hover-soft:   0 0 0 2px rgba(var(--accent-complement-rgb), 0.14);
+  --hover:        0 0 0 3px rgba(var(--accent-complement-rgb), 0.22);
+  --hover-strong: 0 0 0 4px rgba(var(--accent-complement-rgb), 0.34);
+
+  /* Motion */
+  --motion-fast: 120ms;
+  --motion-base: 200ms;
+  --motion-slow: 320ms;
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Atom / Bohr (spring colors) */
+  --shell-border: rgba(var(--accent-teal-rgb), 0.55);
+  --shell-bg: rgba(var(--accent-teal-rgb), 0.10);
+  --shell-color: rgba(var(--accent-teal-rgb), 0.80);
+
+  --electron-bg: rgba(var(--accent-pink-rgb), 0.92);
+  --electron-border: rgba(var(--accent-rose-rgb), 1);
+  --electron-color: rgba(var(--text-0-rgb), 0.92);
+
+  /* Assets */
+  --bg-image: url("../data/image/bg/blossom.jpg");
+  --site-icon: url("../data/image/icons/hat.png");
+
+  /* Interactive surfaces (petal gradients) */
+  --surface-hover: linear-gradient(135deg,
+    rgba(var(--accent-pink-rgb), 0.26),
+    rgba(var(--accent-purple-rgb), 0.18),
+    rgba(var(--accent-teal-rgb), 0.14),
+    rgba(var(--accent-amber-rgb), 0.12)
+  );
+
+  --surface-active: linear-gradient(135deg,
+    rgba(var(--accent-rose-rgb), 0.28),
+    rgba(var(--accent-blue-rgb), 0.18),
+    rgba(var(--accent-amber-rgb), 0.16)
+  );
+
+  --shadow-hover:
+    0 0 0 1px rgba(var(--accent-pink-rgb), 0.30),
+    0 6px 18px rgba(var(--accent-purple-rgb), 0.18),
+    inset 0 1px 1px rgba(255,255,255,0.30);
+
+  --shadow-press: inset 0 2px 8px rgba(var(--ink-rgb), 0.62);
+
+  --scroll-track: rgba(var(--ink-rgb), 0.25);
+  --scroll-thumb: rgba(var(--accent-pink-rgb), 0.40);
+  --scroll-thumb-hover: rgba(var(--accent-teal-rgb), 0.75);
+}

@@ -1,0 +1,11 @@
+Values
+	Two Numbers A & B
+	Three numbers p,q,r
+	HCF
+	LCM
+All Formulae
+	${\dfrac{A}{HCF}}\times{\dfrac{B}{HCF}}\times HCF = LCM$
+	${\dfrac{A}{HCF}}\times B = LCM$
+	$A\times{\dfrac{B}{HCF}} = LCM$
+	${\dfrac{A\times B}{LCM}} = HCF$
+	$LCM(p,q,r) = \dfrac{pqr\times HCF(p,q,r)}{HCF(p,q)\times HCF(q,r)\times HCF(p,r)}$

@@ -1,0 +1,41 @@
+Work
+	Force should applied on an object.
+	The object must be displaced.
+	$W = Fs$
+	Unit Jules: J 
+	1 Newton force moving object for 1 meter distance is called 1Nm of work or 1 Jules of work.
+	That is 1 Newton mean 1Kg mass accelerated by 1 m/s^{2}.
+Energy
+	Capability of do work is called energy.
+		Potential Energy
+		Kinetic Energy
+		Chemical Energy
+		Nuclear Energy
+		Heat Energy
+		Solar Energy
+	Object possessing energy transfer it to other (on which work is done) to do Work.
+	Unit Jules: J
+	1 Jules of energy is needed to do 1 Jules of work
+	Calculating Kinetic energy
+		$2as = V_{f}^{2} - V_{i}^{2}$
+		$s = \frac{V_{f}^{2} - V_{i}^{2}}{2a}$
+		$F = ma$
+		$W = Fs$
+		$W = E_{k} = (ma)\times\left(\frac{V_{f}^{2} - V_{i}^{2}}{2a}\right)$
+		$E_{k} = \frac{1}{2}m(V_{f}^{2}-V_{i}^{2})$
+		If initial Velocity is 0 then
+			$E_{k} = \frac{1}{2}mV^{2}$
+		If Final velocity is 0 then in above equation $V^{2}$ is negative, thus work done is negative
+	Calculating Potential Energy
+		$F = mg$
+		$W = E_{p} = Fs$
+		$E_{p} = (mg)(h)$
+		$E_{p} = mgh$
+	Conversion of Energy
+		$E_{p} = mgh$
+		$E_{k} = \frac{1}{2}mV^{2}$
+		$mgh = \frac{1}{2}mV^{2}$
+Power
+	Power is called rate of work done per unit time
+	Unit Watt: 1 Watt = 1 Jules of work done in 1 Second
+	$P = \frac{W}{T}$

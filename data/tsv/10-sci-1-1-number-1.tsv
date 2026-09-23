@@ -1,0 +1,118 @@
+Chemical Equation
+	When magnesium ribbon is burnt in oxygen it gets converted into magnesium oxide
+		Magnesium + Oxygen -> Magnesium oxide
+		....(reactants)...................(product)......
+	The reactants are written on left hand side (LHS) with a (+) between them, & RHS also it is same items.
+	Writing Chemical formula of magnesium oxygen & magnesium oxide ->
+		$Mg + O_2 -> MgO$
+	If no of atoms of each element remain same on both sides? If yes, then equation is balanced. If not, then equation is unbalance because mass is not same on both sides of equation.
+	Above equation is is a skeletal chemical equation for burning of magnesium in air
+Balanced Chemical Equation:
+	Total mass of element present in products is equal to mass of element present in reactants.
+	Number of atoms of each element remains same, before & after a chemical reaction.
+	Hence we need to balance an skeletal chemical equation
+		Zinc + Sulphuric acid -> Zinc sulphate + Hydrogen
+		$Zn + H_2SO_4 -> ZnSO_4 + H_2$ 
+Balancing a chemical equation:
+	$Fe + H_2O -> Fe_3O_4 + H_2$
+	Table
+		Columns
+			Col	Element
+			Col	Atoms in Reactants
+			Col	Atoms in Product
+		Row
+			Col	Fe
+			Col	1
+			Col	3
+		Row
+			Col	H
+			Col	2
+			Col	2
+		Row
+			Col	O
+			Col	1
+			Col	4
+	Balance Fe
+		$3Fe + H_2O -> Fe_3O_4 + H_2$
+	Now Fe is balanced, but Oxygen on LHS has 1 and RHS is 4. So Lets Balance Oxygen
+		$3Fe + 4H_2O -> Fe_3O_4 + H_2$
+	Now Fe & O are balanced, but Hydrogen on LHS is 8 and on RHS is 2. So lets balance Hydrogen
+		$3Fe + H_2O -> Fe_3O_4 + 4H_2$
+	This method of balancing chemical equations is called hit & trial method as we make trials to balance equation by using smallest whole number coefficient.
+	The  liquid, gaseous & solid state of reactants & products are represented by notations (l),(g),(s) respectively.
+		$3Fe(s) + 4H_2O(g) -> Fe_3O_4(s) + 4H_2(g)$
+		Note: that symbol (g) is used with H2O to indicate that this reaction where water is used in form of steam.
+	Usually physical states are not included in a chemical equation unless it is necessary to specify them.
+	The reaction conditions, like temp, pressure etc for reaction are indicated above/below the arrow
+		$CO(g) + 2H_2(g) \quad \overset{340 atm}{\longrightarrow} \qquad CH_3OH(l)$
+		$6CO_2(g) + 12H_2O(l)  \overset{sunlight}{\underset{chlorophyll}{\longrightarrow}} C_6H_{12}O_6(aq) + 6O_2(g)$
+		$C_6H_{12}O_6$: Glucose
+Types of Chemical Reaction
+	Chemical reactions involve breaking & making of bonds between atoms produce new substances
+	Combination Reaction
+		Calcium oxide reacts vigorously with water to produce slaked lime (calcium hydroxide) releasing a large amount of heat (Exothermic Reaction)
+			Calcium Oxide + Water -> Calcium Hydroxide
+			$CaO(s) + H_2O(l) -> Ca(OH)_2(aq)$
+			In this, calcium oxide & water combine to form a single product calcium hydroxide
+			These type of reactions are known as combination reaction
+		$CO_2(g)$ reacts slowly with CaO in air to form a thin layer of calcium carbonate on wall
+			$CaCO_3$ is formed after 2 to 3 days of whitewashing & gives a shiny finish to walls
+			Calcium Hydroxide + Carbon Dioxide -> Calcium Carbonate + Water
+			$Ca(OH)_2(aq) + CO_2(g) -> CaCO_3(s) + H_2O(l)$
+		More examples of combination reaction
+			Burning of coal
+				$C(s) + O_2(g) -> CO_2(g)$
+			Formation of water from H2(g) & O2(g)
+				$2H_2(g) + O_2(g) -> 2H_2O(l)$
+		Reactions in which heat is released along with formation of products are called exothermic chemical reaction
+			Burning of natural gas
+				$CH_4(g) + 2O_2(g) -> CO_2(g) + 2H_2O(g)$
+			Respiration
+				$C_6H_{12}O_6(aq) + 6O_2(g) -> 6CO_2(g) + 6H_2O(l) + energy$
+		Examples of endothermal reaction-decomposition of vegetable matter into compost
+	Decomposition Reaction
+		Ferrous sulphate crystals lose water when heated & colour of crystal changes, and it then decomposes to ferric oxide, sulphur dioxide & sulphur trioxide
+			$Ferrous Sulphate \overset{heat}{\longrightarrow} Ferric Oxide + Sulphur Dioxide + Sulphur Trioxide$
+			$2FeSO_4(s) \overset{heat}{\longrightarrow} Fe_2O_3(s) + SO_2(g) + SO_3(g)$
+		decomposition of calcium carbonate to calcium oxide & carbon dioxide on heating is important decomposition reaction used in various industries. When decomposition reaction is carried out by heating it is called thermal decomposition
+			$Limestone \overset{heat}{\longrightarrow} Quick Lime + Carbon Dioxide$
+			$CaCO_3(s) \overset{heat}{\longrightarrow} CaO(s) + CO_2(g)$
+		Examples of thermal decomposition
+			Decomposition of Lead Nitrate
+				$Lead Nitrate \overset{heat}{\longrightarrow} Lead Oxide + Nitrogen Oxide + Oxygen$
+				$2Pb(NO_3)_2(s) \overset{heat}{\longrightarrow} 2PbO(s) + 4NO_2(g) + O_2(g)$
+			Chemical reaction are in light
+				$2AgCl(s) \overset{light}{\longrightarrow} 2Ag(s) + Cl_2(g)$
+			Silver Chloride turns white to grey in sunlight
+				$2AgBr(s) \overset{sunlight}{\longrightarrow} 2Ag(s) + Br2(g)$
+	Displacement Reaction
+		Iron displaces copper from copper sulphate blue colour
+			$Fe(s) + CuSO_4(aq) \overset{electricity}{\longrightarrow} FeSO_4(aq) + Cu(s)$
+		Examples of displacement reaction
+			$Zn(s) + CuSO_4(aq) \overset{electricity}{\longrightarrow} ZnSO_4(aq) + Cu(s)$
+			$Pb(s) + CuCl_2(aq) \overset{electricity}{\longrightarrow} PbCl_2(s) + Cu(s)$
+	Double Displacement Reaction
+		The little insoluble formed is known as a precipitate. Reaction that produce a precipitate are called precipitation reaction.
+			Sodium Sulphate + Barium Chloride -> Barium Sulphate + Sodium Chloride
+			$Na_2SO_4(aq) + BaCl_2(aq) -> BaSO_4 + 2NaCl(aq)$
+		Reaction in which there is exchange of ions between the reactants are called double displacement reaction
+	Oxidation Reduction
+		The surface of Copper powder becomes coated with black Copper Oxide when Oxygen is added to open Copper, Copper Oxide is formed.
+			$2Cu + O_2 \overset{heat}{\longrightarrow} 2CuO$
+			If a substance gains oxygen during reaction, it is said oxidised
+		If a substance loses oxygen during reaction, it is said reduced
+			$CuO + H2 \overset{heat}{\longrightarrow} Cu + H2O$
+		
+		If one reactant gets oxidised while other gets reduced during reaction, such reaction are called oxidation-reduction or redox reaction
+			$CuO + H2 \overset{heat}{\longrightarrow} Cu + H2O$
+		Examples of redox reaction
+			C is oxidised to CO & ZnO is reduced to Zn
+				$ZnO + C -> Zn + CO$
+			HCl is oxidised to Cl2 where as MnO2 is reduced to MnCl2
+				$MnO_2 + 4HCl -> MnCl_2 + 2H_2O + Cl_2$
+		Have You observed the Effects of Oxidation Reaction in Everyday Life
+	Corrosion
+		Iron articles are shiny when new but get coated with reddish brown powder when left for some time (rusting) of iron
+	Rancidity
+		When fats & oils are oxidised they become rancid & their smell & taste change.
+		Keeping food items in air tight containers help to slow down oxidation (Rancidity).

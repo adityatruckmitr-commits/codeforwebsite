@@ -1,0 +1,12 @@
+All Formulae
+	$\sqrt[n]{a} = a^{\frac{1}{n}}$ has rationalization factor: $a^{1-\frac{1}{n}}$
+	$\dfrac{x}{a+\sqrt{b}}$ has rationalization factor: $a-\sqrt{b}$
+	$\dfrac{x}{a+\sqrt[n]{b}}$ has rationalization factor: $ab^{n}-b$
+	$a^{m} \times a^{n} = a^{m+n}$
+	$a^{m} \div a^{n} = a^{m-n}$
+	$(a^{m})^{n} = a^{mn}$
+	$(ab)^{n} = a^{n}\times b^{n}$
+	$\sqrt[n]{a}\times\sqrt[n]{b} = \sqrt[n]{ab}$
+	$\dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} = \sqrt[n]{\dfrac{a}{b}}$
+	$\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}$
+	$\sqrt[m]{a^{p}} = a^{\frac{p}{m}}$
